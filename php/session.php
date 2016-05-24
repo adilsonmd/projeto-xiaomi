@@ -5,6 +5,6 @@
         //LOGADO
     }
     else {
-        header("../Conta Mi - Login.htm");
+        header("../login.html");
     }
 ?>
