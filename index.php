@@ -204,12 +204,12 @@
                 <li>Olá <span class="x-name"></span> 
                   <a href="https://account.xiaomi.com/pass/logout?callback=https://securebr.mi.com/checkout/logout"><u>(sair)</u></a>
                 </li>
-                <li><a href="https://securebr.mi.com/checkout/">Minha Conta</a></li>
+                <li><a href="login.html">Minha Conta</a></li>
               </ul>
 
 
               <ul class="x-login">
-                <li><a href="https://securebr.mi.com/checkout/"> Login / Criar Conta Mi</a> <a href="http://br.mi.com/searchMyOrder">| Meus Pedidos</a></li>
+                <li><a href="login.html"> Login / Criar Conta Mi</a> <a href="http://br.mi.com/searchMyOrder">| Meus Pedidos</a></li>
               </ul>
 
             </div>
@@ -437,12 +437,12 @@
       <div class="x-left">
         <ul class="x-produtos">
           <h5>Produtos</h5>
-          <li><a href="http://br.mi.com/redmi2-pro">Redmi 2 Pro</a></li>
-          <li><a href="http://br.mi.com/redmi2">Redmi 2</a></li>
-          <li><a href="http://br.mi.com/product/acessorios/122791453/mi-fone-de-ouvido-silver">Fones de Ouvido</a></li>
-          <li><a href="http://br.mi.com/category/22054/acessorios">Acessórios</a></li>
-          <li><a href="http://br.mi.com/Mi-Power-Bank">Mi Power Bank</a></li>
-          <li><a href="http://br.mi.com/Pulseira-Inteligente-Mi-Band">Mi Band</a></li>
+          <li><a href="http://br.mi.com/redmi2-pro" target="_blank">Redmi 2 Pro</a></li>
+          <li><a href="http://br.mi.com/redmi2" target="_blank">Redmi 2</a></li>
+          <li><a href="http://br.mi.com/product/acessorios/122791453/mi-fone-de-ouvido-silver" target="_blank">Fones de Ouvido</a></li>
+          <li><a href="http://br.mi.com/category/22054/acessorios" target="_blank">Acessórios</a></li>
+          <li><a href="http://br.mi.com/Mi-Power-Bank" target="_blank">Mi Power Bank</a></li>
+          <li><a href="http://br.mi.com/Pulseira-Inteligente-Mi-Band" target="_blank">Mi Band</a></li>
 		</ul>
         
         <ul class="x-duvidas">
@@ -454,18 +454,18 @@
         
         <ul class="x-cliente">
           <h5>Empresa</h5>
-          <li><a href="http://br.mi.com/conheca-a-xiaomi">Conheça a Xiaomi</a></li>
-          <li><a href="http://br.mi.com/empresa/quem-somos">Quem Somos</a></li>
-          <li><a href="http://br.mi.com/lideranca-xiaomi">Liderança</a></li>
-          <li><a href="http://br.mi.com/institucional/carreiras">Carreiras</a></li>
-          <li><a href="http://br.mi.com/empresa/assessoria-de-imprensa">Assessoria de Imprensa</a></li>
+          <li><a href="http://br.mi.com/conheca-a-xiaomi" target="_blank">Conheça a Xiaomi</a></li>
+          <li><a href="http://br.mi.com/empresa/quem-somos" target="_blank">Quem Somos</a></li>
+          <li><a href="http://br.mi.com/lideranca-xiaomi" target="_blank">Liderança</a></li>
+          <li><a href="http://br.mi.com/institucional/carreiras" target="_blank">Carreiras</a></li>
+          <li><a href="http://br.mi.com/empresa/assessoria-de-imprensa" target="_blank">Assessoria de Imprensa</a></li>
         </ul>
         
         <ul class="x-empresa">
           <h5>Suporte</h5>
-          <li><a href="http://br.mi.com/garantia">Garantia de Produto</a></li>
-          <li><a href="http://br.mi.com/institucional/troca_devolucao">Trocas e Devoluções</a></li>
-          <li><a href="http://br.mi.com/institucional/fale_conosco">Fale Conosco</a></li>
+          <li><a href="http://br.mi.com/garantia" target="_blank">Garantia de Produto</a></li>
+          <li><a href="http://br.mi.com/institucional/troca_devolucao" target="_blank">Trocas e Devoluções</a></li>
+          <li><a href="http://br.mi.com/institucional/fale_conosco" target="_blank">Fale Conosco</a></li>
         </ul>
         
         <ul class="x-share">
