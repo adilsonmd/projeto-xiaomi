@@ -356,53 +356,7 @@
   </div>
 </script></head>
 
-
-
-
-
-
-
-
-
-
 <body class="pt_BR">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-  
-
-
-
-
-
-    
-        
-        
-        
-        
-        
-        
-      
-
-  
 
 <div class="layout bugfix_ie6 hideimportant">
   <div class="n-logo-area clearfix">
@@ -720,6 +674,7 @@
 </div>
 </div>
 </div>
+
 <div class="n-footer">
   <div class="nf-link-area clearfix">
     <ul class="lang-select-list">
@@ -1086,8 +1041,6 @@ $(function(){
     "gmail.com":"gmail.com"
   }
   
- /*使用其他帳號登錄*/
-  //从qs中得出callback、sid 覆盖默认
   var JSP_VAR={
     sid:"eshop_br_production",
     callback:"https://securebr.mi.com/checkout/login/xiaomiAuth",
@@ -1128,7 +1081,7 @@ $(function(){
     }
     return (key in result)?result[key]:result;
   }
-/*视图切换*/
+
   var VIEWS={};
   var $container=$("#main_container");
   function changeStepView(conf){
@@ -1154,7 +1107,7 @@ $(function(){
       });
       conf.icode&&conf.icodeImage.trigger("click");
     }
-    /*顯示地址信息*/
+    
     if(conf.addressPlace.length && conf.data){
       var address="  "+conf.data.email;
       if(conf.data.phone){
@@ -1166,11 +1119,11 @@ $(function(){
       }
       conf.addressPlace.text(address);
     }
-    /*重发验证短信的input hidden 更新*/
+    
     if(conf.key==='phone-resend'){
       $(".resend-phone-val",view).val(conf.data.phone||"");
     }
-    /*初始化view时添加 sns login链接 或者登陆链接*/
+   
     if(init){
        $(".sns-login-facebook",view).attr("href",getOtherLoginUrl("urlFacebook"));
        $(".login-redirect",view).attr("href","/pass/serviceLogin?"+QS);
@@ -1181,7 +1134,7 @@ $(function(){
     var html=$("#"+key).html();
     var view=$("<div>");
     if(conf.key==='phone-step1'){
-      /*facabook註冊登錄影響了原有的居中結構寬度*/
+     
       view.append( $("<div>").addClass("regbox").html(html+"") );
       view.append( $( $("#other-register").html() ) );
     }else if(conf.key==='email-step1'){
@@ -1211,13 +1164,13 @@ $(function(){
     if(conf.resendEmail){
       conf.sendStatus=conf.resendEmail=$(conf.resendEmail,view);
     }
-    //添加年份
+    
     var _htmlYear="";
     for(var i=FIRSTYEAR; i>=1900; i--){
       _htmlYear += '<p data-value="'+i+'">'+i+'</p>';
     }
     $('.years',view).append(_htmlYear);    
-    //添加生日的新增年份
+    
     var yearFirstChd=$('.biry .birth-container p:first-child',view);
     var _year=new Date().getFullYear();
     var _html=""
@@ -1251,7 +1204,7 @@ $(function(){
         return false;
       });
       conf.selectCyCon.delegate(".record","click",function(){
-        //选择国家代码
+        
         var that=$(this);
         var el=that.find(".record-country")
         var country=$.trim( el.text() );
@@ -1272,7 +1225,7 @@ $(function(){
         return false;
       });
       conf.selectRegionsCon.delegate(".record","click",function(){
-        //选择国家代码
+        
         var that=$(this);
         var el=that.find(".record-country")
         var country=$.trim( el.text() );
@@ -1302,7 +1255,7 @@ $(function(){
         }
       });
     }
-    //生日选择
+    
     if(conf.selectBirthItem.length){
       //select
       $(conf.selectBirthItem).delegate('.titsbirth','click',function(e){
@@ -1492,7 +1445,7 @@ $(function(){
       tmpval=$(tmp).val();      
       tmpName=$(tmp).attr("name"); 
       tmpRule=$(tmp).attr("rule");
-      /*非密码trim*/
+      
       if(tmpName!=="password" && tmpName!=='repassword'){
         tmpval=$.trim(tmpval);
       }
@@ -1616,7 +1569,7 @@ $(function(){
     $("#select-cycode-result").html(country+"("+_c+")");
     CurrentCyCode=_c;
   }
-/*公用方法*/
+
   function setIcodeUrl(icodeImage){
     icodeImage.attr("src","/pass/getCode?icodeType=register&"+(new Date().getTime()));
     icodeImage.parent().find("[name=icode]").val("");
@@ -1730,7 +1683,7 @@ $(function(){
   function sendSuccess(conf,send,nocheck){
     var leftTimesConf=conf;
     if(conf.key==='phone-step1'|| conf.key==='phone-resend'){
-      PHONE[1].data=conf.data;//转移data;  太土了
+      PHONE[1].data=conf.data;
       changeStepView(PHONE[1]);
       leftTimesConf=PHONE[1]
     }
@@ -1944,7 +1897,7 @@ $(function(){
       }
     });
   }
-/*启动*/
+
   changeStepView(Default);
   LStore.clear();
   var $regionOut = $('#select-cycode');
@@ -1973,4 +1926,6 @@ $(function(){
   beforeUnloadCheck();
 })();
 </script>
-<div class=" modal_container" style="display: none; height: 839px; width: 1583px;"><div class="modal_msk"></div><div class=" modal_tip mod_acc_tip more-lang-modal" id="modal-id-0" style="display: none; margin-top: 220px; top: 0px; margin-left: 600px; left: 0px;"><div class="modal_tip_hd modal-header"><div class="modal-header-text modal_tip_title">Selecione o seu idioma</div><a href="javascript:void(0)" title="" class="modal-header-close btn_mod_close"><span>Fechar</span></a></div><div class="modal_tip_bd modal-body"><div class="modal-select-list-con"><ul class="lang-select-list lang_items_list c_b"><li><a href="javascript:void(0)" class="locale-link" data-lang="zh_CN">中文（简体）</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="zh_TW">中文（繁體）</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="en">English(US)</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="ko_KR">한국어</a></li><li><a href="javascript:void(0)" class="locale-link current" data-lang="pt_BR">Português (Brasil)</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="in_ID">Bahasa Indonesia</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="hi_IN">हिन्दी</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="ta_IN">தமிழ்</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="te_IN">తెలుగు</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="kn_IN">ಕನ್ನಡ</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="mr_IN">मराठी</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="ml_IN">മലയാളം</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="bn_IN">বাংলা</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="th_TH">ภาษาไทย</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="vi_VN">Tiếng Việt</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="ms_MY">Bahasa Melayu</a></li><li><a href="javascript:void(0)" class="locale-link" data-lang="tr_TR">Türkçe</a></li></ul></div></div></div></div></body></html>
+	
+	</body>
+</html>
