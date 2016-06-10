@@ -250,7 +250,7 @@
             <div class="x-menu">
 
               <div class="x-item">
-                <h2><a href="http://br.mi.com/redmi2-pro">Redmi 2 Pro</a></h2>
+                <h2><a href="produtos/redmi-2.html">Redmi 2 Pro</a></h2>
               </div>
 
               <div class="x-item">
