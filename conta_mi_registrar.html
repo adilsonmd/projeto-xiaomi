@@ -1,154 +1,22 @@
 <!DOCTYPE html>
 <!-- saved from url=(0137)https://account.xiaomi.com/pass/register?sid=eshop_br_production&callback=https://securebr.mi.com/checkout/login/xiaomiAuth&_locale=pt_BR -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
+	<title>Conta Mi - Registrar </title>
+	<link type="text/css" rel="stylesheet" href="./conta_mi_registrar_files/reset.css">
+	<link type="text/css" rel="stylesheet" href="./conta_mi_registrar_files/layout.css">
+	<link type="text/css" rel="stylesheet" href="./conta_mi_registrar_files/registerpwd.css">
 
-<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
-<title>Conta Mi - Registrar </title>
-
-		<link type="text/css" rel="stylesheet" href="./conta_mi_registrar_files/reset.css">
-<link type="text/css" rel="stylesheet" href="./conta_mi_registrar_files/layout.css">
-		<link type="text/css" rel="stylesheet" href="./conta_mi_registrar_files/registerpwd.css">
-
-	
-<style>
-.facebook_area{
-  display:none!important;
-}
-.err_invalidage{ padding-top:10px; }
-</style>
-
-<script type="template/register" id="email-step1">
-  <div class="regbox">
-    <div class="email_step1 emailregbox">
-      <h4 class="tit_normal">
-        País/Região
-      </h4>
-      <div class="listwrap select-regions" _region="BR">   
-        <div class="listtit reg-select-regions">
-          <span class="tits dis_box c_b">
-            <tt class="result-select-regions">中国</tt>
-            <i class="icon_cirarr"></i>
-          </span>
-        </div>
-      </div>
-      <h4 class="tit_normal">
-        de login 
-      </h4>
-      <div class="inputbg">
-        <input type='hidden' class="select-regions-input" name="region" value="CN"/>
-        <label class="labelbox" for="">
-          <input type="email" placeholder="Digite o endereço de email " name="email">
-        </label>
-      </div>
-      <div class="err_tip">
-        <div class="dis_box"><em class="icon_error"></em><span></span></div>
-      </div>
-      <h4 class="tit_normal">
-      Aniversário
-    </h4>
-    <div class="reg_birth_area">
-      <div class="err_tip">
-        <div class="dis_box"><em class="icon_error"></em><span></span></div>
-      </div>
-    </div>
-      <div class="checkbox n_checked now select-edm">
-        <label>
-          <i class="icon_select"></i>
-          Fique atualizado com notícias e ofertas da Loja Mi. 
-        </label>
-      </div>
-      <div class="err_tip err_invalidage invalid-age">
-        <div class="dis_box"><em class="icon_error"></em><span></span></div>
-      </div>
-      <div class="fixed_bot">
-        <input type="hidden" class="select-edm-result"  name="edm" value="true"/>
-        <input class="btn332 btn_reg_1 submit-step" type="submit" value="Criar Conta Mi">
-        <p class="msg">
-          Ao tocar em 'Registrar' você aceita nosso <a href="javascript:void(0)" class="inspect_link agreement_link">Acordo do Usuário</a> e a <a href="javascript:void(0)" class="inspect_link privacy_link">Política de Privacidade</a>
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="other_register_area">
-    <div class="regbox">
-      <input class="btn332 btn_reg_2 change-view" data-to="PHONE" type="button" value="Criar usando um número de telefone ">
-    </div>
-  </div>
-</script><script type="template/register" id="email-step2">
-  <div class="step3 email_step2">
-    <dl>
-      <dt><h4>Você está usando o email <span class="address-place"></span> para criar a Conta Mi</h4></dt>
-      <dd>
-        <div class="inputbg">
-          <label class="labelbox" for=""><input type="password" class="set-password" name="password" data-error=".error-password" placeholder="Digitar senha"></label>
-        </div>
-      </dd>
-      <dd>
-        <div class="inputbg">
-          <label class="labelbox" for=""><input type="password" name="repassword" data-error=".error-password" data-repeat=".set-password" placeholder="Digite a senha novamente"></label>
-        </div>
-        <div class="err_tip pwd_tip error-password" style="display:block;">
-          <div class="dis_box"><em class="icon_error"></em><span data-origin="A senha deve possuir de 8 a 16 caracteres e incluir letras e números">A senha deve possuir de 8 a 16 caracteres e incluir letras e números</span></div>
-        </div>
-      </dd>
-      <dd>
-        <div class="inputbg inputcode dis_box">
-          <label class="labelbox" for=""><input class="code" name="inputcode" type="text" autocomplete="off" placeholder="Digitar código"></label>
-          <img alt="Digitar código" class="icode_image code-image" title="Trocar imagem">
-        </div>
-        <div class="err_tip">
-          <div class="dis_box"><em class="icon_error"></em><span></span></div>
-        </div>
-      </dd>
-    </dl>
-    <div class="fixed_bot mar_mail_dis2">
-    <input class="btn332 btn_reg_1  submit-step" type="submit" value="Enviar ">
-    <input class="btn332 btn_reg_2  change-view" data-to="email-step1" type="button" value="Voltar">
-    </div>
-  </div>
-</script>
-<script type="template/register" id="email-step3">
-  <div class="regbox">
-    <div class="hintro">
-      <p>Último passo: Ative sua conta. </p>
-      <p>Um e-mail de ativação foi enviado para <span class="address-place ff6"></span>.</p>
-      <p>Clique no link contido no e-mail para ativar a sua conta.</p>
-    </div>
-    <div class="fixed_bot mar_mail_dis3">
-      <a class="btn332 btn_reg_1 email-host" target="_blank" href="javascript:void(0)">Verifique sua caixa de entrada</a>
-      <a class="btn332 btn_reg_2" href="/pass/serviceLogin?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=pt_BR">Voltar </a>
-    </div>
-    <div class="n_loss">
-      <a href="javascript:void(0)" class="resend-email" title="Reenviar email de ativação ">Reenviar email de ativação </a>
-    </div>
-  </div>
-</script>
-
-<script type="template/register" id="phone-resend">
-  <div class="step2 phone-resend">
-    <div>
-      <h4 class="pdbot10">Digite os caracteres que você vê na imagem à direita</h4>
-      <div class="inputbg inputcode dis_box">
-        <label class="labelbox" for="">
-        <input type="hidden" name="phone" class="resend-phone-val">
-        <input class="code" name="icode" type="text" autocomplete="off" placeholder="Digitar código">
-        </label>
-        <img alt="Digitar código" class="icode_image code-image" title="Trocar imagem">
-      </div>
-      <div class="err_tip">
-        <div class="dis_box"><em class="icon_error"></em><span></span></div>
-      </div>
-      <div class="err_tip send-left-times">
-      </div>
-      <input class="btn332 btn_reg_1 submit-step" type="submit" value="OK">
-      <a class="btn332 btn_reg_2 change-view" data-to="phone-step2" href="javascript:void(0)">Voltar</a>
-    </div>
-    <!--<a class="qst_txt dis_none unavailable-link" href="http://static.account.xiaomi.com/html/faq/faqSMSerror.html" target="blank" title="Não recebeu um código de verificação?">Não recebeu um código de verificação?</a>-->
-  </div>
-</script></head>
+	<style>
+		.facebook_area{
+		  display:none!important;
+		}
+		.err_invalidage{ padding-top:10px; }
+	</style>
+</head>
 
 <body class="pt_BR">
-
 <div class="layout bugfix_ie6 hideimportant">
   <div class="n-logo-area clearfix">
     <a href="https://account.xiaomi.com/" class="fl-l">
@@ -328,6 +196,7 @@
 <script src="./conta_mi_registrar_files/placeholder.js"></script>
 
 <script src="./conta_mi_registrar_files/modal_lite.js"></script><a target="_blank"></a>
+
 <style>
 .show-more-lang{
   padding: 0 5px;
