@@ -1,0 +1,1299 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block
+}
+body {
+    line-height: 1
+}
+ol,
+ul {
+    list-style: none
+}
+blockquote,
+q {
+    quotes: none
+}
+blockquote:before,
+blockquote:after {
+    content: '';
+    content: none
+}
+q:before,
+q:after {
+    content: '';
+    content: none
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+.section {
+  -webkit-font-smoothing: antialiased;
+}
+strong {
+    font-weight: bold !important
+}
+a {
+    text-decoration: none
+}
+i {
+    font-style: italic !important
+}
+body {
+    font-family: 'Open Sans', sans-serif
+}
+.sub_nav {
+    height: 59px;
+    border-bottom: 1px solid #dfdfdf
+}
+.sub_nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none
+}
+.sub_nav .nav {
+    float: right;
+    overflow: hidden
+}
+.sub_nav .nav li {
+    margin: 30px 16px 0 16px;
+    float: left;
+    line-height: 31px;
+    color: #434A54;
+    font-size: 14px;
+    cursor: pointer;
+    padding-right: 20px;
+}
+.sub_nav .nav li:last-child {
+    margin-top: 31px
+;margin-right: 0;
+}
+.sub_nav .nav li a {
+    color: #333}
+.sub_nav .nav li .btn-small {
+    color: #ffffff;
+    background: #ff4a21;
+    line-height: 36px;
+    height: 36px;
+    display: block;
+    padding: 0 15px
+}
+.sub_nav .nav li.current a {
+    color: #8c8c8c;
+    cursor: default
+}
+.sub_nav h2 {
+    float: left;
+    margin-top: 20px;
+    margin-bottom: 0;
+    color: #333;
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 3px;}
+.sub_nav h2 .separator {
+    font-size: 80%;
+    color: #ececec;
+    margin: 0 10px
+}
+.sub_nav small {
+    font-size: 16px
+}
+.nav-bar-fixed .sub_nav {
+    border: 0;
+    height: 49px
+}
+.nav-bar-fixed .sub_nav h2 {
+    margin-top: 10px
+}
+.nav-bar-fixed .sub_nav h2 small {
+    font-size: 16px
+}
+.nav-bar-fixed .sub_nav li {
+    margin-top: 20px
+}
+@-webkit-keyframes gradient-bg {
+    0%, 100% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+}
+@keyframes gradient-bg {
+    0%, 100% {
+        background-position: 0% 50%
+    }
+    50% {
+        background-position: 100% 50%
+    }
+}
+@-webkit-keyframes indicator-bg {
+    0% {
+        -webkit-transform: rotate(0deg)
+    }
+    60% {
+        -webkit-transform: rotate(185deg)
+    }
+    70% {
+        -webkit-transform: rotate(175deg)
+    }
+    80% {
+        -webkit-transform: rotate(182deg)
+    }
+    90% {
+        -webkit-transform: rotate(178deg)
+    }
+    100% {
+        -webkit-transform: rotate(180deg)
+    }
+}
+.mi1scroll-pagination {
+    position: fixed;
+    top: 50%;
+    right: 50px;
+    z-index: 99;
+    width: 13px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    -webkit-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0)
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .mi1scroll-pagination {
+        display: none !important
+    }
+}
+.mi1scroll-pagination li {
+    position: relative;
+    width: 11px;
+    height: 11px;
+    margin: 10px auto
+}
+.mi1scroll-pagination li:first-child {
+    width: 13px;
+    height: 13px;
+    margin: 8px auto
+}
+.mi1scroll-pagination li:first-child a .dot {
+    width: 13px;
+    height: 13px;
+    border: 0;
+    border-radius: none;
+    background: transparent url(../images/Redmi-2/icon-overall-home.png) no-repeat 50% 50%
+}
+.mi1scroll-pagination li:first-child a .title {
+    display: none
+}
+.mi1scroll-pagination a {
+    display: block;
+    width: 100%;
+    height: 100%
+}
+.mi1scroll-pagination a .dot {
+    display: block;
+    width: 9px;
+    height: 9px;
+    border: 1px solid #c3c3c3;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    text-indent: -9999em;
+    text-align: left;
+    overflow: hidden;
+    _zoom: 1;
+    background: #c3c3c3;
+    background: rgba(0, 0, 0, 0.2)
+}
+.mi1scroll-pagination a .title {
+    position: absolute;
+    top: -3px;
+    right: 20px;
+    text-align: right;
+    font-size: 12px;
+    white-space: nowrap;
+    color: #333;
+    opacity: 0;
+    -webkit-transition: opacity .3s linear;
+    transition: opacity 0.3s linear
+}
+.mi1scroll-pagination a:hover .title {
+    opacity: 100
+}
+.mi1scroll-pagination .active a .dot {
+    border: 1px solid #c3c3c3;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background: #fff;
+    background: rgba(255, 255, 255, 0.1)
+}
+.xm-product-box .nav-bar-hidden {
+    opacity: 0;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    border-bottom: 1px solid #ededed;
+    background: rgba(255, 255, 255, 0.94);
+    transition: none !important;
+    margin-top: 113px;
+}
+.xm-product-box .nav-bar-hidden.x-active {
+    opacity: 1;
+    visibility: visible;
+    transition: none !important
+}
+.xm-product-box .nav-bar-fixed {
+    margin-top: 0
+}
+.xm-product-box {
+    float: left;
+    width: 100%
+}
+.nav_container {
+    width: 1190px;
+    margin: 0 auto
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .nav_container {
+        width: 100%
+    }
+}
+.hide {
+    display: none
+}
+.hongmi2-overall .section-intro {
+    width: 100%;
+    height: 638px;
+    float: left;
+    background-position-y: 0 !important;
+    background: url("../images/Redmi-2/bg-new-redmi2new.jpg") center top;
+    background-position-x: 0 !important;
+    margin-top: 50px;
+}
+
+
+#pro-sec1 {
+    margin: 0 auto;
+}
+
+
+.hongmi2-overall .section-intro .content {
+    padding-top: 0px;
+    width: 725px;
+    margin: 0 auto;
+    text-align: center;
+    color: #414141;
+    position: initial !important;
+    margin-top: 75px;
+    margin-bottom: 30px;
+    left: initial !important;
+}
+.hongmi2-overall .section-intro {
+    background-position-x: -225px;
+}
+
+.hongmi2-overall .section-intro .content {
+    left: 670px;
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-intro .content {
+        width: 100%;
+        right: 0px;
+        left: initial !important;
+        margin-top: 0px;
+}
+.hongmi2-overall .section-intro {
+    background-position-x: 50% !important;
+    background-position-y: 0px;
+    height: 578px;
+}
+
+}
+.hongmi2-overall .section-intro .content .title {
+    font-size: 54px
+}
+.hongmi2-overall .section-intro .content h1 {
+    font-size: 12px
+;
+    margin-top: -7px;
+}
+.hongmi2-overall .section-intro .content .text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 6px;}
+.hongmi2-overall .section-intro .content .price {
+    font-size: 32px;
+    margin-top: 13px;}
+.hongmi2-overall .section-intro .content .tip {
+    font-size: 20px;
+    margin-top: 0px;}
+.hongmi2-overall .section-performance {
+    background: url("../images/Redmi-2/intro-performance-bg-1080.jpg") center no-repeat;
+    width: 100%;
+    height: 758px;
+    float: left;
+}
+.hongmi2-overall .section-performance .content {
+    padding-top: 60px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF
+}
+.hongmi2-overall .section-intro .content a.btn-comprar-redmi2 {
+    color: #ffffff;
+    background: #ff4a21;
+    line-height: 36px;
+    height: 36px;
+    display: block;
+    padding: 0 15px;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-performance .content {
+        width: 100%
+    }
+}
+.hongmi2-overall .section-performance .content .title {
+    font-size: 22px
+}
+.hongmi2-overall .section-performance .content .text {
+    font-size: 14px;
+    line-height: 26px;
+    margin-top: 20px
+}
+
+.hongmi2-overall .section-performance .frame-01 .x-click {
+      background-image: url(../images/Redmi-2/x-sprite9ffa.png?0.07690833369269967);
+        background-position: -135px 0px;
+        width: 19px;
+        height: 35px;
+        display: block;
+        margin: 0 auto;
+        cursor: pointer;
+        position: relative;
+        margin-top: 14px;
+}
+
+.hongmi2-overall .section-performance .frame-02 .x-click {
+    background-image: url(../images/Redmi-2/x-sprite9ffa.png?0.07690833369269967);
+    background-position: -135px -37px;
+    width: 19px;
+    height: 35px;
+    margin: 0 auto;
+    margin-top: 198px;
+    cursor: pointer;
+}
+
+.hongmi2-overall .section-performance .frame-01.x-disabled {
+    visibility: hidden;
+    opacity: 0;
+    transition: linear 0.3s
+}
+.hongmi2-overall .section-performance .frame-02 {
+    float: left;
+    width: 100%;
+    visibility: hidden;
+    opacity: 0;
+    transition: linear 0.3s;
+    margin-top: -300px;
+}
+.hongmi2-overall .section-performance .frame-02.x-active {
+    visibility: visible;
+    opacity: 1;
+    transition: linear 0.3s
+}
+.hongmi2-overall .section-performance .frame-02 .col-3-list li {
+    width: 33%;
+    padding: 1.5%;
+    float: left
+}
+.hongmi2-overall .section-performance .frame-02 .col-3-list li .icon-cpu {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+    background: url(../images/Redmi-2/icons-cpu.png) no-repeat 0 0
+}
+.hongmi2-overall .section-performance .frame-02 .col-3-list li .icon-cpu-01 {
+    background-position: 0 0
+}
+.hongmi2-overall .section-performance .frame-02 .col-3-list li .icon-cpu-02 {
+    background-position: 0 -50px
+}
+.hongmi2-overall .section-performance .frame-02 .col-3-list li .icon-cpu-03 {
+    background-position: 0 -100px
+}
+.hongmi2-overall .section-performance .frame-02 .col-3-list li h3 {
+    margin: 0 0 5px;
+    font-size: 22px;
+    font-weight: 400
+}
+.hongmi2-overall .section-performance .frame-02 .col-3-list li p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.hongmi2-overall .section-4g {
+    overflow: hidden;
+    _zoom: 1;
+    color: #fff;
+    background: url(../images/Redmi-2/intro-4g-bg-static.jpg) center top;
+    width: 100%;
+    height: 750px;
+    position: relative;
+}
+
+.hongmi2-overall .section-4g .content {
+    width: 780px;
+    margin: 0 auto;
+    text-align: center;
+    color: #FFF
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-4g .content {
+        width: 100%
+    }
+    .hongmi2-overall .section-intro .x-image {
+        background-size: 90%;
+    }
+}
+.hongmi2-overall .section-4g .content .title {
+    font-size: 22px;
+    line-height: 0px;}
+.hongmi2-overall .section-4g .content .text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 25px;}
+.hongmi2-overall .section-4g .container {
+    padding-top: 190px
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-4g .container {
+        padding-top: 20px !important
+    }
+}
+.hongmi2-overall .section-4g .content {
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    text-align: center
+}
+.hongmi2-overall .section-4g .link {
+    color: #fff
+}
+.hongmi2-overall .section-4g .stage {
+    position: absolute;
+    left: 50%;
+    top: 400px;
+    z-index: 1;
+    width: 800px;
+    height: 618px;
+    margin: 0 0 0 -400px;
+    background: url(../images/Redmi-2/intro-dashboard-bg-static.png) no-repeat 0 0
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-4g .stage {
+        width: 100%;
+        display: none !important;
+    }
+
+    .hongmi2-overall .section-4g{
+        height: 400px;
+    }
+}
+.hongmi2-overall .section-4g .stage .speed {
+    display: block;
+    padding: 130px 0 0 30px;
+    font-size: 12px;
+    text-align: center
+}
+.hongmi2-overall .section-4g .stage .speed .num {
+    font-size: 160px;
+    font-family: 'Open Sans', sans-serif;}
+.hongmi2-overall .section-4g.section-transition .stage {
+    background-image: url(../images/Redmi-2/intro-dashboard-bg.png)
+}
+.hongmi2-overall .section-4g.section-transition .stage:before {
+    position: absolute;
+    left: 50%;
+    top: 370px;
+    z-index: 3;
+    width: 54px;
+    height: 54px;
+    margin: 0 0 0 -27px;
+    content: '';
+    background: url(../images/Redmi-2/intro-dashboard-dot.png) no-repeat 50% 50%
+}
+.hongmi2-overall .section-4g.section-transition .stage:after {
+    position: absolute;
+    left: 50%;
+    top: 392px;
+    z-index: 2;
+    width: 360px;
+    height: 9px;
+    margin: 0 0 0 -360px;
+    content: '';
+    background: url(../images/Redmi-2/intro-dashboard-indicator.png) no-repeat 0 0;
+    -webkit-transform-origin: 100% 50%;
+    transform-origin: 100% 50%
+}
+.hongmi2-overall .section-4g.section-done .stage:after {
+    -webkit-animation: indicator-bg 1.5s linear .5s forwards;
+    animation: indicator-bg 1.5s linear 0.5s forwards
+}
+.hongmi2-overall .section-4g .container {
+    padding-top: 120px
+}
+.hongmi2-overall .section-4g .stage {
+    top: 300px;
+    width: 600px;
+    height: 434px;
+    margin: 0 0 0 -300px;
+    background: url(../images/Redmi-2/intro-dashboard-bg-static108.png) no-repeat 0 0
+}
+.hongmi2-overall .section-4g .stage .speed {
+    padding: 68px 0 0 30px;}
+.hongmi2-overall .section-4g .stage .speed .num {
+    font-size: 82px;
+    letter-spacing: -6px;
+    position: relative;
+}
+.hongmi2-overall .section-4g.section-transition .stage {
+    background-image: url(../images/Redmi-2/intro-dashboard-bg-1080.png)
+}
+.hongmi2-overall .section-4g.section-transition .stage:before {
+    top: 278px;
+    width: 41px;
+    height: 41px;
+    margin: 0 0 0 -21px;
+    background-image: url(../images/Redmi-2/intro-dashboard-dot-1080.png)
+}
+.hongmi2-overall .section-4g.section-transition .stage:after {
+    top: 295px;
+    width: 270px;
+    height: 7px;
+    margin: 0 0 0 -270px;
+    background-image: url(../images/Redmi-2/intro-dashboard-indicator108.png)
+}
+.hongmi2-overall .section-4g .container {
+    padding-top: 80px;}
+.hongmi2-overall .section-4g .stage {
+    top: 229px;}
+.hongmi2-overall .section-screen {
+    background: #ffc100;
+    width: 100%;
+    height: 1100px;
+    float: left;
+}
+
+#pro-deitado{
+    margin-top: 200px;
+    text-align: center;
+}
+
+#pro-deitado-img{
+    margin: 0 auto;
+}
+
+.hongmi2-overall .section-screen .content {
+    padding-top: 65px;
+    width: 709px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-screen .content {
+        width: 100%
+    ;
+        padding-top: 20px;
+}
+}
+.hongmi2-overall .section-screen .content .title {
+    font-size: 22px
+}
+.hongmi2-overall .section-screen .content .text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 20px
+;
+    text-align: center;
+}
+.hongmi2-overall .section-screen ul {
+    display: block;
+    margin-top: 20px
+}
+.hongmi2-overall .section-screen ul li {
+    float: left;
+    width: 33.3%;
+    text-align: center
+}
+.hongmi2-overall .section-screen .icon-screen {
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 0 auto;
+    background: url(../images/Redmi-2/icons-screen.png) no-repeat 0 0
+}
+.hongmi2-overall .section-screen .icon-screen.icon-screen-01 {
+    background-position: 0 0
+}
+.hongmi2-overall .section-screen .icon-screen.icon-screen-02 {
+    background-position: 0 -64px
+}
+.hongmi2-overall .section-screen .icon-screen.icon-screen-03 {
+    background-position: 0 -128px
+}
+.hongmi2-overall .section-camera {
+    background: #FFF;
+    width: 100%;
+    height: auto;
+    float: left
+}
+
+#myCarousel {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+h2.title.camera-pro {
+    margin-top: 100px;
+}
+
+.hongmi2-overall .section-camera .content {
+    padding-top: 340px;
+    width: 480px;
+    margin: 0 auto;
+    text-align: left;
+    margin-left: 130px;
+    color: #333
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-camera .content {
+        width: 100%;
+        margin-left: 0;
+        padding-top: 30px;
+        text-align: center
+    }
+}
+.hongmi2-overall .section-camera .content .title {
+    font-size: 22px;
+    line-height: 30px;
+}
+.hongmi2-overall .section-camera .content .text {
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 12px;
+    text-align: justify;
+}
+.hongmi2-overall .section-samples {
+    background: #222;
+    width: 100%;
+    float: left
+}
+
+.hongmi2-overall .section-samples .content {
+    padding-top: 83px;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: #d2d2d2;
+    margin-top: 40px;
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-samples .content {
+        width: 100%;
+        padding-top: 0;
+        margin-top: 23px;
+}
+}
+.hongmi2-overall .section-samples .content .title {
+    font-size: 25px;}
+.hongmi2-overall .section-samples .content .text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px
+}
+.hongmi2-overall .section-samples .xm-slider {
+    position: relative;
+    width: 700px;
+    height: 400px;
+    margin: 27px auto 0;
+    overflow: visible !important;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5)
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-samples .xm-slider {
+        width: 100%;
+        box-shadow: none
+    }
+}
+.hongmi2-overall .section-samples .xm-slider .slide img {
+    width: 100%
+}
+.hongmi2-overall .section-samples .xm-slider .bx-wrapper {
+    position: relative
+}
+.hongmi2-overall .section-samples .xm-slider .bx-prev,
+.hongmi2-overall .section-samples .xm-slider .bx-next {
+    position: absolute;
+    display: block;
+    top: 50%;
+    width: 42px;
+    height: 84px;
+    margin-top: -42px;
+    background: url(../images/Redmi-2/icons-slider-arrow.png) no-repeat 0 0;
+    text-indent: -9999em;
+    overflow: hidden
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-samples .xm-slider .bx-prev,
+    .hongmi2-overall .section-samples .xm-slider .bx-next {
+        display: none
+    }
+}
+.hongmi2-overall .section-samples .xm-slider .bx-prev {
+    left: -60px;
+    background-position: 0 0
+}
+.hongmi2-overall .section-samples .xm-slider .bx-prev:hover {}
+.hongmi2-overall .section-samples .xm-slider .bx-next {
+    right: -60px;
+    background-position: -42px 0
+}
+.hongmi2-overall .section-samples .xm-slider .bx-next:hover {}
+.hongmi2-overall .section-design {
+    background: url("../images/Redmi-2/intro-design-bg-1080-br.jpg.jpg") center no-repeat;
+    width: 100%;
+    height: 758px;
+    float: left
+;
+}
+.hongmi2-overall .section-design .content {
+    padding-top: 60px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-design .content {
+        width: 100%
+    }
+}
+.hongmi2-overall .section-design .content .title {
+    font-size: 22px
+}
+.hongmi2-overall .section-design .content .text {
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: 14px;}
+.hongmi2-overall .section-cover {
+    background-position: 50% 25%;
+    background-image: url(../images/Redmi-2/intro-cover-bg-1080.jpg);
+    width: 100%;
+    height: 768px;
+    float: left
+}
+.hongmi2-overall .section-cover .content {
+    padding-top: 240px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #333
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-cover .content {
+        width: 100%
+    }
+}
+.hongmi2-overall .section-cover .content .title {
+    font-size: 22px
+}
+.hongmi2-overall .section-cover .content .text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px
+}
+.hongmi2-overall .section-miui {
+    background: url(../images/Redmi-2/intro-miui-bg-sg-108018c4.jpg?v10) center;
+    width: 100%;
+    height: 758px;
+    float: left
+}
+.hongmi2-overall .section-miui .content {
+    padding-top: 60px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff
+}
+
+
+.container.spec-section {
+    float: left;
+    background: #FFF;
+    width: 100%;
+    height: 300px;
+}
+
+#title-spec{
+    margin-top: 50px;
+}
+
+#text-spec{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 25px;
+}
+
+
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-miui .content {
+        width: 100%
+    }
+}
+.hongmi2-overall .section-miui .content .title {
+    font-size: 22px
+}
+.hongmi2-overall .section-miui .content .text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px
+}
+.hongmi2-overall .section-miui .content a {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 20px;
+    display: block;
+    text-decoration: underline
+}
+.hongmi2-overall .section-misc {
+    background: url(../images/Redmi-2/intro-misc-bg-new.jpg) no-repeat 50% 50%;
+    width: 100%;
+    height: 720px;
+    float: left
+;
+    margin-bottom: -27px;
+}
+.hongmi2-overall .section-misc .container {
+    position: relative;
+    width: 100%;
+    height: 100%
+;
+    margin-bottom: 0px;
+}
+.hongmi2-overall .section-misc .container .mic {
+    position: absolute;
+    right: 70px;
+    top: 70px;
+    width: 390px;
+    text-align: right
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-misc .container .mic {
+        right: initial;
+        width: 100%;
+        text-align: center
+    ;
+        position: initial;
+        top: 0;
+        float: left;
+        margin-bottom: 40px;
+}
+}
+.hongmi2-overall .section-misc .container .battery {
+    position: absolute;
+    left: 70px;
+    bottom: 70px;
+    width: 390px;
+    text-align: left
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-misc .container .battery {
+        left: 0;
+        width: 100%;
+        text-align: center
+    ;
+        position: initial;
+}
+}
+.hongmi2-overall .section-misc .content {
+    padding-top: 60px;
+    width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    color: #222
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-misc .content {
+        width: 100%
+    }
+}
+.hongmi2-overall .section-misc .content .title {
+    font-size: 22px;
+    line-height: 30px
+}
+.hongmi2-overall .section-misc .content .text {
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: 20px
+}
+.hongmi2-overall .section-misc .content .icon-battery,
+.hongmi2-overall .section-misc .content .icon-mic {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin: 10px 0
+}
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    .hongmi2-overall .section-misc .content .icon-battery,
+    .hongmi2-overall .section-misc .content .icon-mic {
+        display: none
+    }
+}
+.hongmi2-overall .section-misc .content .icon-battery {
+    background: url(../images/Redmi-2/icon-battery.png) no-repeat 50% 50%
+}
+.hongmi2-overall .section-misc .content .icon-mic {
+    background: url(../images/Redmi-2/icon-mic.png) no-repeat 50% 50%
+}
+.hongmi2-overall .section-performance .frame-02 .content {
+    width: 73%;
+}
+
+.samples-slider * {
+    transition: none;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+
+    .x-general .x-sub_nav ul {
+        margin-right: 0;
+
+        float: left;
+        width: 100%;
+        background-color: #FFF;
+        padding-left: 7%;
+    
+        border-top: 1px solid #000;
+    
+        padding-bottom: 13px;
+        padding-top: 15px;
+}
+
+    .x-general .x-sub_nav ul li {
+        margin-right: 15px;
+    
+        line-height: initial;
+}
+
+    .x-general .x-sub_nav ul li .btn-small {
+        width: 100%;
+        float: left;
+    
+        height: 45px;
+        line-height: 45px;
+}
+
+    .x-general .x-sub_nav {
+        height: auto;
+    }
+
+    .x-general .x-sub_nav ul li:last-child {
+    width: 90%;
+        
+    text-align: center;
+    margin-top: 7px;
+    }
+
+    .nav-bar {
+        display: none !important;
+    }
+
+    .hongmi2-overall .section-4g .content .title {
+    line-height: 27px;
+        
+    }
+
+    .hongmi2-overall .section-performance .frame-01 {
+        display: block !important;
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+
+    .hongmi2-overall .section-performance .frame-02 {
+        display: none !important;
+    }
+
+    .hongmi2-overall .section-screen {
+    height: 1020px;
+        
+    }
+
+    .hongmi2-overall .section-miui .content .title {
+        width: 90%;
+    }
+
+    .section-performance .x-click {
+        display: none !important;
+    }
+}
+
+.hongmi2-overall .section-intro .content .price small {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-size: 11px;
+    margin-bottom: 10px;
+    padding-top: 6px;
+}
+span.x-juros {
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+}
+
+span.x-desconto {
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+span#parcels-desc {
+    margin-top: 9px;
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+span.y-desconto {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: normal;
+    margin-left: 5px;
+    color: #414141;
+}
+
+span.y-foo-a {
+    color: #414141;
+}
+
+.x-disponivel-text {
+    font-size: 10px;
+    font-style: italic;
+    margin-top: 10px;
+    float: left;
+    width: 100%;
+}
+
+.modal {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(255,255,255,0.8);
+    z-index: 9999999;
+    transition: none;
+}
+
+#k-pop-indicate {
+    position: relative;
+    width: 300px;
+    left: 50%;
+    margin-left: -165px;
+    padding: 15px;
+    background: #FFF;
+    border: 1px solid #ccc;
+    height: auto;
+    top: 50%;
+    margin-top: -250px;
+    text-align: center;
+}
+
+#k-pop-indicate button.close {
+    position: absolute;
+    top: -29px;
+    right: -1px;
+    border: 0;
+    color: #ff480c;
+    background: #FFF;
+    border-top: 1px solid #CCC;
+    border-left: 1px solid #CCC;
+    border-right: 1px solid #CCC;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+}
+
+#k-pop-indicate form .k-product img {
+    width: 100%;
+}
+
+#k-pop-indicate form .k-product strong {
+    color: #000;
+    font-size: 15px;
+    padding: 30px 0 10px;
+    float: left;
+    width: 100%;
+}
+
+#k-pop-indicate form .k-fm-lt input {
+    width: 100%;
+    border: 1px solid #CCC;
+    height: 40px;
+    padding-left: 17px;
+}
+
+#k-pop-indicate form .k-buttons button {
+    width: 100%;
+    border-radius: 0;
+    background-image: none;
+    border: 1px solid #b03108;
+    background-color: #ff480c;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 10px;
+    text-align: center;
+    padding: 15px;
+    height: 40px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    #k-pop-indicate form .k-product img {
+        width: 50%;
+    }
+    #k-pop-indicate {
+        width: 280px;
+        margin-left: -138px;
+    }
+}
+
+.btnDois {
+    color: #ffffff;
+    background: #ff4a21;
+    line-height: 30px;
+    height: 30px;
+    padding: 7px 15px;
+    font-size: 14px;
+    margin-top: 8px;
+}
+
+.redmi-types{
+    width: 100%;
+    text-align: center;
+}
+
+.types{
+    float: left;
+    margin:0 auto;
+}

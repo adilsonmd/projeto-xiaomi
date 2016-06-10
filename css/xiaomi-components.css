@@ -1,0 +1,84 @@
+/* Header */
+
+.navbar-brand {
+   padding: 5px 15px;
+}
+
+/* END Header */
+
+
+/* BODY */
+
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+/* END BODY */
+
+
+/* Footer */
+
+#footer {
+    background: #222;
+}
+
+.footer-title{
+	color: #b0b0b0;
+    font-size: 20px;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+.link-footer a{
+	color: #b0b0b0;
+	line-height: 30px;
+}
+
+.link-footer a:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+
+.horario{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+
+.btn-chat{
+    border-radius: 0px;
+    padding: 10px 70px 10px 70px;
+    font-size: 20px; 
+    margin-top: 10px;
+    color: #FFF !important;
+    background-color: transparent !important;
+    border-color: #FFF;
+}
+
+.btn-chat:hover{
+	background-color: #FFF !important;
+	color: #222 !important;
+}
+
+
+.btn-chat:active{
+	background-color: #FFF !important;
+	color: #222 !important;
+}
+
+.btn-chat:focus{
+	background-color: #FFF !important;
+	color: #222 !important;
+}
+
+.dropup{
+    float: right;
+    padding-bottom: 10px;
+    background-color: transparent;
+}
+
+.change-location{
+    color: #FFF;
+    background-color: transparent;
+    border:none;
+}
+/* END Footer */
