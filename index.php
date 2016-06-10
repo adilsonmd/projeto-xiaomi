@@ -568,7 +568,7 @@
       <ul class="x-produtos">
         <h5>Produtos</h5>
         <li><a href="http://br.mi.com/redmi2-pro">Redmi 2 Pro</a></li>
-        <li><a href="http://br.mi.com/redmi2">Redmi 2</a></li>
+        <li><a href="produtos/redmi-2">Redmi 2</a></li>
         <li><a href="http://br.mi.com/product/acessorios/122791453/mi-fone-de-ouvido-silver">Fones de Ouvido</a></li>
         <li><a href="http://br.mi.com/category/22054/acessorios">Acessórios</a></li>
         <li><a href="http://br.mi.com/Mi-Power-Bank">Mi Power Bank</a></li>
