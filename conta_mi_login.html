@@ -4,90 +4,6 @@
 <head>
 <meta charset="UTF-8">
 
-<script>
-var _d_={};
-var _t_={
-  statURL:'https://data.mistat.xiaomi.com/mistats',
-  appId:"2882303761517246742",
-  appKey:"5621724658742",
-  jspcomplete:(new Date()).getTime(),
-  supportLocalstorage:!!window.localStorage,
-  samplingBase:100,
-  samplingRate:5
-};
-if(window.performance){
-  var timing=performance.timing;
-  if(!timing.responseEnd){
-    timing.responseEnd=timing.responseStart;
-  }
-  _d_.startTS=timing.fetchStart
-  _d_.endTS=timing.responseEnd;
-}else{
-  _d_.startTS=_d_.endTS=(new Date()).getTime();
-}
-var JSP_VAR={
-  deviceType:'PC',
-  dataCenter:'sgp',
-  locale:"pt_BR",
-  region:"BR",
-  callback:"https://securebr.mi.com/checkout/login/xiaomiAuth",
-  sid:"eshop_br_production",
-  qs:"%3Fsid%3Deshop_br_production%26callback%3Dhttps%3A%2F%2Fsecurebr.mi.com%2Fcheckout%2Flogin%2FxiaomiAuth%26_locale%3Dpt_BR",
-  hidden:"",
-  "_sign":"iKEwMSQa6xmVCsQxySx7IXuhf0o=",
-  serviceParam :'{"checkSafePhone":false}',
-  privacyLink:'http://www.miui.com/res/doc/privacy/pt.html'
-};
-var PAGE_VAR={
-  form_cache:false,
-  cache_key:(JSP_VAR.deviceType!=="mobile" ? "/static/res/d89cebe/account-static/html/login/dist/v2/sgp/login-pt.html" : "/static/res/d89cebe/account-static/html/login/dist/v2/sgp/login-wap-pt.html")
-};
-if(location.search.indexOf("_debugMode")>-1){
-  window.localStorage && window.localStorage.removeItem(PAGE_VAR.cache_key);
-}
-function(){
-  function getLocal(url){
-    if(window.localStorage){
-      var data=localStorage.getItem(url);
-      return data;
-    }
-    return null;
-  }
-  function setLocal(url,data){
-    if(window.localStorage && data){
-      try{
-        localStorage.setItem(url,data);
-      }catch(e){}
-    }
-  }
-  function getContent(url){
-    var xhr= new (window.XMLHttpRequest || window.ActiveXObject)("Microsoft.XMLHTTP");
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState == 4 && xhr.status == 200) {
-          setLocal(url,xhr.responseText);
-          _t_.htmlGetEnd=(new Date()).getTime();
-          document.write(xhr.responseText);
-          document.close();
-      }
-    };
-    xhr.open("GET",url,false);
-    xhr.send();
-  }
-  var cache_key=PAGE_VAR.cache_key;
-      _t_.version=cache_key;
-  var html=getLocal(cache_key);
-  if(html){
-    _t_.htmlCache=true;
-    PAGE_VAR.form_cache=true;
-    document.write(html);
-    document.close();
-  }else{
-    _t_.htmlCache=false;
-    _t_.htmlGetStart=(new Date()).getTime();
-    getContent(cache_key);
-  }
-})();
-</script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -189,8 +105,7 @@ function(){
             </div>
             
             <div class="n_links_area" id="custom_display_64">
-              <a class="outer-link" href="https://account.xiaomi.com/pass/register?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=pt_BR">Criar Conta Mi</a><span>|</span>
-              <a class="outer-link" href="https://account.xiaomi.com/pass/forgetPassword?sid=eshop_br_production&amp;callback=https://securebr.mi.com/checkout/login/xiaomiAuth&amp;_locale=pt_BR">Esqueci a senha</a>
+              <a class="outer-link" href="conta_mi_registrar.html">Criar Conta Mi</a>
             </div>
           </div>
 
