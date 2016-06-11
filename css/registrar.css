@@ -3,6 +3,8 @@
 }
 
 body{
+	display: flex;
+	-webkit-box-flex: flex;
 	font-family: arial,"Hiragino Sans GB";
 	background-color: rgb(249, 249, 249);
 }
@@ -12,10 +14,10 @@ p {
 }
 
 .conteudo{
-	
     width: 800px;
-    background: #FFFFFF; 
-    margin: 0 auto;
+    background: #FFFFFF;
+	float: auto; 
+    margin: 10px auto;
     text-align: center; 
     padding: 10px 24px; 
     font-size: 14px;
@@ -65,9 +67,7 @@ text-align: left;
 }
 
 .titulo {
-	margin-bottom: 45px;
-
-
+	margin: 10px auto 45px auto;
 }
 .data{
 	text-align: left;
@@ -96,9 +96,8 @@ text-align: left;
 }
 
 .checa{
-	border:1px solid transparent;
-	border-radius: 25px;
-
+	border: 1px solid #ff8566;
+	border-radius: 2px;
 }
 
 .imagem{
