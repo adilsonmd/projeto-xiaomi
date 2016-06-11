@@ -1,0 +1,105 @@
+*{
+	margin: 10px;
+}
+
+body{
+	font-family: arial,"Hiragino Sans GB";
+	background-color: rgb(249, 249, 249);
+}
+p {
+	margin-top: 10px;
+	display: block;
+}
+
+.conteudo{
+	
+    width: 800px;
+    background: #FFFFFF; 
+    margin: 0 auto;
+    text-align: center; 
+    padding: 10px 24px; 
+    font-size: 14px;
+            
+}
+
+label{
+	text-align: left;
+	top:50%;
+	left:10%;
+	margin-top:-50px;
+	margin-left:-225px;
+}
+
+label[for="aniversario"] {
+	text-align: left;
+	top:50%;
+	left:10%;
+	margin-top:-50px;
+	margin-left:-190px;
+}
+
+label[for="politicas"] {
+	text-align: left;
+	top:50%;
+	left:10%;
+	margin-top:-50px;
+	margin-left:10px;
+}
+
+
+input[type="text"], input[type="password"]{
+	padding: 7px;
+	padding-right: 90px;
+}
+
+select {
+	padding: 5px;
+}
+
+input[type="checkbox"]{
+text-align: left;
+	top:50%;
+	left:10%;
+	margin-top:-50px;
+	margin-left:25px;
+}
+
+.titulo {
+	margin-bottom: 45px;
+
+
+}
+.data{
+	text-align: left;
+	top:50%;
+	left:10%;
+	margin-top:-50px;
+	margin-left:5px;
+}
+.botao{
+	font-weight: bold;
+	padding: 10px;
+	cursor: pointer;
+    border: 0;
+    outline: 0;
+	color: #FFFFFF;
+	margin-left: 250px;
+	background-color: #FF6700;
+	padding-right: 100px;
+	padding-left: 100px;
+	display: block;
+}
+.botao:hover{
+	color: #FFFFFF;
+	background-color: #ff8566;
+}
+
+.checa{
+	border:1px solid transparent;
+	border-radius: 25px;
+
+}
+
+.imagem{
+	padding: 0px;
+}
