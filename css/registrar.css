@@ -6,6 +6,7 @@
 body{
 	display: flex;
 	-webkit-box-flex: flex;
+	
 	font-family: arial,"Hiragino Sans GB";
 	background-color: rgb(249, 249, 249);
 }
@@ -33,24 +34,16 @@ label{
 }
 
 label[for="aniversario"] {
-	text-align: left;
-	top:50%;
-	left:10%;
-	margin-top:-50px;
 	margin-left:-190px;
 }
 
 label[for="politicas"] {
-	text-align: left;
-	top:50%;
-	left:10%;
-	margin-top:-50px;
 	margin-left:10px;
 }
 
 
 input[type="text"], input[type="password"]{
-	padding: 7px;
+	padding: 10px;
 	padding-right: 90px;
 }
 
@@ -83,7 +76,7 @@ input[type="checkbox"]{
     border: 0;
     outline: 0;
 	color: #FFFFFF;
-	margin-left: 250px;
+	margin: 10px auto;
 	background-color: #FF6700;
 	padding-right: 100px;
 	padding-left: 100px;
