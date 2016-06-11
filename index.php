@@ -1,3 +1,6 @@
+<?php
+    session_start(); 
+?>
 <!DOCTYPE html>
 
 <html prefix="og: http://ogp.me/ns#" lang="pt-br">
@@ -173,6 +176,7 @@
         dataLayer = [_data];
 </script>
 
+
 	<!-- <link href='http://statick3.bseller.com.br/catalog/css/themes/kanlo/components.css?version=14' type='text/css' rel='stylesheet' /> -->
 
 			<meta name="description" content="Loja e site oficial da empresa que revolucionou o mercado de smartphones. Conheça o Redmi 2, Mi Band, Mi Power Bank e outros produtos Xiaomi.">
@@ -226,19 +230,30 @@
             </div>
             <div class="x-acount">
 
+            <?php
+              if(isset($_SESSION['logado']))
+              {
+                ?>
+              
             <!-- Quando logado -->
-              <ul class="x-logged">
-                <li>Olá <span class="x-name"></span> 
+              <ul class="x-login">
+                <li>Olá <span class="x-name"><?php echo $_SESSION['logado']["usuario"]; ?></span> 
                   <a href=""><u>(sair)</u></a>
                 </li>
                 <li><a href="">Minha Conta</a></li>
               </ul>
-
+              <?php 
+                }
+                else {
+                  ?>
+                  
               <!--Quando Deslogado -->
               <ul class="x-login">
                 <li><a href="login.html"> Login / Criar Conta Mi</a> <a href="http://br.mi.com/searchMyOrder">| Meus Pedidos</a></li>
               </ul>
-
+              <?php 
+                }
+              ?>
             </div>
             <div class="x-cart">
               <ul>

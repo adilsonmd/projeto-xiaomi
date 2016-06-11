@@ -16,8 +16,10 @@
         
         if(mysql_affected_rows >= 1){
             session_start();
-            $_SESSION["usuario"] = $usuario;
-            $_SESSION["senha"] = $senha;
+            $_SESSION['logado'] = true;
+                $_SESSION['logado']["usuario"] = $usuario
+                $_SESSION['logado']["senha"] = $senha;
+                
             header("../index.html"); //nao pode usuar header se já deu um echo na pagina
         }
         else {
