@@ -1,31 +1,25 @@
 <!DOCTYPE html>
-<!-- saved from url=(0017)http://br.mi.com/ -->
-<html prefix="og: http://ogp.me/ns#" lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <!-- Managed Server: ip-10-157-7-78.sa-east-1.compute.internal -->
-        <!-- Version: 14, addf472d2989e2c61c595afce4a491106c56c593 -->
+
+<html prefix="og: http://ogp.me/ns#" lang="pt-br">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         
-<script type="text/javascript" src="./index_files/81505d340c"></script><script src="./index_files/nr-943.min.js"></script><script type="text/javascript" async="" src="./index_files/analytics.js"></script><script type="text/javascript" async="" src="./index_files/watch.js"></script><script async="" src="./index_files/gtm.js"></script><script id="facebook-jssdk" src="./index_files/sdk.js"></script><script async="" src="./index_files/gtm(1).js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+  <script type="text/javascript" src="./index_files/81505d340c"></script><script src="./index_files/nr-943.min.js"></script><script type="text/javascript" async="" src="./index_files/analytics.js"></script><script type="text/javascript" async="" src="./index_files/watch.js"></script><script async="" src="./index_files/gtm.js"></script><script id="facebook-jssdk" src="./index_files/sdk.js"></script><script async="" src="./index_files/gtm(1).js"></script><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-943.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
 
-		<title>Xiaomi Brasil | Loja Oficial</title>
+  <title>Xiaomi Brasil | Loja Oficial</title>
 
-		
-			
-			<meta name="layout" content="kanlo">
+	<meta name="layout" content="kanlo">
 			
   
-    <meta name="viewport" content="width=device-width, user-scalable=no">
-	 <meta name="google-site-verification" content="BSqjA05Vxl_fzEhu7AU6b32AAJwkTpmapEX-F2d5pjA">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <meta name="google-site-verification" content="BSqjA05Vxl_fzEhu7AU6b32AAJwkTpmapEX-F2d5pjA">
 	
-	<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
+ 	<link href="./index_files/css" rel="stylesheet" type="text/css">
+ 	<link href="./index_files/css(1)" rel="stylesheet" type="text/css">
   
-  	<link href="./index_files/css" rel="stylesheet" type="text/css">
-  	<link href="./index_files/css(1)" rel="stylesheet" type="text/css">
-  
-  	<link rel="stylesheet" type="text/css" href="./index_files/uber-geral-xiaomi.css">
+ 	<link rel="stylesheet" type="text/css" href="./index_files/uber-geral-xiaomi.css">
   <link rel="stylesheet" type="text/css" href="./index_files/min.header-novo-v1.css">
-<link href="http://statick3.bseller.com.br/mi/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link href="http://statick3.bseller.com.br/mi/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
 	<script type="text/javascript">
 		var properties = {
 			storeSymbol: 'mi',
@@ -48,19 +42,13 @@
 	<script src="./index_files/fastBuy.js" type="text/javascript"></script>
 
     <!-- <link href='http://statick3.bseller.com.br/catalog/css/themes/default/bootstrap.css?version=14' type='text/css' rel='stylesheet' /> -->
-
 	<link href="http://statick3.bseller.com.br/mi/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
+	<script type="text/javascript" src="./index_files/gpt.js"></script>
+  <script id="gpt-impl-0.13714203385643864" src="./index_files/pubads_impl_88.js"></script>
+  <link rel="prefetch" href="http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html">
 
-	<script type="text/javascript" src="./index_files/gpt.js"></script><script id="gpt-impl-0.13714203385643864" src="./index_files/pubads_impl_88.js"></script><link rel="prefetch" href="http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html">
-
-    <link href="./index_files/jquery-ui-1.7.2.custom.css" type="text/css" rel="stylesheet">
-    <script type="text/javascript" src="./index_files/jquery-ui-1.7.2.custom.js"></script>
-  
- 	<!-- Enext Tag Manager -->
-  
-  	<script async="" src="./index_files/gtm.js"></script>
-  
-  	<!-- End Enext Tag Manager -->
+  <link href="./index_files/jquery-ui-1.7.2.custom.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript" src="./index_files/jquery-ui-1.7.2.custom.js"></script>
  
     <style type="text/css">
     .fb_hidden{position:absolute;top:-10000px;z-index:10001}
@@ -194,16 +182,16 @@
 			<link rel="stylesheet" type="text/css" href="./index_files/uber-home-xiaomi.css">
 			
 		
-        <link href="./index_files/televendas.css" type="text/css" rel="stylesheet">
-        <script src="./index_files/televendas.js" type="text/javascript"></script>
+      <link href="./index_files/televendas.css" type="text/css" rel="stylesheet">
+      <script src="./index_files/televendas.js" type="text/javascript"></script>
         
-        <script type="text/javascript">
+      <script type="text/javascript">
             $(function(){
                 enableTelemarketing('https://securebr.mi.com/checkout/assistedSales', 'https://securebr.mi.com/checkout/assistedSales/logout/telemarketing')
             })
-        </script>
+      </script>
 	  
-          <style>
+      <style>
           	/*Banner Estático Miui */
             .x-produtos-home {
                 padding: 50px 28px 0px !important;
@@ -214,7 +202,7 @@
             }
                       
             /*Fim Banner Estático Miui*/
-          </style>
+      </style>
           
 			<div class="x-general">
 
@@ -231,7 +219,7 @@
           </div>
           <div class="x-right">
             <div class="x-seach">
-              <form class="form-search" action="http://br.mi.com/search/busca">
+              <form class="form-search" action="">
                 <input type="text" name="q" value="" placeholder="O que você procura?">
                 <button type="submit">Buscar</button>
               </form>
@@ -241,7 +229,7 @@
             <!-- Quando logado -->
               <ul class="x-logged">
                 <li>Olá <span class="x-name"></span> 
-                  <a href="https://account.xiaomi.com/pass/logout?callback=https://securebr.mi.com/checkout/logout"><u>(sair)</u></a>
+                  <a href=""><u>(sair)</u></a>
                 </li>
                 <li><a href="">Minha Conta</a></li>
               </ul>
@@ -289,19 +277,12 @@
             <div class="x-menu">
 
               <div class="x-item">
-                <h2><a href="produtos/redmi-2.html">Redmi 2 Pro</a></h2>
+                <h2><a href="produtos/redmi-2.html">Redmi 2 | Redmi 2 Pro</a></h2>
               </div>
-
-              <div class="x-item">
-                <h2><a href="http://br.mi.com/redmi2">Redmi 2</a></h2>
-
-              </div>
-
 
               <div class="x-item">
                 <h2><a href="http://br.mi.com/Pulseira-Inteligente-Mi-Band">Mi Band</a></h2>
               </div>
-
 
               <div class="x-item">
                 <h2><a href="http://br.mi.com/Mi-Power-Bank">Mi Power Bank</a></h2>
@@ -325,10 +306,6 @@
                 </div>
               </div>
 
-
-
-              <!-- <div class="x-item x-flash-sale"><h2><a href="http://br.mi.com/redmi2/evento"><span class="x-icon"></span> Quero comprar</a></h2>
-      </div> -->
             </div>
           </div>
         </div>
@@ -379,15 +356,6 @@
 					
 					<div class="x-banner-group">
 						<div class="bx-wrapper" style="max-width: 2000px;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 554px;"><div class="x-banner" style="width: auto; position: relative;">
-							
-	
-	
-	
-	
-	
-	
-	
-	
 
 	<div class="k-bnrHl" style="float: none; list-style: none; position: absolute; width: 1583px; z-index: 50; display: block;">
 	
@@ -419,15 +387,6 @@
 				<div class="x-content x-mobile">
 					<div class="bx-wrapper" style="max-width: 2000px;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 0px;"><div class="x-banner" style="width: auto; position: relative;">
 						
-	
-	
-	
-	
-	
-	
-	
-	
-
 	<div class="k-bnrHl" style="float: none; list-style: none; position: absolute; width: 100px; z-index: 50; display: block;">
 	
 		<a href="http://br.mi.com/redmi2-pro" target="" class="k-bnrLnk">
@@ -435,9 +394,6 @@
 		</a>
 	
 </div>
-
-
-
 					</div></div><div class="bx-controls bx-has-pager bx-has-controls-direction"><div class="bx-pager bx-default-pager"><div class="bx-pager-item"><a href="" data-slide-index="0" class="bx-pager-link active">1</a></div></div><div class="bx-controls-direction"><a class="bx-prev disabled" href="">Prev</a><a class="bx-next disabled" href="">Next</a></div></div></div>
 					<div class="x-navigation">
 						<div class="x-menu-itens">
@@ -462,13 +418,7 @@
 							
 						</div>
 					</div>
-					
-					
-					
-					
-					
-					
-					
+
 				</div>
 				
   <div class="x-footer x-desktop">
