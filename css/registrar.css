@@ -58,6 +58,9 @@ input[type="checkbox"]{
 	margin-left:25px;
 }
 
+input[type="submit"]{
+	margin: 10px auto;
+}
 .titulo {
 	margin: 10px auto 45px auto;
 }
