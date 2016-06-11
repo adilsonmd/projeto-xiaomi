@@ -287,7 +287,7 @@
       </div>
       <div class="x-navigation">
         <div class="x-center">
-          <h1><a href="http://br.mi.com/">Xiaomi</a></h1>
+          <h1><a href="index.php">Xiaomi</a></h1>
           <div class="x-right">
             <div class="x-menu">
 

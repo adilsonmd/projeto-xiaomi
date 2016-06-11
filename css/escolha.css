@@ -16,6 +16,7 @@ a{
 .login{
 	font-weight: bold;
 	margin-top: 20px;
+	margin-bottom: 20px;
 	display: block;
 }
 .conteudo{
@@ -29,6 +30,7 @@ a{
 }
 
 .botao{
+	text-align: center;
 	font-weight: bold;
 	padding: 15px 200px;
 	cursor: pointer;
@@ -37,15 +39,10 @@ a{
 	margin-right: 200px;
 	background-color: #FF6700;
 	text-decoration: none;
+	margin-top: 20px;
 	display: block;
 }
 
-.btn1-margin {
-	margin-top: 40px;
-}
-.btn2-margin{
-	margin-top: 20px;
-}
 
 .botao:hover{
 	color: #FFFFFF;
@@ -64,3 +61,13 @@ a{
 	margin-top: 20px;
 }
 
+.imagem{
+	padding: 0px;
+}
+
+.adv{
+	margin-top:40px;
+	font-size: 10px;
+	text-align: center;
+	color:#8d8d8d;
+}
