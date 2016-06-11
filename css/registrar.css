@@ -28,7 +28,6 @@ p {
 label{
 	text-align: left;
 	top:50%;
-	left:10%;
 	margin-top:-50px;
 	margin-left:-225px;
 }
@@ -60,9 +59,8 @@ select {
 }
 
 input[type="checkbox"]{
-text-align: left;
+	text-align: left;
 	top:50%;
-	left:10%;
 	margin-top:-50px;
 	margin-left:25px;
 }
