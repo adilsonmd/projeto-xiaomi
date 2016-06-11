@@ -8,7 +8,11 @@ p {
 	margin-top: 60px;
 	display: block;
 }
-
+a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
 .login{
 	font-weight: bold;
 	margin-top: 20px;
@@ -26,16 +30,21 @@ p {
 
 .botao{
 	font-weight: bold;
-	padding: 15px;
+	padding: 15px 200px;
 	cursor: pointer;
 	color: #FFFFFF;
 	margin-left: 200px;
 	margin-right: 200px;
 	background-color: #FF6700;
-	padding-right: -200px;
 	text-decoration: none;
 	display: block;
-	
+}
+
+.btn1-margin {
+	margin-top: 40px;
+}
+.btn2-margin{
+	margin-top: 20px;
 }
 
 .botao:hover{
@@ -43,26 +52,15 @@ p {
 	background-color: #ff8566;
 }
 
-.btn1-margin {
-	margin-top: 40px;
-}
-.btn2-margin{
-
+.botao2{
+	
+	padding: 15px;
+	cursor: pointer;
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: #FF6700;
+	padding-right: -200px;
+	display: block;
 	margin-top: 20px;
 }
 
-.botao2:hover{
-	color: #FFFFFF;
-	background-color: #ff8566;
-}
-
-.imagem{
-	padding: 0px;
-}
-
-.adv{
-	margin-top:40px;
-	font-size: 10px;
-	text-align: center;
-	color:#8d8d8d;
-}
