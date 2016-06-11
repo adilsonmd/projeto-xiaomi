@@ -1,0 +1,83 @@
+
+
+body{
+	font-family: arial,"Hiragino Sans GB";
+	background-color: rgb(249, 249, 249);
+}
+p {
+	font-size: 15;
+	font-weight: bold;
+	margin-top: 60px;
+	display: block;
+}
+
+.login{
+	font-weight: bold;
+	margin-top: 20px;
+	display: block;
+}
+.conteudo{
+	
+    width: 900px;
+    margin: 0 auto;
+    text-align: center; 
+    padding: 10px 24px; 
+    font-size: 14px;
+            
+}
+
+
+
+.botao{
+	font-weight: bold;
+	padding: 15px;
+	cursor: pointer;
+	color: #FFFFFF;
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: #FF6700;
+	padding-right: -200px;
+	display: block;
+	margin-top: 40px;
+}
+
+.botao:hover{
+	color: #FFFFFF;
+	background-color: #ff8566;
+}
+
+.botao2{
+	font-weight: bold;
+	padding: 15px;
+	cursor: pointer;
+	color: #FFFFFF;
+	margin-left: 200px;
+	margin-right: 200px;
+	background-color: #FF6700;
+	padding-right: -200px;
+	display: block;
+	margin-top: 20px;
+}
+
+.botao2:hover{
+	color: #FFFFFF;
+	background-color: #ff8566;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+.imagem{
+	padding: 0px;
+}
+
+.adv{
+	margin-top:40px;
+	font-size: 10px;
+	text-align: center;
+	color:#8d8d8d;
+}
