@@ -53,9 +53,9 @@ select {
 
 input[type="checkbox"]{
 	text-align: left;
-	top:50%;
-	margin-top:-50px;
-	margin-left:25px;
+	top: 50%;
+	margin-top: -50px;
+	margin-left: 25px;
 }
 
 input[type="submit"]{
@@ -66,10 +66,10 @@ input[type="submit"]{
 }
 .data{
 	text-align: left;
-	top:50%;
-	left:10%;
-	margin-top:-50px;
-	margin-left:5px;
+	top: 50%;
+	left: 10%;
+	margin-top: -50px;
+	margin-left: 5px;
 }
 
 .botao{
@@ -90,11 +90,7 @@ input[type="submit"]{
 	background-color: #ff8566;
 }
 
-.checa{
-	border: 1px solid #ff8566;
-	border-radius: 2px;
-}
-
 .imagem{
 	padding: 0px;
+	margin: 10px auto;
 }
