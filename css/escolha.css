@@ -1,5 +1,3 @@
-
-
 body{
 	font-family: arial,"Hiragino Sans GB";
 	background-color: rgb(249, 249, 249);
@@ -26,8 +24,6 @@ p {
             
 }
 
-
-
 .botao{
 	font-weight: bold;
 	padding: 15px;
@@ -37,8 +33,9 @@ p {
 	margin-right: 200px;
 	background-color: #FF6700;
 	padding-right: -200px;
+	text-decoration: none;
 	display: block;
-	margin-top: 40px;
+	
 }
 
 .botao:hover{
@@ -46,16 +43,11 @@ p {
 	background-color: #ff8566;
 }
 
-.botao2{
-	font-weight: bold;
-	padding: 15px;
-	cursor: pointer;
-	color: #FFFFFF;
-	margin-left: 200px;
-	margin-right: 200px;
-	background-color: #FF6700;
-	padding-right: -200px;
-	display: block;
+.btn1-margin {
+	margin-top: 40px;
+}
+.btn2-margin{
+
 	margin-top: 20px;
 }
 
@@ -63,13 +55,6 @@ p {
 	color: #FFFFFF;
 	background-color: #ff8566;
 }
-
-a{
-	color: white;
-	text-decoration: none;
-}
-
-
 
 .imagem{
 	padding: 0px;
