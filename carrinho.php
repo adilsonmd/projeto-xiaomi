@@ -19,7 +19,7 @@
       }
    }
    else {
-     header('Location: conta_mi_login.html');
+     header('Location: ./conta_mi_login.html');
    }
   ?>
 
@@ -43,15 +43,6 @@
  	<link rel="stylesheet" type="text/css" href="carrinho_arquivos/uber-geral-xiaomi.css">
   <link rel="stylesheet" type="text/css" href="carrinho_arquivos/min.css">
   <link href="http://statick3.bseller.com.br/mi/assets/images/favicon.ico" rel="shortcut icon" type="image/x-icon">
-	<script type="text/javascript">
-		var properties = {
-			storeSymbol: 'mi',
-			addToCart: '/cart/add',
-			urlToPreloader: 'http://statick3.bseller.com.br/catalog/images/ajax-loader.gif?version=14',
-			linkToCart: '/cart/index'
-		}
-
-	</script>
   
 
 	<script src="carrinho_arquivos/jquery-1.js" type="text/javascript"></script>
@@ -161,44 +152,8 @@
     </div>
   <div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div>
 
-  <script>(function(d, s, id) {
-
-    var js, fjs = d.getElementsByTagName(s)[0];
-
-    if (d.getElementById(id)) return;
-
-    js = d.createElement(s); js.id = id;
-
-    js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4";
-
-    fjs.parentNode.insertBefore(js, fjs);
-
-  }(document, 'script', 'facebook-jssdk'));
-  </script>
 	<script src="./carrinho_arquivos/encodeBase64.js" type="text/javascript"></script>
   <script src="./carrinho_arquivos/jquery.cookie.js" type="text/javascript"></script>
-
-  <script type="text/javascript">
-    var dataLayer = dataLayer || [];
-    var _data = {};
-
-    var injectCustomer = function(obj){
-        var userId64 = $.cookie('miUserId');
-        if(!userId64) {
-            obj.customerLoggedIn = false;
-            return
-        }
-        obj.customerLoggedIn  = true;
-        obj.customerId = Base64.decode(userId64);
-    };
-    var injectProduct, injectCart;
-    injectProduct = injectCart = function(){};
-
-    
-        injectCustomer(_data);
-        dataLayer = [_data];
-</script>
-
 
 	<!-- <link href='http://statick3.bseller.com.br/catalog/css/themes/kanlo/components.css?version=14' type='text/css' rel='stylesheet' /> -->
 
