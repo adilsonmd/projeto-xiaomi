@@ -15,6 +15,7 @@ create table if not exists pedido (
 
 create table if not exists cliente (
 	id_cliente int primary key auto_increment,
+    login varchar(40) not null,
     senha varchar(30) not null,
-	email varchar(40) not null
+    nascimento varchar(10) not null
 );
