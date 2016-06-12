@@ -139,11 +139,6 @@
 
 <body>
 
-  <?php
-      array
-  ?>
-
-
   <div id="fb-root" class=" fb_reset fb_reset">
     <div style="position: absolute; top: -10000px; height: 0px; width: 0px;">
       <div>

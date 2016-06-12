@@ -1,3 +1,6 @@
+<?php
+    session_start();
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
@@ -14,16 +17,15 @@
         //tabela usuario/cliente
         $busca = mysql_query("SELECT * FROM cliente WHERE login='$login' AND senha='$senha'");
         
-        if(mysql_affected_rows >= 1){
-            session_start();
+        if(mysql_affected_rows >= 1) {      
             $_SESSION['logado'] = true;
-                $_SESSION['logado']["login"] = $login;
-                $_SESSION['logado']["senha"] = $senha;
+            $_SESSION['logado']["login"] = $login;
+            $_SESSION['logado']["senha"] = $senha;
 
             header("../index.php"); //nao pode usuar header se já deu um echo na pagina
         }
         else {
-            echo ('<p>Usuário não cadastrado, <a href="../conta_mi_registrar.html">clique aqui</a> para cadastrar');
+            echo ('<p>Usuário não cadastrado, <a href="../conta_mi_registrar.html">clique aqui</a> para cadastrar.');
         }
 
     ?>
