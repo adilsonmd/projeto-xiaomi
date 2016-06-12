@@ -50,7 +50,7 @@ if($senha == $senhanovamente){
     
   
     if ($senha != $senhanovamente){
-      alert("Senhas não coincidem"");
-    }
+       echo"<script language='javascript' type='text/javascript'>alert('Senhas não coincidem');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
+  }
 ?>
 </html>
