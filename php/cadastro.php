@@ -50,7 +50,7 @@ if($senha == $senhanovamente){
     
   
     if ($senha != $senhanovamente){
-      alerta("Senhas não coincidem"");
+      alert("Senhas não coincidem"");
     }
 ?>
 </html>
