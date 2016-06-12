@@ -15,21 +15,13 @@ if($senha == $senhanovamente){
     $logarray = $array['login'];
  
  
-   if($_POST) {
-        $senha          = $_POST['senha'];
-        $senhanovamente  = $_POST['senhanovamente'];
-        if ($senha == "") {
-            $mensagem = "<span class='aviso'><b>Aviso</b>: Campo Vazio!</span>";
-        } else if ($senha == $senhanovamente) {
-            $mensagem = "<span class='sucesso'><b>Sucesso</b>: As senhas são iguais: ".$senha."</span>";
-        } else if($senhanovamente == ""){
-                     $mensagem = "<span class='aviso'><b>Aviso</b>: Digite novamente a senha!</span>";
-        }
-        } else {
-            $mensagem = "<span class='erro'><b>Erro</b>: As senhas não conferem!</span>";
-        }
-        echo "<p id='mensagem'>".$mensagem."</p>";
-    }
+   if($senhanovamente == ""){
+       <span class='aviso'><b>Aviso</b>: Campo Vazio!</span>";
+       }
+   if($senha != $senhanovamente){
+     <span class='aviso'><b>Aviso</b>:senha nao coincide!</span>";
+   }
+       
     
     
     if($login == "" || $login == null){
