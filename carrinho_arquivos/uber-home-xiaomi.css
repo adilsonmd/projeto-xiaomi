@@ -1,0 +1,569 @@
+.x-product-list li,
+.x-products-list li {
+    min-height: 300px
+}
+.x-product-list li a,
+.x-products-list li a {
+    display: block;
+    width: 100%;
+    border: 6px solid transparent;
+    -webkit-transition: border-color .5s;
+    transition: border-color .5s;
+    padding: 13px 13px;
+    min-height: 346px
+}
+.x-product-list li a:hover,
+.x-products-list li a:hover {
+    border: 6px solid rgba(243, 243, 243, 0.8);
+    -webkit-transition: border-color .5s;
+    transition: border-color .5s
+}
+.x-product-list li .x-image,
+.x-products-list li .x-image {
+    display: block;
+    text-align: center;
+    height: 193px;
+    margin-bottom: 22px;
+    line-height: 193px
+}
+.x-product-list li .k-prd-photo,
+.x-products-list li .k-prd-photo {
+    vertical-align: bottom;
+    max-height: 100%
+}
+.x-product-list li h3,
+.x-products-list li h3 {
+    font-size: 11px;
+    color: #333;
+    display: block;
+    width: 95%;
+    margin-left: 0;
+    padding-bottom: 5px;
+    text-align: left;
+    line-height: 23px;
+    height: 74px
+}
+.x-product-list li .x-price,
+.x-products-list li .x-price {
+    display: block;
+    min-height: 0
+}
+.x-product-list li .x-price .k-prd-regular,
+.x-products-list li .x-price .k-prd-regular {
+    color: #8B8B8B;
+    font-size: 14px;
+    line-height: 20px;
+    white-space: nowrap;
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    text-decoration: line-through
+}
+.x-product-list li .x-price .k-prd-sale,
+.x-products-list li .x-price .k-prd-sale {
+    color: #ff480c;
+    font-size: 20px;
+    margin-top: 0;
+    float: left;
+    width: auto;
+    text-align: left;
+    margin-bottom: 17px
+}
+.x-product-list li .x-price .k-prd-discount,
+.x-products-list li .x-price .k-prd-discount {
+    color: #ff480c;
+    font-size: 18px;
+    white-space: nowrap;
+    display: none
+}
+.x-product-list li .x-price .k-prd-installments,
+.x-products-list li .x-price .k-prd-installments {
+    display: none
+}
+.x-product-list li .x-indisponivel,
+.x-products-list li .x-indisponivel {
+    color: #FF4A21;
+    font-weight: bold;
+    font-size: 14px;
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 22px;
+    margin-top: 13px
+}
+.x-product-list li .x-detalhes,
+.x-products-list li .x-detalhes {
+    display: none;
+    text-align: center;
+    font-size: 12px;
+    color: #454545;
+    margin-bottom: 12px;
+    margin-top: 10px
+}
+.x-content {
+    float: left;
+    width: 100%
+}
+.x-content .x-banner-group {
+    float: left;
+    width: 100%
+}
+.x-content .x-banner-group * {
+    transition: none
+}
+.x-content .x-banner-group .x-banner {
+    float: left;
+    width: 100%
+}
+.x-content .x-banner-group .bx-controls-direction {
+    position: absolute;
+    margin-top: 0;
+    top: 0;
+    width: 100%;
+    height: 100%
+}
+.x-content .x-banner-group .bx-pager {
+    display: none
+}
+.x-content .x-banner-group .bx-wrapper {
+    margin: 0 auto 4px;
+    position: relative
+}
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+    .x-content .x-banner-group .bx-wrapper {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 761px) and (max-width: 1080px) {
+    .x-content .x-banner-group .bx-wrapper {
+        width: 100%
+    }
+}
+.x-content .x-banner-group .bx-wrapper .k-bnrImg {
+    width: 1920px;
+    height: auto;
+    margin-left: -960px;
+    left: 50%;
+    position: relative
+}
+.x-content .x-banner-group .bx-wrapper .k-bnrLnk {
+    display: block
+}
+.x-content .x-banner-group .bx-wrapper .bx-pager {
+    position: absolute;
+    text-align: center;
+    bottom: 19px;
+    z-index: 999;
+    width: 100%
+}
+.x-content .x-banner-group .bx-wrapper .bx-pager .bx-pager-item {
+    margin: 8px;
+    display: inline-block
+}
+.x-content .x-banner-group .bx-wrapper .bx-pager .bx-pager-item.active {
+    background-color: #fff
+}
+.x-content .x-banner-group .bx-wrapper .bx-pager .bx-pager-item a {
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    border: 1px solid #fff;
+    display: block
+}
+.x-content .x-banner-group .bx-wrapper .bx-pager .bx-pager-item a.active {
+    background-color: #fff
+}
+.x-content .x-banner-group .bx-wrapper .bx-controls-direction .bx-prev,
+.x-content .x-banner-group .bx-wrapper .bx-controls-direction .bx-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    z-index: 50;
+    width: 47px;
+    height: 70px;
+    background-image: url(http://statick3.bseller.com.br/mi/assets/images/seta-new.png)
+}
+.x-content .x-banner-group .bx-wrapper .bx-controls-direction .bx-prev:hover,
+.x-content .x-banner-group .bx-wrapper .bx-controls-direction .bx-next:hover {
+    background-image: url(http://statick3.bseller.com.br/mi/assets/images/seta-hover.png)
+}
+.x-content .x-banner-group .bx-wrapper .bx-controls-direction .bx-prev {
+    left: 40px;
+    z-index: 99999
+}
+.x-content .x-banner-group .bx-wrapper .bx-controls-direction .bx-next {
+    right: 40px;
+    z-index: 99999;
+    -moz-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+.x-content>.bx-wrapper {
+    margin: 0 auto 4px;
+    position: relative
+}
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+    .x-content>.bx-wrapper {
+        width: 100%
+    }
+}
+@media only screen and (min-width: 761px) and (max-width: 1080px) {
+    .x-content>.bx-wrapper {
+        width: 100%
+    }
+}
+.x-content>.bx-wrapper .k-bnrImg {
+    width: 100%;
+    height: 100%;
+    vertical-align: bottom
+}
+.x-content>.bx-wrapper .k-bnrLnk {
+    display: block
+}
+.x-content>.bx-wrapper .bx-pager {
+    position: absolute;
+    text-align: center;
+    bottom: 19px;
+    z-index: 999;
+    width: 100%
+}
+.x-content>.bx-wrapper .bx-pager .bx-pager-item {
+    margin: 8px;
+    display: inline-block
+}
+.x-content>.bx-wrapper .bx-pager .bx-pager-item.active {
+    background-color: #fff
+}
+.x-content>.bx-wrapper .bx-pager .bx-pager-item a {
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    border: 1px solid #fff;
+    display: block
+}
+.x-content>.bx-wrapper .bx-pager .bx-pager-item a.active {
+    background-color: #fff
+}
+.x-content>.bx-wrapper .bx-controls-direction .bx-prev,
+.x-content>.bx-wrapper .bx-controls-direction .bx-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -17px;
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    z-index: 50
+}
+.x-content>.bx-wrapper .bx-controls-direction .bx-prev {
+    left: 40px;
+    background-image: url(//statick3.bseller.com.br/mi/assets/images/x-sprite.png?0.607449940405786);
+    background-position: -135px 0px;
+    width: 19px;
+    height: 35px
+}
+.x-content>.bx-wrapper .bx-controls-direction .bx-next {
+    right: 40px;
+    background-image: url(//statick3.bseller.com.br/mi/assets/images/x-sprite.png?0.607449940405786);
+    background-position: -135px -37px;
+    width: 19px;
+    height: 35px
+}
+.x-content.x-desktop .x-banner-Beneficios {
+    margin-left: 50px
+}
+.x-content.x-desktop .x-banner-Beneficios .k-bnrHl {
+    margin-left: -23px
+}
+.x-content.x-desktop .x-banner-Beneficios .k-bnrImg {
+    width: 100%;
+    max-width: 1200px
+}
+.x-produtos-home {
+    padding: 4px 28px 0px
+}
+.x-produtos-home h3 {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    color: #000;
+    padding: 18px 0 20px
+}
+.x-produtos-home h3 span {
+    color: #ff480c
+}
+.x-produtos-home .bx-wrapper {
+    position: relative
+}
+.x-produtos-home .bx-wrapper .bx-viewport {
+    border-left: 1px solid #dfdfdf
+}
+.x-produtos-home .bx-wrapper li {
+    border: 1px solid #dfdfdf;
+    border-left: 0;
+    width: 295.75px !important
+}
+.x-produtos-home .bx-wrapper li .x-indisponivel {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important
+}
+.x-produtos-home .bx-wrapper .bx-controls-direction {
+    position: absolute;
+    top: -47px;
+    left: 256px;
+    z-index: 50
+}
+.x-produtos-home .bx-wrapper .bx-controls-direction .bx-prev,
+.x-produtos-home .bx-wrapper .bx-controls-direction .bx-next {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 6px;
+    font-size: 0;
+    line-height: 0;
+    color: transparent
+}
+.x-produtos-home .bx-wrapper .bx-controls-direction .bx-prev {
+    background-image: url(//statick3.bseller.com.br/mi/assets/images/x-sprite.png?0.607449940405786);
+    background-position: -35px -52px;
+    width: 32px;
+    height: 34px
+}
+.x-produtos-home .bx-wrapper .bx-controls-direction .bx-next {
+    background-image: url(//statick3.bseller.com.br/mi/assets/images/x-sprite.png?0.607449940405786);
+    background-position: 0px -52px;
+    width: 33px;
+    height: 34px
+}
+.x-produtos-home .bx-wrapper .bx-pager {
+    text-align: center;
+    margin-top: 18px
+}
+.x-produtos-home .bx-wrapper .bx-pager .bx-pager-item {
+    display: inline-block
+}
+.x-produtos-home .bx-wrapper .bx-pager .bx-pager-link {
+    font-size: 0;
+    line-height: 0;
+    color: transparent;
+    display: block;
+    width: 13px;
+    height: 13px;
+    border-radius: 13px;
+    border: 1px solid #000;
+    background-color: #fff;
+    margin: 0 8px
+}
+.x-produtos-home .bx-wrapper .bx-pager .bx-pager-link.active {
+    background-color: #000
+}
+@media only screen and (min-width: 100px) and (max-width: 700px) {
+    .x-content.x-mobile>.bx-wrapper {
+        position: relative
+    }
+    .x-content.x-mobile>.bx-wrapper .k-bnrLnk {
+        display: block
+    }
+    .x-content.x-mobile>.bx-wrapper .k-bnrImg {
+        width: 100%;
+        display: block;
+        height: auto
+    }
+    .x-content.x-mobile>.bx-wrapper .bx-controls-direction {
+        display: none
+    }
+    .x-content.x-mobile>.bx-wrapper .bx-pager {
+        bottom: 5px
+    }
+    .x-content.x-mobile>.bx-wrapper .bx-pager .bx-pager-item {
+        width: 10px;
+        height: 10px;
+        margin: 7px
+    }
+    .x-content.x-mobile>.bx-wrapper .bx-pager .bx-pager-item a {
+        width: 10px;
+        height: 10px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens {
+        padding: 1px 11px 0 12px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens h3 {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        border-bottom: 1px solid #ccc;
+        font-size: 18px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens h3 a {
+        display: inline-block;
+        width: 100%;
+        padding: 11px 0px;
+        color: #606060
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens h3:after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        right: 7px;
+        background-image: url(//statick3.bseller.com.br/mi/assets/images/x-sprite_mobile.png?0.9200617021415383);
+        background-position: -69px -52px;
+        width: 17px;
+        height: 17px;
+        display: none
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens h3.x-active {
+        border-color: #fff
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens h3.x-active:after {
+        top: 11px;
+        background-image: url(//statick3.bseller.com.br/mi/assets/images/x-sprite_mobile.png?0.9200617021415383);
+        background-position: -118px -66px;
+        width: 17px;
+        height: 2px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item.x-flash-sales h3 {
+        border-bottom-width: 0;
+        color: #ff480d
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item.x-flash-sales h3:after {
+        display: none
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item.x-flash-sales h3 a {
+        color: inherit
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item .x-dropdown {
+        display: none;
+        border-bottom: 1px solid #ccc
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item li {
+        padding: 11px 22px;
+        font-size: 15px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item li a {
+        color: inherit
+    }
+    .x-destaques {
+        padding: 0;
+        float: left;
+        width: 100%
+    }
+    .x-destaques .x-produtos-home {
+        padding: 0
+    }
+    .x-destaques .x-produtos-home h3 {
+        margin-left: 3%
+    }
+    .x-destaques .bx-wrapper {
+        width: 297px
+    }
+    .x-destaques .bx-wrapper .bx-controls-direction {
+        display: none
+    }
+    .x-destaques .k-bnrHl {
+        margin-bottom: 11px
+    }
+    .x-destaques .k-bnrImg {
+        width: 100%;
+        height: 100%;
+        vertical-align: bottom
+    }
+}
+@media only screen and (min-width: 761px) and (max-width: 1080px) {
+    .x-content.x-mobile>.bx-wrapper {
+        position: relative
+    }
+    .x-content.x-mobile>.bx-wrapper .k-bnrLnk {
+        display: block
+    }
+    .x-content.x-mobile>.bx-wrapper .k-bnrImg {
+        width: 100%;
+        display: block;
+        height: auto
+    }
+    .x-content.x-mobile>.bx-wrapper .bx-controls-direction {
+        display: none
+    }
+    .x-content.x-mobile>.bx-wrapper .bx-pager {
+        bottom: 5px
+    }
+    .x-content.x-mobile>.bx-wrapper .bx-pager .bx-pager-item {
+        width: 10px;
+        height: 10px;
+        margin: 7px
+    }
+    .x-content.x-mobile>.bx-wrapper .bx-pager .bx-pager-item a {
+        width: 10px;
+        height: 10px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens {
+        padding: 1px 11px 0 12px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens h3 {
+        display: block;
+        cursor: pointer;
+        position: relative;
+        padding: 11px 0px;
+        border-bottom: 1px solid #ccc;
+        font-size: 18px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens h3:after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        right: 7px;
+        background-image: url(//statick3.bseller.com.br/mi/assets/images/x-sprite_mobile.png?0.9200617021415383);
+        background-position: -69px -52px;
+        width: 17px;
+        height: 17px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens h3.x-active {
+        border-color: #fff
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens h3.x-active:after {
+        top: 11px;
+        background-image: url(//statick3.bseller.com.br/mi/assets/images/x-sprite_mobile.png?0.9200617021415383);
+        background-position: -118px -66px;
+        width: 17px;
+        height: 2px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item.x-flash-sales h3 {
+        border-bottom-width: 0;
+        color: #ff480d
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item.x-flash-sales h3:after {
+        display: none
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item.x-flash-sales h3 a {
+        color: inherit
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item .x-dropdown {
+        display: none;
+        border-bottom: 1px solid #ccc
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item li {
+        padding: 11px 22px;
+        font-size: 15px
+    }
+    .x-content.x-mobile .x-navigation .x-menu-itens .x-item li a {
+        color: inherit
+    }
+    .x-destaques {
+        padding: 3px 11px 11px
+    }
+    .x-destaques .k-bnrHl {
+        margin-bottom: 11px
+    }
+    .x-destaques .k-bnrImg {
+        width: 100%;
+        height: 100%;
+        vertical-align: bottom
+    }
+}

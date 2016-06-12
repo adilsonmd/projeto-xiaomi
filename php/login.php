@@ -6,7 +6,7 @@
     
     <body>
     <?php
-        include("conectar.php");
+        require("conectar.php");
         
         $usuario = $_POST['user'];
         $senha = $_POST['pwd'];

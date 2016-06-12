@@ -1,0 +1,5729 @@
+
+
+/* line 195, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt01 {
+  margin: 0 0 10px 0;
+  clear: both;
+  border: 3px solid #fb802d;
+}
+
+/* line 196, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt thead.topBox01 th {
+  font-size: 0.8em;
+  color: #FFF;
+  padding: 5px 5px 8px 5px;
+  background: #fb802d;
+  white-space: nowrap;
+}
+
+/* line 197, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt thead.topBox01 th.col05 {
+  text-align: right;
+}
+
+/* line 198, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt thead.topBox01 .col01 {
+  text-align: left;
+  padding-left: 15px;
+}
+
+/* line 199, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt {
+  width: 100%;
+  clear: both;
+}
+
+/* line 200, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .ph {
+  width: 130px;
+  text-align: center;
+}
+
+/* line 201, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .grid th, .bkt .grid td {
+  width: 130px;
+  vertical-align: top;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #c2c2c2;
+}
+
+/* line 202, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .grid .ph, .bkt .grid .prods {
+  width: 580px;
+  text-align: left;
+}
+
+/* line 203, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .grid .photo {
+  width: 80px;
+  height: 80px;
+}
+
+/* line 204, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .grid .ph {
+  width: 110px;
+  padding-left: 15px;
+}
+
+/* line 205, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody tr.prod06 {
+  overflow: visible;
+}
+
+/* line 206, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .prod06 .prods .hproduct {
+  margin: 0;
+  padding: 0;
+  width: auto;
+  text-align: left;
+  padding: 0;
+}
+
+/* line 207, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .hproduct br {
+  line-height: 0;
+  display: block;
+}
+
+/* line 208, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .col02, .bkt tbody .col03 {
+  width: 130px;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 209, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRev .bkt .grid .col03 {
+  width: 320px;
+}
+
+/* line 210, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .dlvDate .shDt {
+  display: block;
+  color: #00adef;
+  font-size: 1.45em;
+}
+
+/* line 211, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .dlvDate > a {
+  display: block;
+  color: #00adef;
+  font-size: 0.9em;
+  text-decoration: underline;
+}
+
+/* line 212, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt td {
+  text-align: center;
+}
+
+/* line 213, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .col02 input {
+  width: 40px;
+  display: inline;
+  margin-bottom: 10px;
+}
+
+/* line 214, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .col02 .lk {
+  margin: 0 auto;
+  display: block;
+  background: none;
+  line-height: 2;
+  font-size: .8em;
+  text-indent: 0;
+  color: #666;
+  white-space: nowrap;
+  width: auto !important;
+  height: auto !important;
+  text-transform: lowercase;
+  text-decoration: underline;
+}
+
+/* line 215, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .price {
+  color: #666;
+}
+
+/* line 216, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .regular.price strong {
+  font-weight: normal;
+  font-size: 1.25em;
+}
+
+/* line 218, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .gf01,
+.bkt tbody .wt01 {
+  text-align: left;
+}
+
+/* line 221, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .gft,
+.bkt tbody .wty,
+.bkt tbody .ac01 {
+  text-align: left;
+  font-size: 0.9em;
+}
+
+/* line 224, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .gft a,
+.bkt tbody .wty a,
+.bkt tbody .ac01 a {
+  text-decoration: underline;
+}
+
+/* line 225, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .wt02 {
+  vertical-align: top;
+}
+
+/* line 226, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .aCrd {
+  color: #0082D6;
+}
+
+/* line 227, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .toalProd .price {
+  text-align: right;
+  padding: 2px 0;
+  border-bottom: 1px dotted #595959;
+}
+
+/* line 228, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .toalProd .price strong {
+  background: #efefef;
+  display: block;
+  padding: 5px;
+}
+
+/* line 234, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .acomCard .ac04,
+.bkt tbody .subtotal .stotal,
+.bkt tbody .clubeDeCompras .cCompras,
+.bkt tbody .desc .stotal,
+.bkt tbody .total .price,
+.bkt.conf tbody .stotal {
+  display: block;
+  padding-right: 5px;
+  text-align: right;
+}
+
+/* line 235, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .acomCard .ac05 {
+  vertical-align: top;
+  text-align: right;
+  padding-right: 5px;
+}
+
+/* line 236, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .acomCard .ac04 {
+  text-align: center;
+}
+
+/* line 237, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .acomCard .priceSubCard {
+  color: #00adef;
+}
+
+/* line 238, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .grid .col05 {
+  width: 150px;
+  text-align: right;
+  padding-right: 5px;
+}
+
+/* line 241, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .gifts .gf03 .price,
+.bkt .warranty .wt03 .price,
+.bkt .acomCard .ac05 .price {
+  color: #666;
+}
+
+/* line 242, ../../scss/suba/legacy/_checkout_components.scss */
+.cepNotCalc {
+  display: block;
+}
+
+/* line 247, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .subtotal .tp1,
+.bkt tbody .clubeDeCompras .tp1,
+.bkt tbody .desc .tp1,
+.bkt tbody .total .tp2,
+.bkt tbody .shp .tp1 {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: right;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+/* line 248, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .total .tp2 {
+  vertical-align: top;
+  background: #eeeeee;
+  color: #00adef;
+  font-size: 1.45em;
+  font-weight: bold;
+  padding: 15px 0 10px 15px;
+  text-align: right;
+  -moz-border-radius: 0px 0px 5px 0px;
+  -webkit-border-radius: 0px 0px 5px 0px;
+  border-radius: 0px 0px 5px 0px;
+}
+
+/* line 249, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .total .infoPurchase {
+  text-align: left;
+  background: #eeeeee;
+  padding: 10px;
+  border-radius: 0px 0px 0px 5px;
+  -moz-border-radius: 0px 0px 0px 5px;
+  -webkit-border-radius: 0px 0px 0px 5px;
+}
+
+/* line 250, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .total .infoPurchase .tx01 {
+  color: #00adef;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 251, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .total .infoPurchase .tx02 {
+  display: block;
+  margin: 0 0 0 29px;
+}
+
+/* line 252, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .total .infoPurchase .tx02 strong {
+  color: #333333;
+}
+
+/* line 253, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .desc .tp1 {
+  color: #009933;
+  font-weight: bold;
+}
+
+/* line 258, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .sp.tp1,
+.bkt tfoot .sp p,
+.bkt tfoot .vchr .topBox01,
+.bkt tfoot .vchr .voucher .dbt,
+.boxSubM .subM {
+  display: none;
+}
+
+/* line 259, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .subtotal {
+  border-top: 1px solid #CCCCCC;
+  color: #00ADEF;
+  background: #D3EDFE;
+}
+
+/* line 260, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .subtotal .stotal {
+  font-size: 1.2em;
+  margin: 10px 0;
+  display: block;
+}
+
+/* line 261, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .subtotal .stotalbl {
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+/* line 262, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .clubeDeCompras {
+  border-top: #ccc 1px solid;
+  color: #009b25;
+}
+
+/* line 263, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .clubeDeCompras .cCompras {
+  font-size: 1.2em;
+  margin: 10px 0;
+  display: block;
+}
+
+/* line 264, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .clubeDeCompras .cComprasLbl {
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+/* line 265, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .valorFrete {
+  background: #fff;
+}
+
+/* line 266, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .valorFrete td.tp1 {
+  vertical-align: top;
+}
+
+/* line 267, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .valorFrete .lblFrete {
+  display: block;
+  margin: 11px 0 0 12px;
+  color: #666;
+  text-transform: none;
+  text-align: left;
+}
+
+/* line 268, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .valorFrete .vFrete {
+  display: block;
+  font-size: 1.1em;
+  margin: 10px 0;
+  padding-right: 5px;
+}
+
+/* line 271, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .warranty td {
+  vertical-align: middle;
+  padding: 0 0 10px 0;
+}
+
+/* line 272, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .warranty .wty .select {
+  float: left;
+  margin: 6px 5px 0 0;
+}
+
+/* line 273, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .warranty .wty .desc {
+  float: left;
+  margin: 3px 0 0;
+  width: 330px;
+}
+
+/* line 275, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .warranty .wt01 .wty .ico {
+  background-position: -36px -383px;
+  height: 20px;
+  width: 25px;
+  margin: 1px 5px 0 0;
+  float: left;
+}
+
+/* line 276, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .warranty .wt03 {
+  text-align: right;
+  padding: 0 5px 0 0;
+}
+
+/* line 279, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .shpBox {
+  text-align: left;
+}
+
+/* line 280, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .sp .calc .tp1 {
+  width: 55px;
+}
+
+/* line 281, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .sp .calc .cep {
+  display: inline-block;
+  font-weight: bold;
+}
+
+/* line 282, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .sp .calc *, .bkt tfoot .vchr .voucher *, .bkt .warranty * {
+  vertical-align: middle;
+}
+
+/* line 283, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .sp .calc .tp2 {
+  width: 34px;
+}
+
+/* line 284, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .desc td, .bkt tfoot .desc th {
+  border-bottom: 1px dotted #595959;
+  padding: 10px 0;
+}
+
+/* line 285, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .vchr .box01 {
+  border: none;
+  padding: 0;
+  position: static;
+}
+
+/* line 286, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .vchr .voucher {
+  text-align: left;
+}
+
+/* line 287, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .vchr .voucher p {
+  display: inline;
+  font-weight: bold;
+  font-size: 1.2em;
+  margin: 0 5px 0px 0;
+}
+
+/* line 288, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .vchrBox td {
+  padding-top: 15px;
+  background: #f9f9f9;
+}
+
+/* line 289, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.vchIco {
+  width: 29px;
+  height: 19px;
+  background-position: 0 -410px;
+  margin: 0 4px 0 0;
+}
+
+/* line 290, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.vchIcoBig {
+  width: 72px;
+  height: 45px;
+  background-position: -388px -113px;
+}
+
+/* line 291, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .vchr fieldset, .bkt tfoot .cepBkt fieldset {
+  float: left;
+}
+
+/* line 292, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .vchrPrice {
+  text-align: right;
+  padding-right: 5px;
+  color: #39c81f;
+  font-weight: bold;
+}
+
+/* line 293, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .vchrBox td {
+  padding: 10px 5px 10px 15px;
+  border-top: 1px solid #CCCCCC;
+}
+
+/* line 294, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot #voucherNumber {
+  width: 165px;
+}
+
+/* line 295, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .vchrBox .vchrPrice {
+  font-size: 1.35em;
+}
+
+/* line 296, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .cepBkt td {
+  background: #eee;
+  padding: 10px 5px 10px 15px;
+  white-space: nowrap;
+}
+
+/* line 298, ../../scss/suba/legacy/_checkout_components.scss */
+.gftPrice td,
+.gftPrice th {
+  background: #F5F5F5;
+  padding: 10px 5px 10px 15px;
+  white-space: nowrap;
+}
+
+/* line 299, ../../scss/suba/legacy/_checkout_components.scss */
+.gftPrice .tp1 {
+  font-size: 1.1em;
+}
+
+/* line 300, ../../scss/suba/legacy/_checkout_components.scss */
+.gftPrice .tp2 {
+  color: #0082D6;
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+/* line 301, ../../scss/suba/legacy/_checkout_components.scss */
+.gftPrice .ico.gftTi {
+  width: 23px;
+  height: 23px;
+  background-position: -286px -371px;
+  margin-right: 5px;
+}
+
+/* line 302, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .cepBkt .sp.tp3 {
+  color: #0082D6;
+  text-align: right;
+}
+
+/* line 303, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .cepBkt .sp.tp3 strong span {
+  display: block;
+}
+
+/* line 304, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .cepBkt .priceCep {
+  font-size: 1.35em;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 305, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .cepBkt .dtCep span {
+  font-weight: bold;
+  font-size: 1.22em;
+}
+
+/* line 306, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .totalPrice .price {
+  font-size: 1.24em;
+  display: block;
+}
+
+/* line 307, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .totalPrice .prcl01 {
+  color: #666;
+  display: block;
+  text-align: right;
+  font-weight: normal;
+  font-size: 0.7em;
+  text-transform: uppercase;
+}
+
+/* line 308, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .totalPrice .prcl02 {
+  color: #00adef;
+  display: block;
+  text-align: right;
+  font-size: 0.75em;
+}
+
+/* line 310, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tfoot .total .totalPrice {
+  padding-right: 5px;
+}
+
+/* line 311, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt tbody .ac01 {
+  padding-bottom: 15px;
+}
+
+/* line 313, ../../scss/suba/legacy/_checkout_components.scss */
+.basket .buttons.layer {
+  overflow: hidden;
+}
+
+/* line 316, ../../scss/suba/legacy/_checkout_components.scss */
+.vouchers_list {
+  margin-top: 10px;
+}
+
+/* line 317, ../../scss/suba/legacy/_checkout_components.scss */
+.vouchers_list .voucher_label {
+  display: inline-block;
+  width: 168px;
+  color: #666;
+}
+
+/* line 318, ../../scss/suba/legacy/_checkout_components.scss */
+.vouchers_list .voucher_value {
+  display: inline-block;
+  width: 80px;
+  text-align: right;
+  font-style: normal;
+  color: #00992d;
+  margin-right: 1em;
+}
+
+/* line 319, ../../scss/suba/legacy/_checkout_components.scss */
+.vouchers_list .remove_voucher {
+  text-decoration: underline;
+}
+
+/* line 321, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .voucher_self {
+  text-align: left;
+}
+
+/* line 322, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .voucher_self .voucher_label {
+  font-size: 1.2em;
+  margin: 10px 0;
+  display: block;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: right;
+  color: #39c81f;
+}
+
+/* line 331, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .voucher_self .remove_voucher {
+  text-decoration: underline;
+}
+
+/* line 332, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .voucher_item .vchrPrice {
+  font-size: 1.1em;
+}
+
+/* line 334, ../../scss/suba/legacy/_checkout_components.scss */
+.payBoxVoucher .box01 {
+  position: relative;
+}
+
+/* line 335, ../../scss/suba/legacy/_checkout_components.scss */
+.payBoxVoucher .tbExposeData {
+  float: left;
+  width: 300px;
+  margin-top: 12px;
+  margin-left: 85px;
+  color: #0082d6;
+  font-weight: bold;
+  text-align: left;
+}
+
+/* line 336, ../../scss/suba/legacy/_checkout_components.scss */
+.tbExposeData .trDiscount {
+  color: #00992d;
+}
+
+/* line 337, ../../scss/suba/legacy/_checkout_components.scss */
+.tbExposeData td {
+  text-align: right;
+}
+
+/* line 338, ../../scss/suba/legacy/_checkout_components.scss */
+.payBoxVoucher .buttons {
+  float: right;
+}
+
+/* line 340, ../../scss/suba/legacy/_checkout_components.scss */
+.payBoxVoucher .vchIcoBig {
+  position: absolute;
+  top: 50%;
+  margin-top: -22px;
+  left: 10px;
+}
+
+/* Bandeiras */
+/* line 343, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crd, .ico.payVisa, .ico.payMaster, .ico.payAcomMaster, .ico.payAura, .ico.payAmexCorp, .ico.payAmex, .ico.payDiners, .ico.payItau, .ico.payBB, .ico.crdVisa, .ico.crdMaster, .ico.crdAmex, .ico.crdAmexCorp, .ico.crdDinners, .ico.crdAura, .ico.crdSuba1, .ico.crdSuba2, .ico.crdHiperCard, .ico.crd.elo, .ico.payElo, .ico.crdElo {
+  width: 59px;
+  height: 38px;
+}
+
+/* line 346, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crd.visa,
+.ico.payVisa,
+.ico.crdVisa {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat 0 0;
+}
+
+/* line 349, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crd.master,
+.ico.payMaster,
+.ico.crdMaster {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -62px 0;
+}
+
+/* line 352, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crd.amex,
+.ico.payAmex,
+.ico.crdAmex {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -120px 0;
+}
+
+/* line 355, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crd.amexCorp,
+.ico.payAmexCorp,
+.ico.crdAmexCorp {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -180px 0;
+}
+
+/* line 358, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crd.aura,
+.ico.payAura,
+.ico.crdAura {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -240px 0;
+}
+
+/* line 361, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crd.elo,
+.ico.payElo,
+.ico.crdElo {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -417px 0;
+}
+
+/* line 364, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crd.dinners,
+.ico.payDiners,
+.ico.crdDinners {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -300px 0;
+}
+
+/* line 366, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crd.hipercard,
+.crdHiperCard {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -360px 0;
+}
+
+/* line 367, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.debt {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat 0 -41px;
+  width: 80px;
+  height: 53px;
+}
+
+/* line 368, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.boleto {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -30px -118px;
+  height: 38px;
+  width: 74px;
+}
+
+/* line 369, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.twoCrds {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -158px -41px;
+  height: 53px;
+  width: 79px;
+}
+
+/* line 370, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.subaCrd {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -239px -41px;
+  height: 53px;
+  width: 124px;
+}
+
+/* line 372, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.itau,
+.ico.payItau {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -163px -127px;
+  width: 30px;
+  height: 38px;
+  margin-left: 60px !important;
+}
+
+/* line 374, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.bb,
+.ico.payBB {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -208px -127px;
+  width: 30px;
+  height: 38px;
+  margin-left: 60px !important;
+}
+
+/* line 377, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.subaCrdMst,
+.ico.payAcomMaster,
+.ico.paySubaMaster {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -134px -40px;
+  height: 70px;
+  width: 70px;
+}
+
+/* line 379, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.subaCrdAura,
+.ico.paySubaAura {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -200px -40px;
+  height: 53px;
+  width: 62px;
+}
+
+/* line 380, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crdSuba1 {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -262px -224px;
+}
+
+/* line 381, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crdSuba2 {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -313px -224px;
+}
+
+/* line 382, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.crdHiperCard {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -263px -266px;
+}
+
+/* Bototes */
+/* Botes Fechar Pedido */
+/* line 386, ../../scss/suba/legacy/_checkout_components.scss */
+.button.btTrackOrder {
+  width: 193px;
+  height: 36px;
+  background-position: -0 -471px;
+}
+
+/* line 387, ../../scss/suba/legacy/_checkout_components.scss */
+.button.btConfirm {
+  width: 194px;
+  height: 38px;
+  background: url(../../img/suba/spriteBi-1.png) no-repeat 0 -309px;
+}
+
+/* line 388, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.clCrtsub {
+  width: 172px;
+  height: 37px;
+  background-position: 0 0;
+}
+
+/* line 389, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.clBolBnk {
+  width: 172px;
+  height: 35px;
+  background-position: 0 -41px;
+}
+
+/* line 390, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.cl1click {
+  width: 194px;
+  height: 38px;
+  background-position: -175px 0;
+}
+
+/* line 391, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.clDebt {
+  width: 173px;
+  height: 37px;
+  background-position: -175px -40px;
+}
+
+/* line 392, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.clCdCrd {
+  width: 173px;
+  height: 37px;
+  background-position: 0 -78px;
+}
+
+/* line 393, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.cl2cards {
+  width: 173px;
+  height: 36px;
+  background-position: -173px -78px;
+}
+
+/*width:193px;height:36px;background-position:-452px -351px;*/
+/* line 394, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btSaveAdd {
+  width: 279px;
+  height: 23px;
+  background-position: -372px -55px;
+}
+
+/* line 395, ../../scss/suba/legacy/_checkout_components.scss */
+.btVoucher {
+  width: 172px;
+  height: 35px;
+  background-position: -452px -399px;
+}
+
+/* FIM Botes Fechar Pedido */
+/* line 397, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+/* line 398, ../../scss/suba/legacy/_checkout_components.scss */
+.forward, .ff {
+  float: right;
+  margin-right: 10px;
+}
+
+/* line 399, ../../scss/suba/legacy/_checkout_components.scss */
+.rewind, .rw {
+  float: left;
+  margin-left: 10px;
+}
+
+/* line 400, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btCont01, .button.btCont4 {
+  width: 156px;
+  height: 32px;
+  background-position: 0 0;
+}
+
+/* line 401, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btCont02 {
+  width: 140px;
+  height: 27px;
+  background-position: 0 -280px;
+}
+
+/* line 402, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btCont03 {
+  width: 106px;
+  height: 21px;
+  background-position: -218px -173px;
+}
+
+/* line 403, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btCont04 {
+  width: 88px;
+  height: 21px;
+  background-position: 0 -197px;
+}
+
+/* line 404, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btContBuy {
+  background-position: -451px 0;
+  height: 27px;
+  width: 230px;
+}
+
+/* line 405, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btConCad {
+  width: 177px;
+  height: 27px;
+  background-position: -176px -116px;
+}
+
+/* line 406, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btB1click, .button.bt1Click {
+  width: 156px;
+  height: 25px;
+  background-position: 0 -42px;
+  margin-top: 15px;
+}
+
+/* line 407, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click.off .button.bt1Click {
+  background-position: 0 -42px;
+  height: 26px;
+  width: 156px;
+}
+
+/* line 408, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btUseAddDl {
+  width: 216px;
+  height: 22px;
+  background-position: 0 -173px;
+}
+
+/* line 409, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btUseAddDl02 {
+  width: 162px;
+  height: 20px;
+  background-position: -238px -197px;
+}
+
+/* line 410, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btUseAddDl03 {
+  width: 181px;
+  height: 21px;
+  background-position: -203px -62px;
+}
+
+/* line 411, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btCrtCad {
+  width: 146px;
+  height: 22px;
+  background-position: -91px -198px;
+}
+
+/* line 412, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btChgOrder {
+  width: 193px;
+  height: 26px;
+  background-position: 0 -221px;
+}
+
+/* line 413, ../../scss/suba/legacy/_checkout_components.scss */
+.btPrintBSlip {
+  width: 161px;
+  height: 24px;
+  background-position: -203px -154px;
+}
+
+/* line 414, ../../scss/suba/legacy/_checkout_components.scss */
+.resumeOrderBoleto .btPrintBSlip {
+  width: 251px;
+  height: 41px;
+  background-position: -392px -550px;
+}
+
+/* line 415, ../../scss/suba/legacy/_checkout_components.scss */
+.btPayB {
+  width: 170px;
+  height: 24px;
+  background-position: -202px  -500px;
+}
+
+/* line 417, ../../scss/suba/legacy/_checkout_components.scss */
+#formMastercardMaestro .btPayB {
+  width: 258px;
+  height: 25px;
+  background-position: -191px  -964px;
+}
+
+/* line 419, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btBkHome {
+  width: 230px;
+  height: 27px;
+  background-position: -451px 0;
+}
+
+/* line 420, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btGrt {
+  width: 156px;
+  height: 24px;
+  background-position: -233px -249px;
+}
+
+/* line 421, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btB1clickOff {
+  background: url(../../img/suba/spriteBi-2.png) no-repeat 0 0;
+  width: 175px;
+  height: 26px;
+}
+
+/* line 422, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btNoGrt {
+  width: 175px;
+  height: 26px;
+  background: url(../../img/suba/spriteBi-2.png) no-repeat -176px 0;
+}
+
+/* line 423, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btBMoreIt, .button.btCont {
+  width: 184px;
+  height: 26px;
+  background-position: -203px -118px;
+  margin: 0 0 10px 0;
+}
+
+/* line 424, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btBMoreIt .ico, .button.btCont .ico {
+  display: none;
+}
+
+/* line 425, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btCadNewAdd {
+  width: 241px;
+  height: 21px;
+  background-position: -202px 0;
+}
+
+/* line 427, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.backPayment {
+  background-position: -459px -959px;
+  width: 223px;
+  height: 30px;
+}
+
+/* line 428, ../../scss/suba/legacy/_checkout_components.scss */
+.btChCep {
+  height: 15px;
+  width: 77px;
+  background-position: -302px -190px;
+}
+
+/* line 430, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btChgCard {
+  width: 152px;
+  height: 14px;
+  background-position: -453px -166px;
+}
+
+/* line 431, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btRemove {
+  width: 59px;
+  height: 14px;
+  background: url(../../img/suba/spriteBi-2.png) no-repeat 0 -71px;
+}
+
+/* line 432, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .lk.btRemove {
+  width: 52px;
+  height: 17px;
+  background-position: -512px -61px;
+}
+
+/* line 433, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .lk.btRefresh {
+  width: 112px;
+  height: 17px;
+  background-position: -512px -88px;
+}
+
+/* line 434, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .lk.btBuyLater {
+  width: 112px;
+  height: 17px;
+  background-position: -513px -115px;
+}
+
+/* line 435, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btCadAdd {
+  width: 205px;
+  height: 18px;
+  background: url(../../img/suba/spriteBi-2.png) no-repeat -61px -71px;
+}
+
+/* line 436, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btHelp {
+  width: 79px;
+  height: 16px;
+  background: url(../../img/suba/spriteBi-2.png) no-repeat -32px -91px;
+}
+
+/* line 437, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btDel, .button.btRem {
+  width: 41px;
+  height: 12px;
+  background: url(../../img/suba/spriteBi-2.png) no-repeat -114px -92px;
+  margin: 0 0 0 20px;
+}
+
+/* line 438, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btEdit, .button.btMod {
+  width: 41px;
+  height: 12px;
+  background: url(../../img/suba/spriteBi-2.png) no-repeat -157px -92px;
+}
+
+/* line 439, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btBuyAf {
+  width: 79px;
+  height: 14px;
+  background: url(../../img/suba/spriteBi-2.png) no-repeat -200px -91px;
+}
+
+/* line 440, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .lk.btBuyAf {
+  width: 94px;
+  height: 17px;
+  background-position: -513px -115px;
+}
+
+/* line 441, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.btOk, .vchrBox .voucher .button.btVor {
+  width: 32px;
+  height: 17px;
+  background-position: -452px -37px;
+}
+
+/* line 442, ../../scss/suba/legacy/_checkout_components.scss */
+.button.btChPayForm {
+  background: url(../../img/suba/spriteBi-2.png) no-repeat 0 -110px;
+  height: 16px;
+  width: 169px;
+}
+
+/* line 443, ../../scss/suba/legacy/_checkout_components.scss */
+.button.btDef {
+  background-position: -349px -95px;
+  height: 20px;
+  width: 162px;
+}
+
+/* line 444, ../../scss/suba/legacy/_checkout_components.scss */
+.btn.cls {
+  width: 15px;
+  height: 15px;
+  background: url(../../img/suba/spriteBi-2.png) no-repeat -154px -129px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+/* line 445, ../../scss/suba/legacy/_checkout_components.scss */
+.BoxUsAddres .btn.cls {
+  width: 15px;
+  height: 15px;
+  background: url(../../img/suba/spriteBi-2.png) no-repeat -154px -129px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  display: none;
+}
+
+/* line 446, ../../scss/suba/legacy/_checkout_components.scss */
+.button.btSelect {
+  width: 93px;
+  height: 22px;
+  background-position: -203px -187px;
+  margin-top: 5px;
+}
+
+/* line 447, ../../scss/suba/legacy/_checkout_components.scss */
+.btReptTxt {
+  background-position: -371px -132px;
+  height: 16px;
+  width: 197px;
+  margin-right: 5px;
+}
+
+/* line 448, ../../scss/suba/legacy/_checkout_components.scss */
+.btClose1Click {
+  background-position: 0 -425px;
+  height: 36px;
+  width: 193px;
+}
+
+/* line 449, ../../scss/suba/legacy/_checkout_components.scss */
+.button.btCardSel {
+  width: 165px;
+  height: 21px;
+  background-position: -201px -396px;
+  border: none;
+  display: inline-block !important;
+}
+
+/* line 450, ../../scss/suba/legacy/_checkout_components.scss */
+.btNewAdd {
+  background-position: -202px 0;
+  height: 21px;
+  width: 241px;
+}
+
+/* line 451, ../../scss/suba/legacy/_checkout_components.scss */
+.btCadCard {
+  background-position: -202px -365px;
+  height: 21px;
+  width: 206px;
+}
+
+/* Sugestao de produto */
+/* line 454, ../../scss/suba/legacy/_checkout_components.scss */
+.sugBox {
+  margin: 20px 5px 0;
+  clear: both;
+  zoom: 1;
+}
+
+/* line 455, ../../scss/suba/legacy/_checkout_components.scss */
+.sugBox .box5 {
+  position: relative;
+}
+
+/* line 456, ../../scss/suba/legacy/_checkout_components.scss */
+.sugBox .box5-a {
+  zoom: 1;
+}
+
+/* line 457, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions {
+  padding: 10px 0;
+  width: 97%;
+  margin: 0 auto;
+  position: relative;
+  left: -7px;
+}
+
+/* line 458, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions.vitrineReady {
+  height: 95px;
+  overflow: hidden;
+}
+
+/* line 459, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions .prod07 .prods .hproduct .cont {
+  float: none;
+  padding-right: 0;
+}
+
+/* line 460, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions .topBox01 {
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* line 461, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions .hproduct .photo {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+/* line 462, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions.vitrineReady .grid {
+  overflow: hidden;
+  height: 95px;
+}
+
+/* line 463, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions .grid .li {
+  width: 33%;
+  float: left;
+}
+
+/* line 464, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions .hproduct {
+  width: auto;
+  margin: 0;
+  padding: 0 10px;
+}
+
+/* line 465, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions .grid .hproduct .name {
+  font-weight: normal;
+}
+
+/* line 466, ../../scss/suba/legacy/_checkout_components.scss */
+.suggestions .button.incB {
+  background-position: 0 -76px;
+  height: 17px;
+  width: 156px;
+  margin-top: 5px;
+}
+
+/* line 468, ../../scss/suba/legacy/_checkout_components.scss */
+.btPrevSuggestions,
+.btNextSuggestions {
+  width: 14px;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+  position: absolute;
+  cursor: pointer;
+  border: 0;
+  background-image: url(../../img/suba/spriteIconesCk_3.png);
+}
+
+/* line 469, ../../scss/suba/legacy/_checkout_components.scss */
+.btPrevSuggestions {
+  left: -1px;
+  background-position: -201px -464px;
+}
+
+/* line 470, ../../scss/suba/legacy/_checkout_components.scss */
+.btNextSuggestions {
+  right: 8px;
+  background-position: -201px -489px;
+}
+
+/* line 471, ../../scss/suba/legacy/_checkout_components.scss */
+.sugBox .btn[disabled] {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
+  filter: alpha(opacity=40);
+  -moz-opacity: .4;
+  opacity: .4;
+}
+
+/* line 473, ../../scss/suba/legacy/_checkout_components.scss */
+.sugBox .boxTop1-a {
+  padding: 3px 5px 2px 19px;
+  position: relative;
+  overflow: visible;
+}
+
+/* line 474, ../../scss/suba/legacy/_checkout_components.scss */
+.sugBox .stpSg {
+  width: 25px;
+  height: 24px;
+  background-position: -33px -530px;
+  position: absolute;
+  left: -5px;
+  top: -20px;
+}
+
+/* line 475, ../../scss/suba/legacy/_checkout_components.scss */
+.sugBox.collapsed .stpSg {
+  background-position: 0 -530px;
+}
+
+/* line 476, ../../scss/suba/legacy/_checkout_components.scss */
+.sugBox.collapsed .sugDisclaimer {
+  display: none;
+}
+
+/* Box botao 1click */
+/* line 478, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click {
+  overflow: hidden;
+  width: 340px;
+  text-align: right;
+  position: relative;
+  /* top:66px; */
+  min-height: 83px;
+}
+
+/* line 479, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click.top {
+  position: relative;
+  top: 66px;
+}
+
+/* line 480, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click .boxCont {
+  overflow: hidden;
+  float: left;
+  width: 100%;
+}
+
+/* line 481, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click .boxCont1 {
+  display: block;
+  padding: 5px 30px 0;
+}
+
+/* line 482, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click .boxCont select {
+  font-size: 1em;
+  text-align: left;
+  width: 105px;
+}
+
+/* line 483, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click .txt {
+  border-top: 1px dotted #7f7f7f;
+  display: block;
+  margin: 5px;
+  padding-bottom: 0;
+  position: relative;
+  text-align: center;
+  top: 7px;
+  clear: both;
+}
+
+/* line 484, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click .txt strong {
+  background: #fff;
+  font-weight: normal;
+  padding: 0 5px;
+  position: relative;
+  top: -7px;
+  left: 85px;
+}
+
+/* line 487, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click .boxCont.off a,
+.buttons1Click .boxCont.on a {
+  color: #00adef;
+}
+
+/* line 488, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click.off .boxCont1 {
+  padding: 6px 0 0 20px;
+}
+
+/* line 489, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons1Click.off .ico.qstn {
+  margin-left: 10px;
+}
+
+/* line 490, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons.layer .buttons1Click {
+  position: static;
+}
+
+/* line 492, ../../scss/suba/legacy/_checkout_components.scss */
+.boxCont.off .btn.btB1click,
+.boxCont.off .button.bt1Click {
+  width: 155px;
+  height: 20px;
+  background-position: -453px -252px;
+}
+
+/* line 494, ../../scss/suba/legacy/_checkout_components.scss */
+.boxCont.on .btn.btB1click,
+.boxCont.on .button.bt1Click {
+  width: 155px;
+  height: 20px;
+  background-position: -453px -282px;
+}
+
+/* line 495, ../../scss/suba/legacy/_checkout_components.scss */
+#callLoginTop {
+  margin: 10px 0 0 0;
+}
+
+/* popUp */
+/* line 498, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid #c03826;
+  padding: 5px;
+}
+
+/* apenas uma formatacao para visualizar retirar depois */
+/* line 499, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp .titleBox01 {
+  margin-bottom: 40px;
+}
+
+/* line 500, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp .buttonBox {
+  overflow: hidden;
+}
+
+/* line 501, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp .buttonBox .btCont01 {
+  float: right;
+  margin: 0 15px 15px;
+}
+
+/* line 502, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp ul {
+  margin-bottom: 35px;
+}
+
+/* line 504, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp .boxR1 {
+  border: none;
+}
+
+/* line 506, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp ul.problemas {
+  margin: 0;
+}
+
+/* line 507, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp .problemas li {
+  display: moz-inline-box;
+  display: inline-block;
+  color: #ccc;
+}
+
+/* line 508, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp .problemas li a {
+  color: #666;
+  padding-right: 5px;
+  font-size: 0.8em;
+}
+
+/* line 510, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.login2 .banner, .popUp.login2Erro .banner {
+  width: 58.36em;
+  margin: 0 auto 10px;
+}
+
+/* apenas uma formatacao para visualizar retirar depois */
+/* line 512, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente {
+  background: url(../../img/suba/presente.jpg) no-repeat right 0;
+  width: 810px;
+}
+
+/* apenas uma formatacao para visualizar retirar depois */
+/* line 513, ../../scss/suba/legacy/_checkout_components.scss */
+.topBoxPresent {
+  padding: 15px 0 130px 25px;
+  margin-bottom: -100px;
+}
+
+/* line 514, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente .titleBox01 {
+  margin: 0;
+}
+
+/* line 515, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente .topBoxPresent .subTit01 {
+  display: block;
+  line-height: 1.4;
+  margin: -10px 330px 0 60px;
+}
+
+/* line 516, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente .nameArt {
+  border-bottom: 1px dotted #ccc;
+  overflow: hidden;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+/* line 517, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente ul li {
+  clear: both;
+  margin-bottom: 3px;
+  padding: 0;
+  overflow: hidden;
+}
+
+/* line 518, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente .lbl {
+  width: auto;
+}
+
+/* line 519, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente input {
+  float: left;
+  margin-right: 5px;
+}
+
+/* line 520, ../../scss/suba/legacy/_checkout_components.scss */
+.boxPhoto {
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 521, ../../scss/suba/legacy/_checkout_components.scss */
+.boxPhoto .num {
+  font-size: 1.45em;
+  font-weight: bold;
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 522, ../../scss/suba/legacy/_checkout_components.scss */
+.nameArt .title7, .nameArt .subTit01 {
+  color: #666;
+}
+
+/* line 523, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente ul li.msgBox {
+  margin-top: 15px;
+  width: 400px;
+  float: left;
+  clear: none;
+}
+
+/* line 524, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente ul li.SelectBox {
+  float: left;
+  width: 250px;
+  clear: none;
+  padding-top: 30px;
+}
+
+/* line 525, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente .msgBox span {
+  display: block;
+  float: none;
+  margin: 0 0 5px 0;
+  text-align: left;
+  width: auto;
+}
+
+/* line 526, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente .msgBox .msg {
+  width: 390px;
+  height: 95px;
+  overflow: auto;
+  float: none;
+  margin: 0 0 5px 0;
+}
+
+/* line 527, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente .SelectBox .lbl {
+  display: block;
+  float: none;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+/* line 528, ../../scss/suba/legacy/_checkout_components.scss */
+.SelectBox select {
+  margin-bottom: 40px;
+  width: 140px;
+}
+
+/* line 529, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente .buttonBox .btCont01 {
+  float: none;
+  margin: 0;
+}
+
+/* line 530, ../../scss/suba/legacy/_checkout_components.scss */
+.popUp.presente .presList {
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+
+/* line 532, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .lbl {
+  width: 145px;
+}
+
+/* line 534, ../../scss/suba/legacy/_checkout_components.scss */
+.ilegivel .lbl {
+  float: none;
+}
+
+/* line 535, ../../scss/suba/legacy/_checkout_components.scss */
+.ilegivel input {
+  margin: 0 7px;
+}
+
+/* Pagina Pagamento */
+/* line 538, ../../scss/suba/legacy/_checkout_components.scss */
+#area02-wrap {
+  overflow: hidden;
+  padding: 20px 0 15px 35px;
+  clear: both;
+}
+
+/* line 539, ../../scss/suba/legacy/_checkout_components.scss */
+#area02-wrap #area02-1 {
+  float: left;
+  margin-left: -35px;
+  width: 49.9%;
+}
+
+/* line 540, ../../scss/suba/legacy/_checkout_components.scss */
+#area02-wrap #area02-2 {
+  float: right;
+  width: 49.9%;
+}
+
+/* line 542, ../../scss/suba/legacy/_checkout_components.scss */
+.buttons.btTop {
+  float: right;
+  margin: 0 10px 0 0;
+  padding: 0;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Dados da Compra */
+/* line 544, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .box01 {
+  padding: 5px 5px 0 5px;
+}
+
+/* line 545, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .boxTop1-a, .delAddress .boxTop1-a {
+  font-size: 1.1em;
+  padding-left: 6px;
+}
+
+/* line 546, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .boxTop1-a {
+  font-size: 1.1em;
+  padding-left: 7px;
+}
+
+/* line 547, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .boxTop1-a .priceSubTitle {
+  margin-right: 10px;
+  right: 0;
+  position: absolute;
+}
+
+/* line 548, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData table {
+  width: 100%;
+}
+
+/* line 549, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData table tfoot {
+  color: #00992D;
+}
+
+/* line 550, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .tfTotal {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #00ADEF;
+}
+
+/* line 551, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .tfDesc > .col02 {
+  font-weight: bold;
+}
+
+/* line 552, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .tfInfoDesc .tfInfoDescCont {
+  padding: 0 10px 10px 10px;
+}
+
+/* line 553, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .tfInfoDesc .tfInfoDescCont .InfDscBdr {
+  border-top: 1px dotted #9d9d9d;
+  padding-top: 8px;
+  margin: 4px 0 0 0;
+}
+
+/* line 554, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .totalBrandCard {
+  font-size: 1.2em;
+}
+
+/* line 555, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData table tfoot .total {
+  font-size: 1.35em;
+  font-weight: bold;
+}
+
+/* line 556, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData table .up {
+  text-transform: uppercase;
+}
+
+/* line 558, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData table td,
+.purchaseData table th {
+  padding: 4px 10px 0;
+}
+
+/* line 559, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData table tfoot td, .purchaseData table tfoot th {
+  border: none;
+}
+
+/* line 560, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .col01 {
+  text-align: left;
+}
+
+/* line 561, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .col02 {
+  text-align: right;
+}
+
+/* line 562, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .desc td, .purchaseData .desc th {
+  color: #00992d;
+}
+
+/* line 563, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .frete td {
+  color: #01a8dd;
+}
+
+/* line 565, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .desc td.col02,
+.purchaseData .sTotal {
+  font-weight: bold;
+}
+
+/* line 569, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .box5-c,
+.purchaseData .box5-b,
+.purchaseData .box5-a,
+.purchaseData .box5 {
+  padding: 0;
+  background: none;
+  position: static;
+  margin: 0;
+}
+
+/* line 570, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .bg .colBg01 {
+  background: white url(../../img/suba/bgLeftTD.gif) no-repeat;
+  padding: 0;
+  height: 7x;
+}
+
+/* line 571, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .bg .colBg02 {
+  background: white url(../../img/suba/bgRightTD.gif) no-repeat right top;
+  padding: 0;
+  height: 7px;
+}
+
+/* line 573, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .box5,
+.purchaseData .box5-a {
+  position: relative;
+  left: 0;
+}
+
+/* line 574, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .box5:after {
+  display: block;
+  height: 0;
+  left: 3px;
+  position: absolute;
+  top: -5px;
+  width: 0;
+}
+
+/* line 575, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .box5-a:after {
+  display: block;
+  height: 0;
+  right: 10px;
+  position: absolute;
+  top: -4px;
+  width: 0;
+}
+
+/* line 576, ../../scss/suba/legacy/_checkout_components.scss */
+.totalBrandCard .col01 {
+  font-weight: normal;
+}
+
+/* line 577, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .box5 {
+  font-size: 1.1em;
+}
+
+/* line 578, ../../scss/suba/legacy/_checkout_components.scss */
+.purchaseData .totalProd .col01, .purchaseData .totalProd .col02 {
+  padding: 15px 10px 2px 10px;
+}
+
+/* Endereco Entrega */
+/* line 581, ../../scss/suba/legacy/_checkout_components.scss */
+.adr {
+  font-style: normal;
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 582, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .adr {
+  margin-left: 5px;
+}
+
+/* line 583, ../../scss/suba/legacy/_checkout_components.scss */
+.adr .type {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* line 589, ../../scss/suba/legacy/_checkout_components.scss */
+.adr .name,
+.adr .owner,
+.adr .type,
+.adr .street-address,
+.adr .phone,
+.adr .mail {
+  display: block;
+}
+
+/* line 590, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress {
+  margin: 0 0 18px 0px;
+}
+
+/* line 591, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .boxR4 {
+  position: relative;
+}
+
+/* line 592, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .buttons {
+  padding: 10px 0 5px 3px;
+  clear: both;
+}
+
+/* line 593, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .buttons .btChAddress {
+  margin-right: 5px;
+  background-position: -203px -93px;
+  width: 171px;
+  height: 15px;
+}
+
+/* line 594, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .buttons .btGift {
+  background-position: -203px -244px;
+  height: 15px;
+  width: 130px;
+  float: none;
+}
+
+/* line 595, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .msgBox {
+  float: left;
+  margin-top: 10px;
+  width: 300px;
+}
+
+/* line 596, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .msgBox .txt {
+  display: block;
+}
+
+/* line 598, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .msgBox .suc2,
+.delAddress .msgBox .info {
+  float: left;
+}
+
+/* address box */
+/* line 602, ../../scss/suba/legacy/_checkout_components.scss */
+.addrBlock {
+  overflow: hidden;
+}
+
+/* line 603, ../../scss/suba/legacy/_checkout_components.scss */
+.addrEntr {
+  width: 200px;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.1em;
+  font-family: inherit;
+  padding: 0 0 0 5px;
+  float: left;
+}
+
+/* line 604, ../../scss/suba/legacy/_checkout_components.scss */
+.addrEntr > span {
+  display: block;
+  padding: 4px 0 0 0;
+}
+
+/* line 605, ../../scss/suba/legacy/_checkout_components.scss */
+.addrEntr .adEnTitle {
+  font-weight: bold;
+}
+
+/* line 607, ../../scss/suba/legacy/_checkout_components.scss */
+.RArea.addrBlockAlrt {
+  float: right;
+  width: 200px;
+  color: #EF0000;
+  margin: 10px 25px 0 0 !important;
+}
+
+/* line 608, ../../scss/suba/legacy/_checkout_components.scss */
+.RArea.addrBlockAlrt .RaMessage {
+  margin: 0 !important;
+}
+
+/* line 609, ../../scss/suba/legacy/_checkout_components.scss */
+.RArea.addrBlockAlrt .ctrl {
+  width: 7px;
+  height: 24px;
+  background: url(../../img/suba/alert-box-arrow.png) no-repeat 0 0 transparent;
+  position: absolute;
+  display: none;
+}
+
+/* line 610, ../../scss/suba/legacy/_checkout_components.scss */
+.RArea.addrBlockAlrt .ctrl.arrowLeft {
+  top: 26px;
+  left: -6px;
+  background-position: -153px -3px;
+  display: block;
+}
+
+/* line 613, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher * {
+  vertical-align: middle;
+}
+
+/* line 614, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher.box03 .box1 {
+  background: #ededed;
+}
+
+/* line 615, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher.box03 .box2 {
+  background: none;
+}
+
+/* line 616, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher.box03 .box3 {
+  background: none;
+}
+
+/* line 617, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher.box03 .box4 {
+  background: none;
+}
+
+/* line 618, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher .ico.qstn {
+  background-position: -137px -473px;
+}
+
+/* line 619, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher #voucherNumber {
+  width: 150px;
+}
+
+/* line 620, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher .vouchers_list {
+  clear: both;
+}
+
+/* line 621, ../../scss/suba/legacy/_checkout_components.scss */
+#area02-2 .voucher.erro .msgEr {
+  font-size: 1em;
+  margin: 0 0 10px;
+}
+
+/* line 623, ../../scss/suba/legacy/_checkout_components.scss */
+.delAddress .rewind, .delAddress .forward {
+  margin: 0;
+}
+
+/* line 624, ../../scss/suba/legacy/_checkout_components.scss */
+.title.rewind, .title.forward {
+  margin: 0;
+}
+
+/* Formas de Pagamento */
+/* line 627, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpt .box01 {
+  border: none;
+}
+
+/* line 631, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpt .boxR1,
+.payOpt .boxR2,
+.payOpt .boxR3,
+.payOpt .boxR4 {
+  background: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* line 632, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpt .topBox01 {
+  font-size: 2em;
+  color: #00adef;
+}
+
+/* line 633, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts {
+  overflow: hidden;
+}
+
+/* line 634, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts li {
+  width: 16.5%;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  border-right: 1px dotted;
+  padding-left: 0;
+}
+
+/* line 635, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts li a {
+  display: block;
+  text-decoration: none;
+}
+
+/* line 636, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts li a.disabled {
+  background: none;
+}
+
+/* line 637, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts li:hover {
+  background: url(../../img/suba/bgPayOptsL.png) repeat-y left top;
+}
+
+/* line 638, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts li a:hover {
+  background: url(../../img/suba/bgPayOptsR.png) repeat-y right top;
+  text-decoration: none;
+}
+
+/* line 639, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts li.last {
+  border: none;
+}
+
+/* line 640, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts li .flag {
+  font-weight: bold;
+  display: block;
+}
+
+/* line 641, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts li a span {
+  cursor: pointer;
+}
+
+/* line 643, ../../scss/suba/legacy/_checkout_components.scss */
+.payBox .title1,
+.payBox2 .title1 {
+  display: block;
+}
+
+/* line 644, ../../scss/suba/legacy/_checkout_components.scss */
+.payBox fieldset, .payBox2 fieldset {
+  padding: 10px 10px 0 10px;
+}
+
+/* line 648, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .flagOpt input,
+.cdtCrd .boxCards .lCards input,
+.twoCards .lCards input,
+.ccDbt .bkList input {
+  border: 0;
+}
+
+/* line 650, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .flagOpt input[type=radio] {
+  margin-bottom: 10px;
+}
+
+/* line 652, ../../scss/suba/legacy/_checkout_components.scss */
+.payBoxVoucher .topBox01-1 {
+  font-size: 1.2em;
+}
+
+/* Opcoes de pagamento */
+/* line 654, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts .ico {
+  width: 134px;
+  height: 70px;
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -1000px -1000px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 655, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts .ico.acomCrd {
+  background-position: -134px -40px;
+}
+
+/* line 656, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts .ico.card {
+  background-position: 0 -40px;
+}
+
+/* line 657, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts .ico.twoCard {
+  background-position: -270px -40px;
+}
+
+/* line 658, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts .ico.bank {
+  background-position: 0 -111px;
+}
+
+/* line 659, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts .ico.minhaCasaMelhor {
+  background-position: -408px -71px;
+  width: 62px;
+  height: 39px;
+  margin-bottom: 8px;
+  margin-top: 9px;
+}
+
+/* line 660, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts .ico.cc {
+  /* background-position:-253px -356px; */
+  background-position: 0 -694px;
+}
+
+/* line 661, ../../scss/suba/legacy/_checkout_components.scss */
+.payOpts .ico.cel {
+  background-position: -253px -436px;
+}
+
+/* line 662, ../../scss/suba/legacy/_checkout_components.scss */
+.oi {
+  display: none;
+}
+
+/* ##################################################################################################  */
+/* Boleto Bancario */
+/* line 668, ../../scss/suba/legacy/_checkout_components.scss */
+.bankSlip .ico.bnkSlip {
+  background-position: 0 -111px;
+  float: left;
+  width: 134px;
+  height: 70px;
+}
+
+/* line 669, ../../scss/suba/legacy/_checkout_components.scss */
+.bankSlip .tp1 {
+  color: #39c61f;
+  margin-bottom: 30px;
+}
+
+/* line 670, ../../scss/suba/legacy/_checkout_components.scss */
+.bankSlip .boxCont {
+  overflow: visible;
+  padding-left: 150px;
+}
+
+/* line 671, ../../scss/suba/legacy/_checkout_components.scss */
+.bankSlip .boxCont:after {
+  content: ".";
+  clear: both;
+  float: none;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+/* line 674, ../../scss/suba/legacy/_checkout_components.scss */
+.infoDiscount {
+  display: block;
+  margin: 0px 0px 6px 0px;
+  overflow: hidden;
+}
+
+/* line 675, ../../scss/suba/legacy/_checkout_components.scss */
+.infoDiscount .infDscBd {
+  background: #ededed;
+  float: left;
+}
+
+/* line 676, ../../scss/suba/legacy/_checkout_components.scss */
+.infoDiscount .infDscOld {
+  font-size: 1.2em;
+  text-decoration: line-through;
+  padding: 12px 0 10px 14px;
+}
+
+/* line 677, ../../scss/suba/legacy/_checkout_components.scss */
+.infoDiscount .infDscSep {
+  padding: 13px 0 12px 10px;
+}
+
+/* line 678, ../../scss/suba/legacy/_checkout_components.scss */
+.infoDiscount .infDscNew {
+  font-size: 1.6em;
+  font-weight: bold;
+  color: #39c61f;
+  padding: 9px 12px 7px 10px;
+}
+
+/* line 679, ../../scss/suba/legacy/_checkout_components.scss */
+.InfDscAtn {
+  font-size: 12px;
+  color: #39c61f;
+  margin-top: 0;
+}
+
+/* line 682, ../../scss/suba/legacy/_checkout_components.scss */
+.InfDscDest {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+}
+
+/* line 683, ../../scss/suba/legacy/_checkout_components.scss */
+.InfDscDest .IDDList {
+  padding: 20px 0 5px 0;
+  overflow: hidden;
+}
+
+/* line 684, ../../scss/suba/legacy/_checkout_components.scss */
+.InfDscDest .InfDscIco {
+  width: 55px;
+  height: 55px;
+  float: left;
+  margin: -13px 10px 0 0;
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat 0 0;
+}
+
+/* line 685, ../../scss/suba/legacy/_checkout_components.scss */
+.InfDscDest .InfDscIco.IDIPrint {
+  background-position: -417px -366px;
+}
+
+/* line 686, ../../scss/suba/legacy/_checkout_components.scss */
+.InfDscDest .InfDscIco.IDIBarCode {
+  background-position: -417px -431px;
+}
+
+/* line 687, ../../scss/suba/legacy/_checkout_components.scss */
+.InfDscDest .InfDscIco.IDITime {
+  background-position: -417px -496px;
+}
+
+/* line 689, ../../scss/suba/legacy/_checkout_components.scss */
+.InfDscMoreTitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #01A8DD;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+/* line 691, ../../scss/suba/legacy/_checkout_components.scss */
+.InfDscMore .IDMList {
+  margin: 0 0 6px 0;
+  font-size: 12px;
+}
+
+/* line 693, ../../scss/suba/legacy/_checkout_components.scss */
+.bankSlip input.tp1 {
+  color: #000;
+}
+
+/* line 694, ../../scss/suba/legacy/_checkout_components.scss */
+.bankSlip .buttons {
+  overflow: hidden;
+}
+
+/* line 695, ../../scss/suba/legacy/_checkout_components.scss */
+.bankSlip .button.btFinish {
+  background-position: 0 -149px;
+  height: 36px;
+  width: 193px;
+}
+
+/* line 697, ../../scss/suba/legacy/_checkout_components.scss */
+.bankSlip.minhaCasaMelhor .button.btFinish {
+  background-position: 0 -195px;
+  height: 36px;
+  width: 193px;
+}
+
+/* ##################################################################################################  */
+/* ============================================================================================================================================================================ */
+/* Minha Casa Melhor */
+/* line 704, ../../scss/suba/legacy/_checkout_components.scss */
+.titleMinBox {
+  font-size: 20px;
+  font-weight: bold;
+  color: #666666;
+  margin: 5px 0 0 5px;
+}
+
+/* line 711, ../../scss/suba/legacy/_checkout_components.scss */
+.mcBox.box1.rBox {
+  margin: -10px;
+}
+
+/* line 716, ../../scss/suba/legacy/_checkout_components.scss */
+.mcImportant {
+  margin: 10px;
+}
+
+/* line 720, ../../scss/suba/legacy/_checkout_components.scss */
+.mcImpTxt {
+  width: 780px;
+  font-size: 12px;
+  margin: 0;
+}
+
+/* line 725, ../../scss/suba/legacy/_checkout_components.scss */
+.mcImpTxt .mcTxtHighlight {
+  font-weight: bold;
+  color: #00bcf3;
+}
+
+/* line 726, ../../scss/suba/legacy/_checkout_components.scss */
+.mcImpTxt .mcTxtTotal {
+  font-size: 16px;
+  font-weight: bold;
+  color: #00bcf3;
+}
+
+/* line 730, ../../scss/suba/legacy/_checkout_components.scss */
+.chooseCard {
+  float: left;
+  margin: 40px 0 0 10px;
+}
+
+/* line 731, ../../scss/suba/legacy/_checkout_components.scss */
+.chooseCard li {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+/* line 732, ../../scss/suba/legacy/_checkout_components.scss */
+.chooseCard li:last-child {
+  border-left: 1px solid #e6e6e6;
+  padding: 0 0 0 20px;
+}
+
+/* line 733, ../../scss/suba/legacy/_checkout_components.scss */
+.chooseCard label {
+  display: block;
+}
+
+/* line 734, ../../scss/suba/legacy/_checkout_components.scss */
+.chooseCard .ico.minhaCasaMelhor {
+  background: url(../../img/suba/minhaCasaMelhor.png) no-repeat;
+  width: 164px;
+  height: 107px;
+}
+
+/* line 735, ../../scss/suba/legacy/_checkout_components.scss */
+.chooseCard .ico.minhaCasaMelhor.comMasterCard {
+  background-position: 0 0;
+}
+
+/* line 736, ../../scss/suba/legacy/_checkout_components.scss */
+.chooseCard .ico.minhaCasaMelhor.comElo {
+  background-position: -174px 0;
+}
+
+/* line 737, ../../scss/suba/legacy/_checkout_components.scss */
+.chooseCardTxt {
+  font-size: 11px;
+  text-align: center;
+  display: block;
+  margin: 10px 0 15px;
+}
+
+/* line 738, ../../scss/suba/legacy/_checkout_components.scss */
+.chooseCardIpt {
+  width: auto !important;
+  margin: 0 auto;
+}
+
+/* line 741, ../../scss/suba/legacy/_checkout_components.scss */
+.mcBoxForm {
+  margin: 22px 0 0;
+  padding: 0 !important;
+}
+
+/* line 742, ../../scss/suba/legacy/_checkout_components.scss */
+.mcBoxForm .tp1 {
+  margin: 0;
+}
+
+/* line 744, ../../scss/suba/legacy/_checkout_components.scss */
+.mcBoxForm .cardData .lbl {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* ============================================================================================================================================================================ */
+/* Pagamento Cartao */
+/* line 752, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards {
+  overflow: hidden;
+}
+
+/* line 753, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li {
+  display: -moz-inline-block;
+  display: inline-block;
+  width: 24.5%;
+  text-align: center;
+  padding: 0 0 15px 0;
+}
+
+/* line 754, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico {
+  width: 59px;
+  height: 38px;
+  display: block;
+  margin: 0 auto;
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -1000px -1000px;
+}
+
+/* line 755, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.visa {
+  background-position: 0 0;
+}
+
+/* line 756, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.master {
+  background-position: -60px 0;
+}
+
+/* line 757, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.amex01 {
+  background-position: -120px 0;
+}
+
+/* line 758, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.amex02 {
+  background-position: -180px 0;
+}
+
+/* line 759, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.dinners {
+  background-position: -300px 0;
+}
+
+/* line 760, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.aura {
+  background-position: -240px 0;
+}
+
+/* line 761, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.elo {
+  background-position: -420px 0;
+}
+
+/* line 762, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.brandCard.aura {
+  background-position: -262px -221px;
+}
+
+/* line 763, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.brandCard.master {
+  background-position: -313px -221px;
+}
+
+/* line 764, ../../scss/suba/legacy/_checkout_components.scss */
+.lCards li .ico.hipercard {
+  background-position: -360px 0;
+}
+
+/* line 766, ../../scss/suba/legacy/_checkout_components.scss */
+.cData.box01,
+.box1-2 .box01 {
+  border: none;
+}
+
+/* line 767, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .boxCards .lCards li {
+  display: -moz-inline-block;
+  width: 8.5%;
+  text-align: center;
+  padding: 0 0 15px 0;
+}
+
+/* Formulario de Dados do Cartao de Credito */
+/* line 769, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .boxCards {
+  overflow: hidden;
+}
+
+/* line 770, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData {
+  padding-top: 20px;
+}
+
+/* line 771, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData li {
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+/* line 772, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData li a {
+  color: #161616;
+  text-decoration: underline;
+}
+
+/* line 773, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .tp1 {
+  width: 250px;
+  margin-right: 5px;
+}
+
+/* line 774, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .tp2 {
+  width: 55px;
+  margin-right: 15px;
+}
+
+/* line 775, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .tp3 {
+  width: 26px;
+}
+
+/* line 776, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData select {
+  font-size: 1em;
+  color: #666;
+}
+
+/* line 777, ../../scss/suba/legacy/_checkout_components.scss */
+#twoCards .cardData .parcel select {
+  margin: 3px 0 0;
+}
+
+/* line 778, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .parcel {
+  background: #ddeef9;
+  padding: 5px 0;
+}
+
+/* line 779, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .parcel .lbl {
+  font-size: 1.18em;
+  font-weight: bold;
+}
+
+/* line 780, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .lbl {
+  width: 138px;
+  display: block;
+  float: left;
+  text-align: right;
+  margin-right: 10px;
+}
+
+/* .cardData .payEr .lbl{margin:2px 10px 0 5px;} */
+/* line 782, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .boxWrap {
+  clear: both;
+  padding: 20px 0 0 300px;
+}
+
+/* line 783, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .box1-2 {
+  float: right;
+  width: 250px;
+  position: relative;
+  top: -105px;
+  height: 85px;
+  background: url(../../img/suba/div3.png) no-repeat 0 0;
+  padding: 20px 0 0 20px;
+}
+
+/* line 784, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .box1-2.box1 * {
+  width: auto;
+  position: static;
+  height: auto;
+}
+
+/* line 785, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .box1-2 .topBox01 {
+  padding: 0 0 0 40px;
+  text-align: center;
+  position: relative;
+  display: none;
+}
+
+/* line 786, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .box1-1 {
+  float: left;
+  margin-left: -290px;
+  width: 100%;
+}
+
+/* line 787, ../../scss/suba/legacy/_checkout_components.scss */
+.bt2Card {
+  background-position: 0 -287px;
+  height: 36px !important;
+  width: 193px !important;
+}
+
+/* line 788, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .box1-2 .bt2Card {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 789, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .box1-2 .bt2CardAcom {
+  background-position: -371px -153px;
+  height: 36px;
+  width: 173px;
+  display: none;
+  margin: 0 auto;
+}
+
+/* line 790, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .box1-2 .tp2 {
+  display: none;
+  font-weight: bold;
+  margin: 5px 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 791, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .ico.fls {
+  background-position: 0 -563px;
+  height: 31px;
+  width: 38px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* line 792, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .box1-2 .box01 {
+  padding: 0;
+}
+
+/* line 793, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .button.btFinish {
+  background-position: 0 -195px;
+  height: 36px;
+  width: 193px;
+}
+
+/* line 797, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd .box1-2.box1 .boxR1,
+.cdtCrd .box1-2.box1 .boxR2,
+.cdtCrd .box1-2.box1 .boxR3,
+.cdtCrd .box1-2.box1 .boxR4 {
+  background: none;
+}
+
+/* Cartao Submarino */
+/* line 800, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .title1,
+.cdtCrdAcom .acCrd {
+  display: inline;
+  float: none;
+  margin: 0 5px 0 0;
+  color: #01a8dd;
+}
+
+/* line 801, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .box1-2 {
+  display: none;
+}
+
+/* line 802, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .flagOpt {
+  width: 215px;
+  margin: 28px 0 0 158px;
+}
+
+/* line 803, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .flagOpt .ico {
+  display: none;
+}
+
+/* line 804, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .flagOpt .lbl {
+  float: right;
+  text-align: left;
+  width: 190px;
+  margin: 0;
+}
+
+/* line 805, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .flagOpt .lbl strong {
+  margin: 0 0 0 5px;
+}
+
+/* line 806, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .box1-2 .topBox01 strong, .cdtCrdAcom .box1-2 .box01 {
+  display: none;
+}
+
+/* line 807, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .box1-2 .ico.fls {
+  background: url(../../img/suba/bgCrdSuba.jpg) no-repeat left center;
+  width: 282px;
+  height: 176px;
+}
+
+/* line 808, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .box1-2 .topBox01 {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+/* line 809, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrdAcom .btFinish {
+  background-position: 0 -241px;
+  height: 36px;
+  width: 193px;
+}
+
+/* Debito */
+/* line 811, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList li {
+  margin-bottom: 10px;
+  overflow: hidden;
+  padding-top: 15px;
+  display: inline-block;
+}
+
+/* line 812, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList li label {
+  float: left;
+  margin-right: 20px;
+}
+
+/* line 813, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList li h3 {
+  margin-top: 10px;
+  font-size: 1em;
+}
+
+/* line 814, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList p {
+  margin: 0;
+  overflow: hidden;
+  _padding-left: 90px;
+}
+
+/* line 815, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList .ico {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat 1000px 1000px;
+  width: 26px;
+  height: 32px;
+  margin: 0 20px 0 5px;
+}
+
+/* line 816, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList .fl1 {
+  background-position: -279px -172px;
+}
+
+/* line 817, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList .fl2 {
+  background-position: -399px -172px;
+  width: 49px;
+  height: 37px;
+}
+
+/* line 818, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList .fl3 {
+  background-position: -163px -127px;
+  width: 30px;
+  height: 38px;
+}
+
+/* line 819, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList .fl4 {
+  background-position: -194px -147px;
+}
+
+/* line 820, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList .fl5 {
+  background-position: -157px -147px;
+}
+
+/* line 821, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .bkList .fl6 {
+  background-position: -208px -127px;
+  width: 30px;
+  height: 38px;
+}
+
+/* line 822, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .ico.fl7 {
+  background-position: -308px -609px;
+  height: 38px;
+  width: 47px;
+}
+
+/* line 827, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .btFinish {
+  background-position: 0 -103px;
+  height: 36px;
+  width: 193px;
+}
+
+/* line 828, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .tp1 {
+  color: #0082D6;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* line 829, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .tp1 strong {
+  color: #01A8DD;
+  font-size: 1.2em;
+}
+
+/* line 830, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .ccDbtDesc {
+  clear: both;
+  margin: 10px 0;
+}
+
+/* line 831, ../../scss/suba/legacy/_checkout_components.scss */
+.ccDbt .ccDbtDesc a {
+  color: #01a8dd;
+  text-decoration: underline;
+}
+
+/* 2cartoes */
+/* line 833, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards {
+  padding-top: 20px;
+}
+
+/* line 834, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap .box01 {
+  margin-bottom: 0;
+}
+
+/* line 835, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards .cardData .tp3 {
+  margin-right: 5px;
+}
+
+/* line 836, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards .parcel .lbl {
+  width: 100px;
+  margin-right: 6px;
+}
+
+/* line 837, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards .box1-1 {
+  float: left;
+  width: 49%;
+  margin: 0 3px 20px;
+  border-right: 1px dotted #ccc;
+}
+
+/* line 838, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards .box1-2 {
+  float: right;
+  width: 49%;
+}
+
+/* line 839, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards .topBox01 {
+  color: #666;
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/* line 840, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards .topBox01 .topBox01-1 {
+  padding: 10px 10px 10px 0;
+  font-weight: normal;
+}
+
+/* line 841, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards .box1-1 .card1 {
+  background: url(../../img/suba/spriteBi-1.png) no-repeat -354px -288px;
+  height: 58px;
+  width: 65px;
+}
+
+/* line 842, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.card2 {
+  background: url(../../img/suba/spriteBi-2.png) no-repeat 7px -131px;
+  height: 58px;
+  width: 65px;
+}
+
+/* line 843, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd2 .btFinish {
+  background-position: 0 -333px;
+  height: 36px;
+  width: 193px;
+}
+
+/* line 844, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd2 .buttons .payOpts {
+  float: left;
+}
+
+/* line 845, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards .box01 {
+  border: 0;
+  padding: 0 10px 10px;
+}
+
+/* line 846, ../../scss/suba/legacy/_checkout_components.scss */
+.boxWrap.twoCards .payErCont p {
+  margin: 0;
+}
+
+/* line 847, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher .box01 {
+  border: none;
+}
+
+/* line 848, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher .button.btVor {
+  width: 28px;
+  height: 14px;
+  background-position: -452px -190px;
+  margin: 0 5px 0 2px;
+}
+
+/* Endereco de Entrega */
+/* line 858, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd,
+.userAdd.box1,
+.userAdd.box1 .boxR1,
+.userAdd.box1 .boxR4 {
+  overflow: visible;
+}
+
+/* line 859, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .liAd {
+  padding: 10px 0;
+  border-top: 1px solid #999999;
+}
+
+/* line 860, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .liAd.first {
+  border: none;
+}
+
+/* line 862, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .lkAd,
+.userAdd .lkcadAd {
+  font-size: 1.1em;
+  font-weight: bold;
+  outline: none;
+}
+
+/* line 863, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .topBox02 {
+  background: url(../../img/suba/topBoxAdd.png) no-repeat left top;
+  padding: 10px;
+  padding: 0 0 10px 10px;
+  font-size: 1.1em;
+  text-align: center;
+  margin: -5px -7px -1px -7px;
+  position: relative;
+}
+
+/* line 864, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .topBox02-a {
+  background: url(../../img/suba/topBoxAdd.png) no-repeat right top;
+  display: block;
+  padding-top: 10px;
+}
+
+/* line 865, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .selected .lkAd {
+  color: #00adef;
+  font-size: 1.25em;
+  background: white url(../../img/suba/bgUsAddList.png) no-repeat left top;
+  position: relative;
+  z-index: 2;
+  padding: 12px 0 10px 20px;
+  display: block;
+  text-decoration: none;
+}
+
+/* line 866, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .liAd.selected {
+  border-top: 0;
+  bottom: -1px;
+  left: -20px;
+  position: relative;
+  width: 258px;
+  padding: 0;
+}
+
+/* line 867, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres {
+  position: absolute;
+  width: 635px;
+  top: -50px;
+  left: 255px;
+  z-index: 1;
+  display: none;
+}
+
+/* line 868, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .selected .BoxUsAddres {
+  display: block;
+}
+
+/* line 869, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .buttons {
+  float: none;
+  padding: 10px 0 0 0;
+}
+
+/* line 870, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .cadAd {
+  padding: 10px 0;
+  border-top: 1px solid #999999;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* line 871, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .cadAd .lkcadAd {
+  color: #00adef;
+}
+
+/* line 872, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .box5-c {
+  overflow: visible;
+}
+
+/* line 873, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .boxTop1-a {
+  font-size: 1.1em;
+  text-align: center;
+  padding: 10px 0 5px;
+}
+
+/* line 874, ../../scss/suba/legacy/_checkout_components.scss */
+.cadNewAdd .btSaveAdd {
+  width: 227px;
+  height: 21px;
+  background-position: -202px -31px;
+}
+
+/* line 875, ../../scss/suba/legacy/_checkout_components.scss */
+.blockedPostalCodeWarn {
+  font-size: 0.9em;
+  margin-left: 200px;
+}
+
+/* line 876, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .BxusAddUnavailable {
+  font-size: 11px;
+  padding: 8px 12px;
+  margin: 4px 0 0 0;
+  background: #d3edfe;
+  float: right;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
+
+/* line 877, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .BxusAddUnavailable .ico.smAtt {
+  width: 26px;
+  height: 23px;
+  background-position: -144px -530px;
+  float: left;
+}
+
+/* line 878, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .BxusAddUnavailable .BxAddUnvTxt {
+  float: left;
+  margin: 6px 0 0;
+}
+
+/* line 881, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .boxR4 {
+  padding: 10px 10px 10px 30px;
+  overflow: hidden;
+}
+
+/* line 882, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .adr {
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+/* line 883, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .adr .name {
+  font-weight: bold;
+}
+
+/* line 884, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .adr span {
+  display: inline;
+}
+
+/* line 885, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .lbl {
+  float: none;
+}
+
+/* line 886, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .mngAdd li {
+  display: inline;
+  font-size: 0.9em;
+}
+
+/* line 887, ../../scss/suba/legacy/_checkout_components.scss */
+.userAdd .BoxUsAddres .mngAdd {
+  clear: both;
+}
+
+/*Confirmacao*/
+/* line 890, ../../scss/suba/legacy/_checkout_components.scss */
+.buyData .topBox01,
+.delAddress .topBox01 {
+  font-size: 1.45em;
+  margin-bottom: 5px;
+  color: #0082D6;
+}
+
+/* line 891, ../../scss/suba/legacy/_checkout_components.scss */
+.buyData .box01 {
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+
+/* line 893, ../../scss/suba/legacy/_checkout_components.scss */
+.resumeOrd .box4 {
+  border-bottom: 2px solid #ededed;
+}
+
+/* line 895, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox {
+  background: #ffffff;
+  width: 330px;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin-bottom: -200px;
+}
+
+/* line 896, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .topBox01 {
+  font-size: 1.25em;
+  color: #666;
+  display: block;
+}
+
+/* line 897, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .topBox01 strong {
+  font-weight: normal;
+  font-size: 0.9em;
+}
+
+/* line 898, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox p {
+  margin: 0 0 10px 0;
+}
+
+/* line 900, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .orderTitle {
+  padding-left: 0;
+}
+
+/* line 901, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .orderBigNumber {
+  height: 75px;
+  display: block;
+}
+
+/* line 902, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .orderRef {
+  display: block;
+  font-weight: bold;
+}
+
+/* line 903, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .orderNumber {
+  color: #00adef;
+  font-size: 3.5em;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0 12px 0;
+  display: block;
+}
+
+/* line 904, ../../scss/suba/legacy/_checkout_components.scss */
+.orderNumberHidden {
+  width: 1px;
+  height: 1px;
+  font-size: 0px;
+  color: #000000;
+  text-indent: -9999px;
+  top: -9999px;
+  left: -9999px;
+}
+
+/* line 905, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .dateDelivery {
+  padding: 0 0 11px 0;
+  margin: 0 0 11px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 906, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .dateDelivery:last-child {
+  border: none;
+}
+
+/* line 907, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .dateOrder {
+  display: block;
+  font-weight: bold;
+}
+
+/* line 908, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .orderStore {
+  font-size: 2.6em;
+  padding: 0 0 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 909, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .orderStore.last {
+  border: none;
+}
+
+/* line 910, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .topBox01 span {
+  font-size: 0.7em;
+}
+
+/* line 911, ../../scss/suba/legacy/_checkout_components.scss */
+.ordNbBox .ordNb01 {
+  padding: 5px 20px 200px 20px;
+  border: 2px solid #ededed;
+  border-right: none;
+}
+
+/* ============================================================================================================================================================================ */
+/* revisao */
+/* line 917, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .ico.minhaCasaMelhor {
+  background: url(../../img/suba/minhaCasaMelhor.png) no-repeat;
+  width: 117px;
+  height: 76px;
+}
+
+/* line 918, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .ico.minhaCasaMelhor.comMasterCard {
+  background-position: -24px -117px;
+}
+
+/* line 919, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .ico.minhaCasaMelhor.comElo {
+  background-position: -197px -118px;
+}
+
+/* line 921, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .inst.rev {
+  overflow: hidden;
+  margin-bottom: 25px;
+}
+
+/* line 923, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .revCardInfo {
+  width: 310px;
+  padding: 0 10px 0 20px;
+  float: left;
+}
+
+/* line 924, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .revCardInfo .revCardInfoTitle {
+  font-size: 18px;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 925, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .inst .revCardInfo .boxCont {
+  padding: 0;
+  margin: 15px 0 0;
+}
+
+/* line 926, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .revCardInfo dt {
+  font-weight: normal;
+  float: left;
+  clear: left;
+}
+
+/* line 927, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .revCardInfo dd {
+  display: block;
+  overflow: hidden;
+  margin-left: 90px;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+/* marketplace */
+/* line 934, ../../scss/suba/legacy/_checkout_components.scss */
+.marketplace {
+  background: none repeat scroll 0 0 #00ADEF;
+  color: #FFFFFF;
+  font-size: 1.1em;
+  padding: 8px 5px 8px 15px;
+  white-space: nowrap;
+}
+
+/* line 935, ../../scss/suba/legacy/_checkout_components.scss */
+.marketplace .mphead {
+  text-align: left;
+  padding: 10px 0 10px 15px;
+}
+
+/* line 936, ../../scss/suba/legacy/_checkout_components.scss */
+.marketplace .mlLast {
+  text-align: right;
+  padding: 0 5px 0 0;
+}
+
+/* line 937, ../../scss/suba/legacy/_checkout_components.scss */
+.marketplace .col05 {
+  text-align: right;
+  padding: 0 5px 0 0;
+}
+
+/* line 938, ../../scss/suba/legacy/_checkout_components.scss */
+.hstore {
+  margin: 2px 0 10px 0;
+}
+
+/* line 939, ../../scss/suba/legacy/_checkout_components.scss */
+.hstore .hstoreFor {
+  font-size: 1em;
+  color: #00adef;
+  margin: 0 0 10px 0;
+  display: block;
+}
+
+/* line 940, ../../scss/suba/legacy/_checkout_components.scss */
+.hstore .hstoreFor .hstoreForIco {
+  width: 8px;
+  height: 6px;
+  margin: 4px 4px 0 0;
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -183px -225px;
+  display: block;
+  float: left;
+}
+
+/* line 941, ../../scss/suba/legacy/_checkout_components.scss */
+.hstore .hstoreInfo {
+  display: block;
+}
+
+/* line 942, ../../scss/suba/legacy/_checkout_components.scss */
+.hstore .hstoreInfo .hstoreImage {
+  width: 80px;
+  margin: 0 5px 0 0;
+}
+
+/* line 944, ../../scss/suba/legacy/_checkout_components.scss */
+.hstore .hstoreInfo .hstoreMore {
+  font-size: 0.9em;
+  color: #999999;
+}
+
+/* unavailable */
+/* line 946, ../../scss/suba/legacy/_checkout_components.scss */
+.hstore.hsUnavailable {
+  font-size: 9px;
+  padding: 8px 12px;
+  margin: 4px 0 0 0;
+  background: #d3edfe;
+  border-radius: 12px;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+}
+
+/* line 947, ../../scss/suba/legacy/_checkout_components.scss */
+.hstore.hsUnavailable .ico.smAtt {
+  width: 26px;
+  height: 23px;
+  background-position: -144px -530px;
+  float: left;
+}
+
+/* store lightbox */
+/* line 949, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLb {
+  width: 460px;
+  height: 390px;
+  font-size: 1.2em;
+  color: #666666;
+  padding: 10px;
+  overflow: auto;
+  margin: 0 0 30px;
+}
+
+/* line 950, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbLogo {
+  float: left;
+}
+
+/* line 951, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbLogo .mpStoreLbImg {
+  width: 140px;
+  display: block;
+}
+
+/* line 952, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbLogo .mpStoreLbImgLnk {
+  display: block;
+  margin: 20px 0 0 0;
+}
+
+/* line 953, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbInfo {
+  overflow: hidden;
+}
+
+/* line 954, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbDesc {
+  width: 275px;
+  float: right;
+  margin: 10px 0 0;
+}
+
+/* line 955, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbDescName, .mpStoreLbDescCNPJ, .mpStoreLbDescEnd {
+  display: block;
+}
+
+/* line 956, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbDesc .mpStoreLbDescName {
+  font-weight: bold;
+}
+
+/* line 958, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbDesc .mpStoreLbDescEnd {
+  margin: 4px 0 0 0;
+}
+
+/* line 959, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbContent {
+  margin: 20px 0 0 0;
+  float: none;
+}
+
+/* line 960, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbContent > p {
+  margin: 10px 0;
+}
+
+/* line 961, ../../scss/suba/legacy/_checkout_components.scss */
+.mpStoreLbContent .mpStoreLbCntCategory {
+  font-size: 1.3em;
+  display: block;
+  font-weight: bold;
+  margin: 20px 0 10px 0;
+}
+
+/* line 963, ../../scss/suba/legacy/_checkout_components.scss */
+.mCSB_container .boxR1 {
+  border: none;
+}
+
+/* lightbot - nao entrega */
+/* line 966, ../../scss/suba/legacy/_checkout_components.scss */
+.listProdMkPlace {
+  margin: 10px 0;
+}
+
+/* line 967, ../../scss/suba/legacy/_checkout_components.scss */
+.prodMkPlaceRemove {
+  display: block;
+  padding: 0 0 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 968, ../../scss/suba/legacy/_checkout_components.scss */
+.prodMkPlaceRemove.pdMdPlRmvLast {
+  border: none;
+}
+
+/* line 969, ../../scss/suba/legacy/_checkout_components.scss */
+.listProdMkPlIco {
+  margin-bottom: 0 !important;
+  margin-top: -12px !important;
+}
+
+/* lightbox - retirada na loja */
+/* line 973, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceWithdrawal .lbMkHeader {
+  margin: 0 0 20px 0;
+  overflow: hidden;
+}
+
+/* line 974, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceWithdrawal .title {
+  width: 420px;
+  font-size: 1.9em;
+  margin: 4px 0 0 0;
+  float: left;
+}
+
+/* line 975, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceWithdrawal .ico.withdrawal {
+  width: 34px;
+  height: 33px;
+  background-position: -159px -454px;
+  float: left;
+  margin: 0 10px 0 0;
+}
+
+/* line 976, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceWithdrawal .lbMkContent {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+/* line 977, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceWithdrawal .lbMkLink {
+  color: #00adef;
+}
+
+/* lightbox - regulamento */
+/* line 980, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule {
+  width: 490px;
+  margin: 0 auto;
+}
+
+/* line 981, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .lbMkHeader {
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+/* line 982, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .title {
+  width: 420px;
+  font-size: 1.9em;
+  margin: 4px 0 0 0;
+  float: left;
+}
+
+/* line 983, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .ico.rule {
+  width: 43px;
+  height: 38px;
+  background-position: -429px -219px;
+  float: left;
+  margin: 10px 10px 0 0;
+}
+
+/* line 984, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .contentTitle {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  display: block;
+}
+
+/* line 985, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .lbMkProduct li {
+  list-style: inside;
+  margin: 0 0 2px 0;
+}
+
+/* line 986, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .lbMkContent {
+  font-size: 1.2em;
+  text-align: justify;
+}
+
+/* line 987, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .lbMkLink {
+  color: #00adef;
+}
+
+/* line 988, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .lbMkRule {
+  font-size: 1.2em;
+  margin: 30px 0 10px 0;
+}
+
+/* line 989, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .lbMkRule .boxRule {
+  width: 480px;
+  height: 160px;
+  padding: 0 10px 0 0;
+  overflow: auto;
+}
+
+/* line 990, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .lbMkRule .boxRule p {
+  margin-top: 0;
+}
+
+/* line 991, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .lbMkReject {
+  width: 147px;
+  height: 26px;
+  background-position: -535px -838px;
+  margin: 0 20px 0 0;
+}
+
+/* line 992, ../../scss/suba/legacy/_checkout_components.scss */
+.lbMarketplaceRule .lbMkAccept {
+  width: 198px;
+  height: 26px;
+  background-position: -201px -838px;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+/* marketplace - regulamento */
+/* line 997, ../../scss/suba/legacy/_checkout_components.scss */
+.mkRegulamento {
+  border-top: 1px solid #C2C2C2;
+}
+
+/* line 998, ../../scss/suba/legacy/_checkout_components.scss */
+.mkRegulamento .regCont {
+  width: 350px;
+  padding: 8px 10px;
+  background: #d3edfe;
+  margin: 10px auto;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+}
+
+/* line 999, ../../scss/suba/legacy/_checkout_components.scss */
+.mkRegulamento .regCont .regCheck {
+  float: left;
+  margin: 0 -4px 0 8px;
+}
+
+/* line 1000, ../../scss/suba/legacy/_checkout_components.scss */
+.mkRegulamento .regCont .regLink {
+  text-decoration: underline;
+  margin: 0 0 0 4px;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+/* marketplace - revisao */
+/* line 1005, ../../scss/suba/legacy/_checkout_components.scss */
+.mkCatRef, .mkCatType, .mkContName, .mkContAdr, .mkContCep, .mkContPickup {
+  display: block;
+}
+
+/* line 1006, ../../scss/suba/legacy/_checkout_components.scss */
+.mkRevAddress {
+  width: 650px;
+  float: right;
+  margin: 0 20px;
+  padding: 10px 0;
+  border-top: 1px solid #ccc;
+}
+
+/* line 1007, ../../scss/suba/legacy/_checkout_components.scss */
+.mkRevAddress.first {
+  padding: 14px 0;
+}
+
+/* line 1008, ../../scss/suba/legacy/_checkout_components.scss */
+.mkRevAddress .mkRvAdrCategory {
+  width: 180px;
+  margin: 3px 0 0 10px;
+  float: left;
+}
+
+/* line 1009, ../../scss/suba/legacy/_checkout_components.scss */
+.mkCatType {
+  font-size: 1.8em;
+  font-weight: bold;
+}
+
+/* line 1010, ../../scss/suba/legacy/_checkout_components.scss */
+.mkRevAddress .mkRvAdrCont {
+  width: 400px;
+  float: left;
+}
+
+/* line 1011, ../../scss/suba/legacy/_checkout_components.scss */
+.mkRevAddress .mkContPickup {
+  margin: 5px 0 0 0;
+}
+
+/* //////////////////////////////////////////////////////////////// */
+/* line 1015, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox {
+  min-height: 126px;
+  overflow: hidden;
+  margin: 11px 15px 0 15px;
+  float: left;
+  width: 43%;
+  border-right: 1px solid #e4e4e4;
+}
+
+/* line 1016, ../../scss/suba/legacy/_checkout_components.scss */
+.resumeOrderBoleto .infoPaymentBox {
+  border-right: 0;
+  width: 60%;
+}
+
+/* line 1017, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPayment .ico {
+  float: left;
+  margin-top: 10px;
+}
+
+/* line 1018, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPayment .inst.rev .boxCont {
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+/* line 1019, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPayment .topBox01 {
+  display: none;
+}
+
+/* line 1020, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPayment .box01 {
+  margin-bottom: 0;
+}
+
+/* line 1021, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPayment .tp1, .infoAdd .tp1 {
+  margin: 5px 0 0 0;
+}
+
+/* line 1022, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPayment .tp2, .infoAdd .adr .name {
+  font-size: 1.63em;
+  margin: 0 0 15px 0;
+}
+
+/* line 1023, ../../scss/suba/legacy/_checkout_components.scss */
+.infoAdd .adr .name {
+  font-weight: bold;
+}
+
+/* line 1031, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .rBox1,
+.infoPaymentBox .rBox2,
+.infoPaymentBox .rBox3,
+.infoPaymentBox .rBox4,
+.infoPaymentBox .boxR1,
+.infoPaymentBox .boxR2,
+.infoPaymentBox .boxR3,
+.infoPaymentBox .boxR4 {
+  position: static;
+  width: auto;
+  height: auto;
+}
+
+/* line 1032, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .topBox01 {
+  color: #666;
+  font-size: 1em;
+  font-weight: normal;
+  overflow: hidden;
+  padding-left: 15px;
+}
+
+/* line 1033, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .topBox01 .topBox01-1 {
+  display: block;
+  font-size: 1.63em;
+  font-weight: bold;
+}
+
+/* line 1034, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .inst .boxCont {
+  padding: 5px 0 10px 90px;
+}
+
+/* line 1035, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .inst .boxCont .tp1 {
+  margin: 0 0 2px;
+}
+
+/* line 1036, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .inst .boxCont .tp1 .col1 {
+  width: 85px;
+  display: inline-block;
+}
+
+/* line 1037, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .inst .boxContBoleto {
+  clear: both;
+}
+
+/* line 1038, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .inst .boxContBoleto .tp2 {
+  margin: 0;
+  padding: 0 30px 0 15px;
+}
+
+/* line 1039, ../../scss/suba/legacy/_checkout_components.scss */
+.infoPaymentBox .topBox01 .cardPreApr {
+  display: block;
+  font-size: 1.63em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* line 1041, ../../scss/suba/legacy/_checkout_components.scss */
+.paymentSelectInstallments {
+  min-width: 221px;
+}
+
+/* line 1042, ../../scss/suba/legacy/_checkout_components.scss */
+.paymentSelectInstallmentsMin {
+  min-width: 148px;
+  max-width: 200px;
+}
+
+/* line 1044, ../../scss/suba/legacy/_checkout_components.scss */
+.boxContBoleto .btPrintBSlip {
+  margin: 5px 5px 0 15px;
+  float: left;
+}
+
+/* line 1045, ../../scss/suba/legacy/_checkout_components.scss */
+.boxContBoleto .boxValBoleto {
+  color: #00adef;
+  font-weight: bold;
+  padding: 9px 10px 0 5px;
+  display: block;
+  overflow: hidden;
+}
+
+/* line 1046, ../../scss/suba/legacy/_checkout_components.scss */
+.resumeOrderBoleto .boxValBoleto {
+  padding-top: 25px;
+}
+
+/* line 1049, ../../scss/suba/legacy/_checkout_components.scss */
+.infoAdd {
+  overflow: hidden;
+  width: 33%;
+  padding: 10px 0 0 0;
+}
+
+/* line 1050, ../../scss/suba/legacy/_checkout_components.scss */
+.resumeOrd .infoAdd {
+  width: auto;
+}
+
+/* line 1052, ../../scss/suba/legacy/_checkout_components.scss */
+.boxCad1click {
+  overflow: hidden;
+}
+
+/* line 1053, ../../scss/suba/legacy/_checkout_components.scss */
+.boxCad1click * {
+  vertical-align: middle;
+}
+
+/* line 1054, ../../scss/suba/legacy/_checkout_components.scss */
+.boxCad1click p {
+  margin: 0;
+}
+
+/* line 1055, ../../scss/suba/legacy/_checkout_components.scss */
+.bskClick {
+  background-position: -167px -396px;
+  height: 64px;
+  width: 52px;
+  float: left;
+  margin: 0 10px;
+}
+
+/* line 1057, ../../scss/suba/legacy/_checkout_components.scss */
+.areaMang {
+  padding-bottom: 20px;
+  color: #669933;
+  position: relative;
+}
+
+/* line 1058, ../../scss/suba/legacy/_checkout_components.scss */
+.areaMang .suc {
+  float: left;
+  margin-right: 15px;
+  margin-top: 4px;
+}
+
+/* line 1059, ../../scss/suba/legacy/_checkout_components.scss */
+.title02 {
+  color: #39c81f;
+  display: block;
+  font-size: 2.3em;
+  font-weight: bold;
+  clear: both;
+  overflow: hidden;
+  padding-top: 10px;
+}
+
+/* line 1060, ../../scss/suba/legacy/_checkout_components.scss */
+.areaMang .cont {
+  width: 490px;
+  display: block;
+}
+
+/* line 1061, ../../scss/suba/legacy/_checkout_components.scss */
+.title02 .cont > strong {
+  font-weight: normal;
+}
+
+/* line 1062, ../../scss/suba/legacy/_checkout_components.scss */
+.title02 .cont .tx {
+  color: #666;
+  font-size: 0.5em;
+  font-weight: normal;
+  display: block;
+  margin-left: 50px;
+}
+
+/* line 1063, ../../scss/suba/legacy/_checkout_components.scss */
+.title02 .cont .tx strong {
+  margin-left: 5px;
+  font-weight: bold;
+  color: #00adef;
+}
+
+/* line 1064, ../../scss/suba/legacy/_checkout_components.scss */
+.areaMang .titIcoClick {
+  background-position: -416px -300px;
+  float: left;
+  height: 50px;
+  margin: -4px 15px 0 0;
+  width: 56px;
+}
+
+/* line 1067, ../../scss/suba/legacy/_checkout_components.scss */
+.grid .hproduct .cont .name {
+  display: block;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* line 1069, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRev .bkt tbody .gft {
+  display: block;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+/* line 1070, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRev .bkt tbody .wty {
+  margin: 0;
+}
+
+/* line 1072, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRev .bkt tbody .gft .ico,
+.bktRev .bkt tbody .wty .ico {
+  margin: 0;
+}
+
+/* line 1074, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .tbBktRevFoot {
+  width: 100%;
+}
+
+/* line 1075, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot {
+  background: #ededed;
+  padding: 15px 30px;
+  position: relative;
+  top: -18px;
+}
+
+/* line 1076, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .infoTx td {
+  vertical-align: top;
+  width: 595px;
+  padding-top: 10px;
+}
+
+/* line 1077, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .infoTx a {
+  text-decoration: underline;
+}
+
+/* line 1078, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .infoTotal td, .bktRevFoot .infoTotal th {
+  text-align: right;
+}
+
+/* line 1079, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .infoTotal .totalData {
+  width: 220px;
+  float: right;
+}
+
+/* line 1081, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .infoTotal .totalData td,
+.bktRevFoot .infoTotal .totalData th {
+  padding: 2px 0;
+}
+
+/* line 1082, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .totalData th {
+  font-size: 1.2em;
+}
+
+/* line 1083, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .totalData td {
+  font-size: 1.1em;
+}
+
+/* line 1085, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .totalData .discount,
+.bktRevFoot .totalData .shipping {
+  color: #39c81f;
+}
+
+/* line 1087, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .totalData .discount th,
+.bktRevFoot .totalData .shipping th {
+  font-weight: normal;
+}
+
+/* line 1088, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .totalData .total {
+  color: #00adef;
+  font-weight: 1.2em;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 1089, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .totalData .total th {
+  font-weight: normal;
+}
+
+/* line 1090, ../../scss/suba/legacy/_checkout_components.scss */
+.bktRevFoot .totalData .interest {
+  font-size: 0.8em;
+}
+
+/* Embalagem para presente */
+/* line 1092, ../../scss/suba/legacy/_checkout_components.scss */
+#giftPackForm {
+  overflow: hidden;
+}
+
+/* line 1093, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck {
+  clear: both;
+}
+
+/* line 1094, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck * {
+  vertical-align: middle;
+}
+
+/* line 1095, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .lGtPck li {
+  /*padding:10px 0;overflow:hidden;margin-top:-1px;*/
+}
+
+/* line 1096, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .lGtPck li.hide .msgBox {
+  display: none;
+}
+
+/* line 1097, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .lGtPck li ul li {
+  border: none;
+  padding: 0;
+  margin-bottom: 5px;
+}
+
+/* line 1098, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .boxInfo {
+  overflow: hidden;
+  margin: 0;
+  padding-right: 320px;
+}
+
+/* line 1099, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .boxInfo p {
+  display: block;
+  margin-top: 15px;
+  width: 545px;
+}
+
+/* line 1100, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .topBox01 {
+  display: none;
+}
+
+/* line 1101, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .msgBox .chCrd .lbl {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+/* line 1102, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .msgBox .chCrd li {
+  display: inline;
+  margin-right: 10px;
+}
+
+/* line 1103, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .lbl {
+  font-size: 1em;
+  float: none;
+  text-align: none;
+  color: #5F5F5F;
+}
+
+/* line 1104, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chPk .lbl {
+  margin-left: 4px;
+  float: none;
+}
+
+/* line 1105, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .box01 {
+  border: 0;
+  clear: both;
+}
+
+/* line 1109, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .box01,
+.gtPck .box01,
+.gtPck .box01,
+.gtPck .box01 {
+  background: none;
+}
+
+/* line 1110, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .sndMsg li {
+  float: left;
+  margin: 0 20px 10px 0;
+}
+
+/* line 1111, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .sndMsg .lbl {
+  display: block;
+  text-transform: uppercase;
+  text-align: left;
+  font-weight: bold;
+}
+
+/* line 1112, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .sndMsg li input, .chooseCard input {
+  width: 190px;
+}
+
+/* line 1113, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .sndMsg li textarea {
+  width: 270px;
+  height: 80px;
+}
+
+/* line 1114, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .sndMsg li.msg {
+  clear: both;
+  float: none;
+}
+
+/* line 1115, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .sndMsg li.msg .lbl {
+  color: #5F5F5F;
+  font-weight: bold;
+}
+
+/* line 1116, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .sndMsg li .info {
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+/* line 1117, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .msgBox {
+  margin: 0 25px;
+  border-top: 1px dotted #bfbfbf;
+  border-bottom: 0;
+  padding: 20px 15px;
+}
+
+/* line 1118, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .sndMsg {
+  background: url(../../img/suba/bgMsgBox.jpg) no-repeat left 45px;
+  padding: 10px 0 0 250px;
+}
+
+/* line 1119, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .msgBox .desc {
+  margin: 20px 0 10px 0;
+  display: block;
+}
+
+/* line 1120, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.env {
+  display: none;
+}
+
+/* line 1121, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.pack {
+  width: 362px;
+  height: 242px;
+  background: url(../../img/suba/presente.jpg) no-repeat;
+  float: right;
+  margin: 0 -305px 0 30px;
+}
+
+/* line 1122, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseProd {
+  border-top: 1px dotted #e4e3e3;
+  color: #000;
+  overflow: hidden;
+  padding: 10px 0;
+  margin: 0 25px;
+}
+
+/* line 1123, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseProd .chooseProdForm {
+  position: relative;
+  height: 150px;
+  width: 100%;
+}
+
+/* line 1124, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseProd .prod {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+/* line 1125, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseProd .chPk {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+
+/* line 1126, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseProd .name {
+  display: block;
+  text-transform: uppercase;
+  margin: 0 25px 10px 25px;
+  color: #5F5F5F;
+}
+
+/* line 1127, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseProd .photo {
+  height: 80px;
+  width: 80px;
+}
+
+/* line 1129, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseProd .chPk p,
+.gtPck .msgBox .chCrd p {
+  font-weight: bold;
+  font-size: 1.25em;
+  color: #5f5f5f;
+}
+
+/* line 1130, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseProd .chPk p {
+  margin-top: 0;
+}
+
+/* line 1131, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .msgBox .chCrd p {
+  margin: 0 0 5px 0;
+}
+
+/* line 1132, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseCard {
+  width: 195px;
+  position: absolute;
+  top: 20px;
+  right: 150px;
+}
+
+/* line 1133, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseCard label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+/* line 1134, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .chooseCard .lbl.tx3, .chooseCard input {
+  display: block;
+  text-align: left;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+/* line 1135, ../../scss/suba/legacy/_checkout_components.scss */
+#giftPackForm .button.btBuy.forward {
+  background-position: -202px -427px;
+  width: 153px;
+  height: 29px;
+}
+
+/* line 1136, ../../scss/suba/legacy/_checkout_components.scss */
+#giftPackForm .button span.txt {
+  display: none;
+}
+
+/* line 1137, ../../scss/suba/legacy/_checkout_components.scss */
+#giftPackForm .buttons {
+  border-top: 1px dotted #E4E3E3;
+}
+
+/* line 1138, ../../scss/suba/legacy/_checkout_components.scss */
+.lGtPck .chooseProd .chPk input {
+  border: 0;
+}
+
+/* line 1139, ../../scss/suba/legacy/_checkout_components.scss */
+.chCrd input {
+  border: 0;
+}
+
+/* line 1140, ../../scss/suba/legacy/_checkout_components.scss */
+#giftPackForm .titIco {
+  background-position: -305px -305px;
+  height: 47px;
+  width: 46px;
+}
+
+/* line 1143, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .descList li {
+  font-size: 2em;
+  font-weight: bold;
+  color: #00adef;
+  list-style: disc inside none;
+}
+
+/* line 1144, ../../scss/suba/legacy/_checkout_components.scss */
+.gtPck .descList li .desLi {
+  color: #666666;
+  font-size: 0.5em;
+}
+
+/* line 1145, ../../scss/suba/legacy/_checkout_components.scss */
+.inst .boxCont {
+  padding: 0 0 0 180px;
+}
+
+/* line 1146, ../../scss/suba/legacy/_checkout_components.scss */
+.inst .buttons {
+  clear: both;
+  float: left;
+  margin-top: 0;
+  padding: 0;
+}
+
+/* line 1147, ../../scss/suba/legacy/_checkout_components.scss */
+.box01.inst {
+  overflow: hidden;
+  border: none;
+}
+
+/* line 1148, ../../scss/suba/legacy/_checkout_components.scss */
+.tx5 {
+  font-size: 1.1em;
+}
+
+/* line 1149, ../../scss/suba/legacy/_checkout_components.scss */
+.changeAdr .tx5 {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+/* line 1151, ../../scss/suba/legacy/_checkout_components.scss */
+.inst .ico {
+  float: left;
+}
+
+/* line 1152, ../../scss/suba/legacy/_checkout_components.scss */
+.inst.box01 .paymentData td, .inst.box01 .paymentData th {
+  padding: 5px 10px;
+  text-align: left;
+}
+
+/* line 1153, ../../scss/suba/legacy/_checkout_components.scss */
+.inst .bnkSlip {
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat 0 -111px;
+  height: 70px;
+  width: 134px;
+  margin-left: 15px;
+}
+
+/* line 1155, ../../scss/suba/legacy/_checkout_components.scss */
+.delv td.delTime {
+  text-align: center;
+  color: #0082D6;
+}
+
+/* line 1156, ../../scss/suba/legacy/_checkout_components.scss */
+.delv td.prods {
+  width: 330px;
+}
+
+/* banner eBit */
+/* line 1159, ../../scss/suba/legacy/_checkout_components.scss */
+#bannerEbit {
+  margin: 0 auto 20px;
+}
+
+/*payment*/
+/* line 1162, ../../scss/suba/legacy/_checkout_components.scss */
+.cdtCrd2 p.tx2 {
+  clear: both;
+}
+
+/* line 1163, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .payEr {
+  color: #ff0000;
+  margin: 0 0 15px 0;
+  padding: 0;
+  border: none;
+}
+
+/* line 1164, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .payEr input {
+  border: #ff0000 1px solid;
+}
+
+/* line 1166, ../../scss/suba/legacy/_checkout_components.scss */
+.cardData .payErCont p,
+.cardData .payErCont span {
+  display: none;
+}
+
+/* line 1167, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher .payEr {
+  border: none;
+  padding: 0;
+}
+
+/* line 1168, ../../scss/suba/legacy/_checkout_components.scss */
+.voucher .payEr input {
+  border: #ff0000 1px solid;
+}
+
+/* line 1169, ../../scss/suba/legacy/_checkout_components.scss */
+#area02-2 .voucher .topBox01 {
+  display: none;
+}
+
+/* line 1170, ../../scss/suba/legacy/_checkout_components.scss */
+#area02-2 .voucher .box01 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1171, ../../scss/suba/legacy/_checkout_components.scss */
+#area02-2 .voucher p {
+  font-size: 1.2em;
+  float: left;
+  margin: 2px 10px 0 0;
+}
+
+/* line 1173, ../../scss/suba/legacy/_checkout_components.scss */
+#area02 > h1 {
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+/* line 1175, ../../scss/suba/legacy/_checkout_components.scss */
+.delOrder .boxR4 {
+  padding: 5px 10px;
+}
+
+/* line 1176, ../../scss/suba/legacy/_checkout_components.scss */
+.delOrder .boxR4 .box01 {
+  margin: 0;
+}
+
+/*basketEmpty*/
+/* line 1179, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .empty td {
+  font-size: 1.45em;
+  font-weight: bold;
+  height: 140px;
+  padding: 0;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* line 1180, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt .empty .btContBuy {
+  display: block;
+  margin: 20px auto;
+}
+
+/* basket confirmacao */
+/* line 1182, ../../scss/suba/legacy/_checkout_components.scss */
+.bktConf {
+  clear: both;
+}
+
+/* line 1183, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.delv thead {
+  display: none;
+}
+
+/* line 1184, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.delv .col04 {
+  text-align: right;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* line 1187, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.delv td,
+.bkt.conf td,
+.bkt.conf th {
+  border-bottom: 1px dotted #ccc;
+  padding: 5px;
+}
+
+/* line 1188, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.delv td.delTime {
+  width: 300px;
+}
+
+/* line 1190, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.delv .grid .ph,
+.bkt.conf .grid .ph {
+  text-align: center;
+}
+
+/* line 1192, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.delv .delTime .tx,
+.bkt.conf .delTime .tx {
+  color: #0082D6;
+}
+
+/* line 1193, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.conf .grid .col05 {
+  padding-bottom: 50px;
+}
+
+/* line 1194, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.conf .col04 .price, .bkt.conf thead th {
+  color: #666;
+}
+
+/* line 1195, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.conf thead th {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* line 1196, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt.conf thead .col01 {
+  text-align: left;
+  padding-left: 25px;
+}
+
+/* line 1197, ../../scss/suba/legacy/_checkout_components.scss */
+.bktConf .conf {
+  border: 0;
+}
+
+/* line 1198, ../../scss/suba/legacy/_checkout_components.scss */
+.bktConf thead.topBox01 th {
+  background: none;
+}
+
+/* basket 1 click */
+/* line 1200, ../../scss/suba/legacy/_checkout_components.scss */
+.titleBox03 {
+  margin: 0 0 20px;
+  overflow: hidden;
+  zoom: 1;
+}
+
+/* line 1201, ../../scss/suba/legacy/_checkout_components.scss */
+.titleBox03 .cliq {
+  background-position: -163px -297px;
+  float: left;
+  width: 44px;
+  height: 44px;
+}
+
+/* line 1202, ../../scss/suba/legacy/_checkout_components.scss */
+.titleBox03 .title9 {
+  display: block;
+  font-size: 2.7em;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+/* line 1203, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click {
+  clear: both;
+  margin-bottom: 15px;
+  zoom: 1;
+}
+
+/* line 1204, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .boxDlAdd {
+  padding: 10px 0;
+  overflow: hidden;
+}
+
+/* line 1205, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .boxA {
+  width: 450px;
+  margin: 0 40px;
+  border-right: 1px solid #EDEDED;
+  _display: inline;
+  float: left;
+}
+
+/* line 1206, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .boxB {
+  width: 450px;
+  float: right;
+}
+
+/* line 1207, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .boxB .buttons {
+  padding: 0 0 0 75px;
+  margin: 0;
+}
+
+/* line 1208, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .boxTop2 {
+  background: #ededed;
+  margin-right: 5px;
+}
+
+/* line 1209, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .boxTop2-a {
+  background: #ededed;
+  left: 5px;
+  padding: 5px 5px 5px 10px;
+  position: relative;
+  color: #666;
+}
+
+/* line 1210, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .userCard {
+  margin: 0 0 0 37px;
+  zoom: 1;
+}
+
+/* line 1211, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .userCard .btn.btChgCard {
+  margin-top: 10px;
+}
+
+/* line 1212, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .crdData th {
+  text-align: right;
+  padding-right: 5px;
+}
+
+/* line 1213, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .selcCard .ico {
+  float: left;
+  margin: 10px 20px 10px 0;
+}
+
+/* line 1214, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .selcCard input {
+  float: left;
+  margin: 15px 10px;
+}
+
+/* line 1215, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .list02 {
+  zoom: 1;
+}
+
+/* line 1216, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .list02 li {
+  padding: 10px 0 0;
+  overflow: hidden;
+}
+
+/* line 1217, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .list02 li.last {
+  border-bottom: 0;
+}
+
+/* line 1218, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .list02 .selcAdr {
+  margin: 15px 0 0 -40px;
+  float: left;
+}
+
+/* line 1219, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .list02 .adr {
+  clear: none;
+  overflow: hidden;
+}
+
+/* line 1220, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .list02 .boxAddr {
+  border: 0;
+  margin: 0;
+  padding: 0 15px 5px;
+}
+
+/* line 1221, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .list02 .select .boxAddr {
+  background: #e3f1fb;
+}
+
+/* line 1222, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .list02 .buttons2 {
+  float: right;
+}
+
+/* line 1223, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .topBox03 .ico {
+  float: left;
+}
+
+/* line 1224, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .topBox03 h4 {
+  font-size: 1.65em;
+  color: #2b80c3;
+  overflow: hidden;
+  padding-left: 12px;
+  _display: inline;
+}
+
+/* line 1225, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .box5 {
+  overflow: hidden;
+}
+
+/* line 1226, ../../scss/suba/legacy/_checkout_components.scss */
+.rev1Click .box5 .box5-a {
+  padding: 5px;
+}
+
+/* line 1229, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click:after,
+.finish1Click .msgError:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  font-size: 0;
+}
+
+/* line 1230, ../../scss/suba/legacy/_checkout_components.scss */
+.btChgAddDl {
+  width: 154px;
+  height: 14px;
+  background-position: -451px -142px;
+}
+
+/* line 1232, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click {
+  background: #d3edff;
+  padding: 30px 24px 18px 18px;
+  border: 1px solid #c2c2c2;
+  zoom: 1;
+  margin: 10px 0;
+  position: relative;
+}
+
+/* line 1233, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click label {
+  float: left;
+}
+
+/* line 1234, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click .lbl {
+  font-size: 1.5em;
+  font-weight: bold;
+  width: auto;
+  margin: 0 5px 0 0;
+}
+
+/* line 1235, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click .info {
+  color: #0082d6;
+  font-size: 0.9em;
+  display: block;
+  margin: 7px 0 0 0;
+  _margin: 7px 0 0 260px;
+}
+
+/* line 1236, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click .info a {
+  color: #0082d6;
+  text-decoration: underline;
+}
+
+/* line 1237, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click label {
+  margin-right: 10px;
+}
+
+/* line 1238, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click .tp3 {
+  width: 35px;
+}
+
+/* line 1239, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click .buttons {
+  padding: 0;
+  margin-top: -5px;
+}
+
+/* line 1240, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click .msgError {
+  background: #FFF;
+  border: 1px solid #CACCCB;
+  font-weight: bold;
+  left: 100px;
+  position: absolute;
+  top: -54px;
+  width: 340px;
+  z-index: 1000;
+}
+
+/* line 1241, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click .msgError .msCont {
+  background: url(../../img/suba/arDwAlert.png) 30px bottom no-repeat;
+  bottom: -13px;
+  overflow: hidden;
+  padding: 0 10px 25px;
+  position: relative;
+}
+
+/* line 1242, ../../scss/suba/legacy/_checkout_components.scss */
+.finish1Click .msgError p {
+  font-size: 1.25em;
+  color: #fe0000;
+  margin: 10px 0 0 0;
+}
+
+/* line 1243, ../../scss/suba/legacy/_checkout_components.scss */
+.msgError .ico.warn {
+  float: left;
+  margin: 0 20px 0 0;
+}
+
+/* line 1244, ../../scss/suba/legacy/_checkout_components.scss */
+.msgError .warn {
+  height: 40px;
+  margin-right: 10px;
+  width: 38px;
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -380px -211px;
+}
+
+/* Outros servicos */
+/* line 1247, ../../scss/suba/legacy/_checkout_components.scss */
+.othServs {
+  overflow: hidden;
+}
+
+/* line 1248, ../../scss/suba/legacy/_checkout_components.scss */
+.othServs .title3 {
+  font-size: 1.6em;
+  color: #666;
+  display: block;
+}
+
+/* line 1249, ../../scss/suba/legacy/_checkout_components.scss */
+.othServs .lServs {
+  display: inline;
+}
+
+/* line 1250, ../../scss/suba/legacy/_checkout_components.scss */
+.othServs .lServs li {
+  display: inline;
+  margin-left: 3px;
+}
+
+/* line 1251, ../../scss/suba/legacy/_checkout_components.scss */
+.othServs .lServs li a {
+  color: #666;
+  text-decoration: underline;
+}
+
+/* line 1252, ../../scss/suba/legacy/_checkout_components.scss */
+.othServs .buttons {
+  padding: 10px 30px 0 0;
+}
+
+/* Menu de Frete */
+/* line 1254, ../../scss/suba/legacy/_checkout_components.scss */
+.bkt td.dlvList {
+  padding-bottom: 10px;
+}
+
+/* line 1256, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox,
+#freightTypeForm fieldset {
+  overflow: hidden;
+  padding: 0 20px;
+  color: #666;
+}
+
+/* line 1258, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .shpList,
+#freightTypeForm fieldset .shpList {
+  padding: 20px 0 0 25px;
+  overflow: hidden;
+}
+
+/* line 1260, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox li,
+#freightTypeForm fieldset .shpList li {
+  float: left;
+  width: 24.9%;
+  border-left: 1px dotted;
+}
+
+/* line 1262, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox li.first,
+#freightTypeForm fieldset .shpList li.first {
+  border: none;
+  margin-left: -25px;
+  display: inline;
+}
+
+/* line 1265, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .ico,
+.popSaibaMais .ico,
+#freightTypeForm fieldset .shpList .ico {
+  display: -moz-inline-box;
+  display: inline-block;
+  font-size: 0;
+  line-height: 0;
+  text-indent: -9999em;
+  vertical-align: middle;
+  color: #fff;
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat 1000px 1000px;
+  overflow: hidden;
+  width: 66px;
+  height: 49px;
+  float: left;
+}
+
+/* line 1268, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .ico.conv,
+.popSaibaMais .ico.conv,
+#freightTypeForm fieldset .shpList .ico.conv {
+  background-position: 0 -239px;
+}
+
+/* line 1271, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .ico.fast,
+.popSaibaMais .ico.fast,
+#freightTypeForm fieldset .shpList .ico.fast {
+  background-position: -67px -528px;
+  width: 68px;
+  height: 31px;
+  margin: 5px 0 0 10px;
+}
+
+/* line 1274, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .ico.agend,
+.popSaibaMais .ico.agend,
+#freightTypeForm fieldset .shpList .ico.agend {
+  background-position: -131px -239px;
+}
+
+/* line 1277, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .ico.econ,
+.popSaibaMais .ico.econ,
+#freightTypeForm fieldset .shpList .ico.econ {
+  background-position: -194px -239px;
+}
+
+/* line 1280, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .ico.exps,
+.popSaibaMais .ico.exps,
+#freightTypeForm fieldset .shpList .ico.exps {
+  background-position: -65px -239px;
+}
+
+/* line 1282, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .slt,
+#freightTypeForm fieldset .shpList .slt {
+  float: left;
+  margin: 15px 0 0 5px;
+  border: 0;
+}
+
+/* line 1284, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .dlCont,
+#freightTypeForm fieldset .shpList .dlCont {
+  overflow: hidden;
+  padding-left: 10px;
+  text-align: left;
+}
+
+/* line 1288, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .dlCont .tx1,
+.dlvTypesBox .dlCont .lk01,
+#freightTypeForm fieldset .shpList .dlCont .tx1,
+#freightTypeForm fieldset .shpList .dlCont .lk01 {
+  font-size: 0.9em;
+  margin: 0;
+}
+
+/* line 1290, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .othDelv,
+#freightTypeForm fieldset .shpList .othDelv {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* line 1294, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .dlCont .tp1,
+.dlvTypesBox .dlCont .tp2,
+#freightTypeForm fieldset .shpList .dlCont .tp1,
+#freightTypeForm fieldset .shpList .dlCont .tp2 {
+  color: #0082D6;
+  display: block;
+}
+
+/* line 1296, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .dlCont .tp1,
+#freightTypeForm fieldset .shpList .dlCont .tp1 {
+  font-weight: bold;
+}
+
+/* line 1298, ../../scss/suba/legacy/_checkout_components.scss */
+.dlvTypesBox .lk01,
+#freightTypeForm fieldset .shpList .lk01 {
+  display: block;
+}
+
+/* line 1299, ../../scss/suba/legacy/_checkout_components.scss */
+.shipPay li {
+  width: 24%;
+  padding-left: 5px;
+}
+
+/* Pop Saiba Mais Menu Frete */
+/* line 1302, ../../scss/suba/legacy/_checkout_components.scss */
+.popSaibaMais {
+  font-size: 11px;
+}
+
+/* line 1304, ../../scss/suba/legacy/_checkout_components.scss */
+.popSaibaMais li,
+.popSaibaMais p {
+  margin-bottom: 15px;
+  clear: both;
+}
+
+/* line 1305, ../../scss/suba/legacy/_checkout_components.scss */
+.popSaibaMais .titMF {
+  font-size: 18px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  display: block;
+  padding-top: 10px;
+}
+
+/* line 1307, ../../scss/suba/legacy/_checkout_components.scss */
+.listLk {
+  overflow: hidden;
+  text-align: left;
+}
+
+/* line 1308, ../../scss/suba/legacy/_checkout_components.scss */
+.listLk li {
+  display: inline;
+  font-size: 0.9em;
+  border-left: 1px solid;
+  padding: 0 5px;
+}
+
+/* line 1309, ../../scss/suba/legacy/_checkout_components.scss */
+.listLk li.fst {
+  border-left: none;
+}
+
+/* line 1310, ../../scss/suba/legacy/_checkout_components.scss */
+.listLk li a {
+  text-decoration: underline;
+}
+
+/* Comprar depois */
+/* line 1313, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+/* line 1314, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter td {
+  text-align: right;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  vertical-align: top;
+}
+
+/* line 1315, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .col02 {
+  width: 66px;
+}
+
+/* line 1316, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .col03 {
+  width: 179px;
+}
+
+/* line 1317, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter td.prods {
+  vertical-align: middle;
+}
+
+/* line 1318, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .hproduct {
+  width: auto;
+  padding: 0;
+}
+
+/* line 1319, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .hproduct .priceBox span {
+  display: inline;
+}
+
+/* line 1320, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter tbody .prod06 .prods .hproduct .name {
+  font-weight: normal;
+}
+
+/* line 1321, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .hproduct .photo {
+  float: left;
+  margin: 0 10px 0;
+  width: 50px;
+  height: 50px;
+  overflow: hidden;
+}
+
+/* line 1322, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .button.remove {
+  width: 66px;
+  height: 21px;
+  background-position: -616px -61px;
+}
+
+/* line 1323, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .button.incB {
+  background-position: -202px -569px;
+  height: 21px;
+  width: 149px;
+}
+
+/* line 1325, ../../scss/suba/legacy/_checkout_components.scss */
+.hproduct .price,
+.hproduct .interest {
+  color: #00adef;
+  font-weight: normal;
+}
+
+/* line 1326, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .regular {
+  display: block !important;
+  color: #666;
+  font-weight: bold;
+}
+
+/* line 1327, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .sale {
+  font-size: 1em !important;
+}
+
+/* line 1328, ../../scss/suba/legacy/_checkout_components.scss */
+.bAfter .regular del {
+  font-weight: 400;
+}
+
+/* line 1329, ../../scss/suba/legacy/_checkout_components.scss */
+.grid .hproduct .sale {
+  font-weight: bold;
+}
+
+/*caixas*/
+/* line 1333, ../../scss/suba/legacy/_checkout_components.scss */
+.boxTop1 {
+  background: #EDEDED;
+  margin-right: 5px;
+}
+
+/* line 1334, ../../scss/suba/legacy/_checkout_components.scss */
+.boxTop1-a {
+  background: #EDEDED;
+  padding: 5px 5px 5px 0;
+  position: relative;
+  left: 5px;
+}
+
+/* line 1336, ../../scss/suba/legacy/_checkout_components.scss */
+.boxTop2 {
+  background: url(../../img/suba/topBox2.png) no-repeat 0 0;
+  margin-right: 5px;
+}
+
+/* line 1337, ../../scss/suba/legacy/_checkout_components.scss */
+.boxTop2-a {
+  background: url(../../img/suba/topBox2.png) no-repeat right 0;
+  padding: 12px 0 7px 25px;
+  position: relative;
+  left: 5px;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* line 1339, ../../scss/suba/legacy/_checkout_components.scss */
+.box5 {
+  border: 2px solid #ededed;
+  border-top: none;
+}
+
+/* line 1340, ../../scss/suba/legacy/_checkout_components.scss */
+.box5-a {
+  padding: 5px 0 0 5px;
+}
+
+/* line 1342, ../../scss/suba/legacy/_checkout_components.scss */
+.box5-c.hMaxAreaL {
+  min-height: 170px;
+  padding: 5px 0 0;
+}
+
+/* line 1347, ../../scss/suba/legacy/_checkout_components.scss */
+.box5-c.hMaxAreaR {
+  min-height: 170px;
+}
+
+/* line 1351, ../../scss/suba/legacy/_checkout_components.scss */
+.box5-c.hMaxAreaL.deliveryAddressLeft {
+  min-height: 212px;
+}
+
+/* Form endereco entrega */
+/* line 1354, ../../scss/suba/legacy/_checkout_components.scss */
+.chData legend {
+  font-weight: normal;
+  margin-bottom: 20px;
+  display: block;
+}
+
+/* line 1356, ../../scss/suba/legacy/_checkout_components.scss */
+.BoxUsAddres .deft1Click,
+.BoxUsAddres .deftAdd {
+  clear: both;
+  width: 345px;
+  margin-bottom: 10px;
+}
+
+/* line 1357, ../../scss/suba/legacy/_checkout_components.scss */
+.chData .boxR4 {
+  padding: 20px 40px 0 40px;
+}
+
+/* line 1358, ../../scss/suba/legacy/_checkout_components.scss */
+.crtAdd * {
+  vertical-align: middle;
+}
+
+/* line 1359, ../../scss/suba/legacy/_checkout_components.scss */
+.crtAdd .ico.oneClick {
+  background-position: 0 -346px;
+  width: 26px;
+  height: 26px;
+}
+
+/* line 1360, ../../scss/suba/legacy/_checkout_components.scss */
+.crtAdd .chData a {
+  color: #00adef;
+  text-decoration: underline;
+}
+
+/* line 1361, ../../scss/suba/legacy/_checkout_components.scss */
+.crtAdd .lbl4 {
+  display: none;
+}
+
+/* line 1362, ../../scss/suba/legacy/_checkout_components.scss */
+.crtAdd .lbl {
+  width: 195px;
+  color: #999;
+}
+
+/* line 1363, ../../scss/suba/legacy/_checkout_components.scss */
+.crtAdd .req .lbl {
+  font-weight: bold;
+  color: #666;
+}
+
+/* line 1364, ../../scss/suba/legacy/_checkout_components.scss */
+.crtAdd .req {
+  clear: both;
+  overflow: hidden;
+}
+
+/* line 1365, ../../scss/suba/legacy/_checkout_components.scss */
+.oneCbL {
+  text-align: right;
+}
+
+/* line 1366, ../../scss/suba/legacy/_checkout_components.scss */
+.oneCbL .lbl6 {
+  color: #00adef;
+  font-size: 1.25em;
+}
+
+/* line 1367, ../../scss/suba/legacy/_checkout_components.scss */
+.destaq2 .box1 {
+  margin-bottom: 0;
+  padding: 0;
+}
+
+/* line 1368, ../../scss/suba/legacy/_checkout_components.scss */
+div.destaq2 .box4 {
+  padding: 12px 8px;
+}
+
+/* line 1369, ../../scss/suba/legacy/_checkout_components.scss */
+.crtAdd .destaqL {
+  display: block;
+  background: url(../../img/suba/lbl.png) no-repeat left center;
+  padding-left: 5px;
+}
+
+/* line 1370, ../../scss/suba/legacy/_checkout_components.scss */
+.crtAdd .destaqL-a {
+  display: block;
+  background: url(../../img/suba/lbl.png) no-repeat right center;
+  text-align: right;
+  font-size: 1.1em;
+  color: #00adef;
+  padding: 5px 20px;
+}
+
+/* line 1371, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.AddDef {
+  width: 54px;
+  height: 46px;
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat 0 -445px;
+}
+
+/* line 1372, ../../scss/suba/legacy/_checkout_components.scss */
+.BoxUsAddres.default .adr {
+  width: 140px;
+  float: left;
+}
+
+/* line 1373, ../../scss/suba/legacy/_checkout_components.scss */
+.ico.AddDefList {
+  width: 17px;
+  height: 17px;
+  background: url(../../img/suba/spriteIconesCk_3.png) no-repeat -31px -502px;
+  margin-right: 5px;
+}
+
+/* line 1374, ../../scss/suba/legacy/_checkout_components.scss */
+.oneCbL.control-label {
+  padding-top: 0;
+}
+
+/* line 1375, ../../scss/suba/legacy/_checkout_components.scss */
+.add-oneclick {
+  background: #EDEDED;
+  border-radius: 5px;
+  display: block;
+}
+
+/* line 1376, ../../scss/suba/legacy/_checkout_components.scss */
+label.add-oneclick {
+  padding: 0 10px 5px;
+}
+
+/* popDelryType */
+/* line 1379, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .box1 {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 1380, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .lb01, .popDelryType .lb02 {
+  padding: 0 0 10px;
+}
+
+/* line 1381, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .dateBox .ch {
+  clear: both;
+  font-size: 1em;
+  font-weight: bold;
+  color: #8a8a8a;
+}
+
+/* line 1382, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .er .msgErro {
+  color: #FF020A;
+  font-size: 1em;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+/* line 1383, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .tp1 {
+  font-size: 1.6em;
+  color: #888;
+  margin: 0 0 25px;
+}
+
+/* line 1384, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .liBox {
+  overflow: hidden;
+  padding: 10px;
+}
+
+/* line 1385, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .select .liBox {
+  overflow: hidden;
+  padding: 10px 0;
+}
+
+/* line 1386, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .liBox input {
+  float: left;
+  margin: 15px 15px 0 0;
+  border: 0;
+}
+
+/* line 1387, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .liBox label {
+  float: left;
+}
+
+/* line 1388, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .liBox label span {
+  display: block;
+  color: #898989;
+}
+
+/* line 1391, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .liBox .t2,
+.popDelryType .liBox .t4,
+.popDelryType .liBox .tx {
+  color: #007dd1;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+/* line 1392, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .liBox .t2 a {
+  text-decoration: underline;
+  color: #007dd1;
+  font-weight: normal;
+  margin-left: 5px;
+}
+
+/* line 1393, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .liBox .tx {
+  float: right;
+  margin-top: 10px;
+}
+
+/* line 1394, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .times .lTimes input {
+  border: 0;
+  margin: 0 10px 0 0;
+}
+
+/* line 1395, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .buttons {
+  margin-top: 25px;
+}
+
+/* line 1396, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .tPrice {
+  clear: both;
+  width: 100%;
+}
+
+/* line 1398, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .tPrice tr th,
+.popDelryType .tPrice tr td {
+  color: #8a8a8a;
+  font-size: 1.1em;
+  font-weight: bold;
+  padding: 5px;
+  text-align: right;
+}
+
+/* line 1399, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .tPrice tbody tr td {
+  border-top: 1px dotted #d2d2d2;
+}
+
+/* line 1400, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .tPrice tfoot tr th {
+  border: 0;
+  background: #eee;
+}
+
+/* line 1402, ../../scss/suba/legacy/_checkout_components.scss */
+.popDTpChoose .lb01,
+.popDTpChoose .lb02 {
+  border-bottom: 1px dotted #d2d2d2;
+}
+
+/* line 1406, ../../scss/suba/legacy/_checkout_components.scss */
+.popDelryType .unselect .boxR1,
+.popDelryType .unselect .boxR2,
+.popDelryType .unselect .boxR3,
+.popDelryType .unselect .boxR4 {
+  background: 0;
+}
+
+/* line 1408, ../../scss/suba/legacy/_checkout_components.scss */
+.dateBox .calendar {
+  float: left;
+  margin: 20px 0 0 5px;
+  width: 250px;
+}
+
+/* line 1409, ../../scss/suba/legacy/_checkout_components.scss */
+.dateBox .times {
+  overflow: hidden;
+  padding: 50px 0 0 50px;
+  float: left;
+}
+
