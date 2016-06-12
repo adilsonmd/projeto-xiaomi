@@ -2,12 +2,17 @@
  
 $login = $_POST['login'];
 $senha = $_POST['senha'];
-$senhanovamente = $_POST['senhanovamente'];
+$senhanovamente = $_POST['senha_novamente'];
+
 require('conectar.php');
-$query_select = "SELECT login FROM cliente WHERE login = '$login'";
-$select = mysql_query($query_select,$conecta);
-$array = mysql_fetch_array($select);
-$logarray = $array['login'];
+
+if($senha == $senhanovamente){
+    $query_select = "SELECT * FROM cliente WHERE login='$login'";
+    
+    $select = mysql_query($query_select,$conecta) or die (mysql_error());
+
+    $array = mysql_fetch_array($select);
+    $logarray = $array['login'];
  
     if($login == "" || $login == null){
         echo"<script language='javascript' type='text/javascript'>alert('O campo login deve ser preenchido');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
@@ -20,7 +25,7 @@ $logarray = $array['login'];
  
             }else{
                 $query = "INSERT INTO cliente (login,senha) VALUES ('$login','$senha')";
-                $insert = mysql_query($query,$conecta);
+                $insert = mysql_query($query, $conecta);
                  
                 if($insert){
                     echo"<script language='javascript' type='text/javascript'>alert('Usuário cadastrado com sucesso!');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_login.html'</script>";
@@ -29,4 +34,5 @@ $logarray = $array['login'];
                 }
             }
         }
+}
 ?>

@@ -20,7 +20,7 @@
                 $_SESSION['logado']["login"] = $login;
                 $_SESSION['logado']["senha"] = $senha;
 
-            header("../index.html"); //nao pode usuar header se já deu um echo na pagina
+            header("../index.php"); //nao pode usuar header se já deu um echo na pagina
         }
         else {
             echo ('<p>Usuário não cadastrado, <a href="../conta_mi_registrar.html">clique aqui</a> para cadastrar');
