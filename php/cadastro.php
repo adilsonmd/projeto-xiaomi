@@ -5,7 +5,7 @@ $senha = $_POST['senha'];
 $senhanovamente = $_POST['senhanovamente'];
 require('conectar.php');
 $query_select = "SELECT login FROM cliente WHERE login = '$login'";
-$select = mysql_query($query_select,$connect);
+$select = mysql_query($query_select,$conecta);
 $array = mysql_fetch_array($select);
 $logarray = $array['login'];
  
@@ -20,7 +20,7 @@ $logarray = $array['login'];
  
             }else{
                 $query = "INSERT INTO cliente (login,senha) VALUES ('$login','$senha')";
-                $insert = mysql_query($query,$connect);
+                $insert = mysql_query($query,$conecta);
                  
                 if($insert){
                     echo"<script language='javascript' type='text/javascript'>alert('Usuário cadastrado com sucesso!');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_login.html'</script>";
