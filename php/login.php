@@ -19,7 +19,7 @@
         //tabela usuario/cliente
         $busca = mysql_query("SELECT * FROM cliente WHERE login='$login' AND senha='$senha'");
         
-        if(mysql_num_rows >= 1) {      
+        if(mysql_num_rows($busca) >= 1) {      
 
             $_SESSION['login'] = $login;
             $_SESSION['senha'] = $senha;
