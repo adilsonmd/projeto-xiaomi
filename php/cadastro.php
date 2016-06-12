@@ -4,7 +4,7 @@ $login = $_POST['login'];
 $senha = $_POST['senha'];
 $senhanovamente = $_POST['senha_novamente'];
 
-require('conectar.php');
+include('conectar.php');
 
 if($senha == $senhanovamente){
     $query_select = "SELECT * FROM cliente WHERE login='$login'";

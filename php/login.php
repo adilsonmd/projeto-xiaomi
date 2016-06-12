@@ -6,13 +6,13 @@
     
     <body>
     <?php
-        require("conectar.php");
+        include('conectar.php');
         
         $login = $_POST['user'];
         $senha = $_POST['pwd'];
         
         //tabela usuario/cliente
-        $busca = mysql_query("SELECT FROM cliente WHERE login='$login' AND senha='$senha'");
+        $busca = mysql_query("SELECT * FROM cliente WHERE login='$login' AND senha='$senha'");
         
         if(mysql_affected_rows >= 1){
             session_start();

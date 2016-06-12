@@ -249,7 +249,7 @@
                   
               <!--Quando Deslogado -->
               <ul class="x-login">
-                <li><a href="login.html"> Login / Criar Conta Mi</a> <a href="carrinho.html">| Meus Pedidos</a></li>
+                <li><a href="login.html"> Login / Criar Conta Mi</a> <a href="carrinho.php">| Meus Pedidos</a></li>
               </ul>
               <?php 
                 }
@@ -257,7 +257,7 @@
             </div>
             <div class="x-cart">
               <ul>
-                <li><a href="carrinho.html"><span class="x-icon"></span> <span class="x-quantity"></span> Meu Carrinho </a></li>
+                <li><a href="carrinho.php"><span class="x-icon"></span> <span class="x-quantity"></span> Meu Carrinho </a></li>
               </ul>
               <div class="x-dropdown x-empty">
                 <div class="x-top-cart">
@@ -277,7 +277,7 @@
                 <div class="x-options" style="display: none;">
                   <ul>
                     <li class="x-continue">Continuar comprando</li>
-                    <li class="x-finish"><a href="http://br.mi.com/cart/show">Finalizar compra</a></li>
+                    <li class="x-finish"><a href="carrinho.php">Finalizar compra</a></li>
                   </ul>
                 </div>
               </div>
