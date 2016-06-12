@@ -24,14 +24,7 @@ if($senha == $senhanovamente){
   
     if($login == "" || $login == null){
         echo"<script language='javascript' type='text/javascript'>alert('O campo login deve ser preenchido');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
-            
-    if ($senha == "" || $senha == null  || $senhanovamente == "" || $senhanovamente == null){
-        echo"<script language='javascript' type='text/javascript'>alert('O campo de senha deve ser preenchido');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
-  }
-  
-    if ($senha != $senhanovamente){
-        echo"<script language='javascript' type='text/javascript'>alert('Senhas não coincidem');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
-  }
+    
      
     }else{
             if($logarray == $login){
@@ -51,5 +44,13 @@ if($senha == $senhanovamente){
             }
         }
 }
+        
+    if ($senha == "" || $senha == null  || $senhanovamente == "" || $senhanovamente == null){
+        echo"<script language='javascript' type='text/javascript'>alert('O campo de senha deve ser preenchido');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
+  }
+  
+    if ($senha != $senhanovamente){
+        echo"<script language='javascript' type='text/javascript'>alert('Senhas não coincidem');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
+  }
 ?>
 </html>
