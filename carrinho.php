@@ -1,20 +1,26 @@
 <?php
-  session_start()
+  @session_start()
    //Cria a sessão do carrinho
-    if(!isset($_SESSION['carrinho']))
-    {
-        $_SESSION['carrinho'] = array();
-    }
+   if(isset($_SESSION['login']))
+   {
+      if(!isset($_SESSION['carrinho']))
+      {
+          $_SESSION['carrinho'] = array();
+      }
 
-    //Adicionar produto
-    if(isset($_GET['acao']))
-    {
-        if($_GET['acao' == 'add'])
-        {
-          $id = intval($_GET['id']);
-          
-        }
-    }
+      //Adicionar produto
+      if(isset($_GET['acao']))
+      {
+          if($_GET['acao' == 'add'])
+          {
+            $id = intval($_GET['id']);
+            
+          }
+      }
+   }
+   else {
+     header('Location: conta_mi_login.html');
+   }
   ?>
 
 <!DOCTYPE html>

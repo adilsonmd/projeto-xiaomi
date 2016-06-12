@@ -238,7 +238,7 @@
             <!-- Quando logado -->
               <ul class="x-login">
                 <li>Olá <span class="x-name"><?php echo $_SESSION['login']; ?></span> 
-                  <a href=""><u>(sair)</u></a>
+                  <a href="php/deslogar.php"><u>(sair)</u></a>
                 </li>
                 <li><a href="">Minha Conta</a></li>
               </ul>
