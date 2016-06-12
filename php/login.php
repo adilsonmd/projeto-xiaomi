@@ -1,9 +1,11 @@
 <?php
     session_start();
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
     <head>
+        <title>Processamento login</title>
         <meta charset="UTF-8">
     </head>    
     
@@ -17,10 +19,10 @@
         //tabela usuario/cliente
         $busca = mysql_query("SELECT * FROM cliente WHERE login='$login' AND senha='$senha'");
         
-        if(mysql_affected_rows >= 1) {      
-            $_SESSION['logado'] = true;
-            $_SESSION['logado']["login"] = $login;
-            $_SESSION['logado']["senha"] = $senha;
+        if(mysql_num_rows >= 1) {      
+
+            $_SESSION['login'] = $login;
+            $_SESSION['senha'] = $senha;
 
             header("../index.php"); //nao pode usuar header se já deu um echo na pagina
         }
@@ -31,31 +33,3 @@
     ?>
     </body>
 </html>
-
-<!--
-            <?php
-/*              if(isset($_SESSION["logado"]))
-              {
-                  */
-                ?>
-              
-              <ul class="x-login">
-                <li>Olá <span class="x-name"><?php /*echo $_SESSION["logado"]["usuario"]; */ ?></span> 
-                  <a href=""><u>(sair)</u></a>
-                </li>
-                <li><a href="">Minha Conta</a></li>
-              </ul>
-              <?php 
-              /*
-                }
-                else {
-                    */
-                  ?>
-                
-              <ul class="x-login">
-                <li><a href="login.html"> Login / Criar Conta Mi</a> <a href="http://br.mi.com/searchMyOrder">| Meus Pedidos</a></li>
-              </ul>
-              <?php 
-                }
-              ?>
-              -->
