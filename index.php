@@ -249,7 +249,7 @@
                   
               <!--Quando Deslogado -->
               <ul class="x-login">
-                <li><a href="login.html"> Login / Criar Conta Mi</a> <a href="carrinho.htm">| Meus Pedidos</a></li>
+                <li><a href="login.html"> Login / Criar Conta Mi</a> <a href="carrinho.html">| Meus Pedidos</a></li>
               </ul>
               <?php 
                 }
@@ -257,7 +257,7 @@
             </div>
             <div class="x-cart">
               <ul>
-                <li><a href="carrinho.htm"><span class="x-icon"></span> <span class="x-quantity"></span> Meu Carrinho </a></li>
+                <li><a href="carrinho.html"><span class="x-icon"></span> <span class="x-quantity"></span> Meu Carrinho </a></li>
               </ul>
               <div class="x-dropdown x-empty">
                 <div class="x-top-cart">
