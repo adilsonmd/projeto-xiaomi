@@ -4,9 +4,7 @@
     border: 0;
     outline: 0;
 	color: #FFFFFF;
-	margin-left: 60px;
-	margin-right: 60px;
-	margin-top: 105px;
+	margin: 100px 60px;
 	padding-top: 400px;
 	padding-bottom:  222px;
 	background-color: #f8f8f8;
@@ -29,8 +27,7 @@
     outline: 0;
 	color: #FFFFFF;
 	margin-left: 15px;
-	margin-right: 1125px;
-	margin-top: 7px;
+	margin: 10px 15px;
 	background-color: #FF6700;
 	display: block;
 }
@@ -41,10 +38,8 @@
 
 .frete{
 	background-color: #fb802d;
-	margin-top: 10px;
+	margin-top: 10px auto;
 	padding: 8px;
-	margin-right: -10px;
-	margin-left: -10px;
 }
 
 .caminhao{
