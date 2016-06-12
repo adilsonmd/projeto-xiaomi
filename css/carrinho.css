@@ -14,7 +14,6 @@
     outline: 0;
 	width: max-content;
 	color: #FFFFFF;
-	margin-left: 15px;
 	margin: 10px 15px;
 	background-color: #FF6700;
 	display: block;
@@ -26,28 +25,10 @@
 
 .frete{
 	background-color: #fb802d;
-	margin-top: 10px auto;
+	margin: 10px auto;
 	padding: 8px;
 }
 
-.caminhao{
-margin-top: -8px;
-margin-left: 10px;
-}
-
-.consulte{
-margin-top: -25px;
-margin-left: 55px;
-color:#FFFFFF;
-}
-
-td{
-	color:#000000;
-}
-
-.bkt01{
-	margin-top: 30px;
-}
 .quadro{
 	font-weight: bold;
 	padding: 10px;
@@ -68,16 +49,6 @@ td{
 	color:#000000;
 	margin-top: -385px;
 	margin-left: 15px;
-}
-
-
-
-.frete{
-	background-color: #fb802d;
-	margin-top: 10px;
-	padding: 8px;
-	margin-right: -10px;
-	margin-left: -10px;
 }
 
 .caminhao{
