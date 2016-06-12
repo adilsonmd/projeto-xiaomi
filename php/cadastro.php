@@ -1,3 +1,7 @@
+<html>
+<head>
+<meta charset="UTF-8">
+</head>
 <?php
  
 $login = $_POST['login'];
@@ -21,6 +25,10 @@ if($senha == $senhanovamente){
         echo"<script language='javascript' type='text/javascript'>alert('O campo de senha deve ser preenchido');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
   }
   
+  if ($senha != $senhanovamente){
+        echo"<script language='javascript' type='text/javascript'>alert('Senhas não coincidem');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
+  }
+  
     if($login == "" || $login == null){
         echo"<script language='javascript' type='text/javascript'>alert('O campo login deve ser preenchido');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html';</script>";
         }else{
@@ -42,3 +50,4 @@ if($senha == $senhanovamente){
         }
 }
 ?>
+</html>
