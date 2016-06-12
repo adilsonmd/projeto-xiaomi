@@ -15,14 +15,7 @@ if($senha == $senhanovamente){
     $logarray = $array['login'];
  
  
-   if($senhanovamente == ""){
-       echo"<script language='javascript' type='text/javascript'>alert('campo vazio');</script>";
- 
-       }
-   if($senha != $senhanovamente){
-     echo"<script language='javascript' type='text/javascript'>alert('senha nao coincide');</script>";
- 
-   }
+  
        
     
     
