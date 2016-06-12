@@ -16,10 +16,12 @@ if($senha == $senhanovamente){
  
  
    if($senhanovamente == ""){
-       <span class='aviso'><b>Aviso</b>: Campo Vazio!</span>";
+       echo"<script language='javascript' type='text/javascript'>alert('campo vazio');</script>";
+ 
        }
    if($senha != $senhanovamente){
-     <span class='aviso'><b>Aviso</b>:senha nao coincide!</span>";
+     echo"<script language='javascript' type='text/javascript'>alert('senha nao coincide');</script>";
+ 
    }
        
     
