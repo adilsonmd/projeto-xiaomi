@@ -3,8 +3,7 @@
 $login = $_POST['login'];
 $senha = $_POST['senha'];
 $senhanovamente = $_POST['senhanovamente'];
-$connect = mysql_connect('br-cdbr-azure-south-b.cloudapp.net','bae993d0159681','65724557');
-$db = mysql_select_db('bd_xiaomi');
+require('conectar.php');
 $query_select = "SELECT login FROM cliente WHERE login = '$login'";
 $select = mysql_query($query_select,$connect);
 $array = mysql_fetch_array($select);
