@@ -1,5 +1,5 @@
 <?php
-    session_start(); 
+    @session_start(); 
 ?>
 <!DOCTYPE html>
 
@@ -231,13 +231,13 @@
             <div class="x-acount">
 
             <?php
-              if(isset($_SESSION['logado']))
+              if(isset($_SESSION['login']))
               {
                 ?>
               
             <!-- Quando logado -->
               <ul class="x-login">
-                <li>Olá <span class="x-name"><?php echo $_SESSION['logado']["usuario"]; ?></span> 
+                <li>Olá <span class="x-name"><?php echo $_SESSION['login']; ?></span> 
                   <a href=""><u>(sair)</u></a>
                 </li>
                 <li><a href="">Minha Conta</a></li>
