@@ -1,5 +1,6 @@
 <?php
     session_start();
+    ob_start();
 ?>
 
 <!DOCTYPE html>
@@ -24,12 +25,12 @@
             $_SESSION['login'] = $login;
             $_SESSION['senha'] = $senha;
 
-            header("../index.php"); //nao pode usuar header se já deu um echo na pagina
+            header('Location: ../index.php'); //nao pode usuar header se já deu um echo na pagina
         }
         else {
             echo ('<p>Usuário não cadastrado, <a href="../conta_mi_registrar.html">clique aqui</a> para cadastrar.');
         }
-
+        ob_end_clean();
     ?>
     </body>
 </html>
