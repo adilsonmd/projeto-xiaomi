@@ -1,21 +1,26 @@
 use bd_xiaomi;
 
-create table if not exists produto (
-	id_produto int auto_increment primary key,
-    nm_produto varchar(40),
-    preco decimal(10,2)
+CREATE TABLE IF NOT EXISTS produto (
+	id_produto MEDIUMINT AUTO_INCREMENT, 
+    nm_produto VARCHAR(40),
+    preco DECIMAL(10,2),
+    PRIMARY KEY (id_produto)
 );
 
-create table if not exists pedido (
-	id_pedido int auto_increment primary key,
-    id_produto int,
-    qt_produto int,
-    total decimal(10,2)
+CREATE TABLE IF NOT EXISTS pedido (
+	id_pedido MEDIUMINT AUTO_INCREMENT,
+    id_produto INT,
+    qt_produto INT,
+    total DECIMAL(10,2),
+    PRIMARY KEY (id_pedido)
 );
 
-create table if not exists cliente (
-	id_cliente int primary key auto_increment,
-    login varchar(40) not null,
-    senha varchar(30) not null,
-    nascimento varchar(10) not null
+CREATE TABLE IF NOT EXISTS cliente (
+	id_cliente MEDIUMINT AUTO_INCREMENT,
+    login VARCHAR(40) NOT NULL,
+    senha VARCHAR(30) NOT NULL,
+    nascimento VARCHAR(10),
+    PRIMARY KEY (id_cliente)
 );
+
+select * from cliente;

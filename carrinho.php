@@ -1,5 +1,5 @@
 <?php
-  @session_start()
+  @session_start();
    //Cria a sessão do carrinho
    if(isset($_SESSION['login']))
    {
