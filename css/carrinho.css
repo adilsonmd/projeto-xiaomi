@@ -17,6 +17,9 @@
 	margin: 10px 15px;
 	background-color: #FF6700;
 	display: block;
+	max-width: -moz-fit-content;
+	max-width: -webkit-fit-content;
+	max-width: fit-content;
 }
 .bt_produtos:hover{
 	color: #FFFFFF;

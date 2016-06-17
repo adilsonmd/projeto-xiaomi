@@ -19,7 +19,7 @@
       }
    }
    else {
-     echo "<script> alert('Você deve estar logado'); window.location.href('../index.php');</script>";
+     echo "<script> alert('Você deve estar logado'); window.location.href='../index.php';</script>";
    }
   ?>
 
@@ -163,11 +163,6 @@
       <link href="./carrinho_arquivos/televendas.css" type="text/css" rel="stylesheet">
       <script src="./carrinho_arquivos/televendas.js" type="text/javascript"></script>
         
-      <script type="text/javascript">
-            $(function(){
-                enableTelemarketing('https://securebr.mi.com/checkout/assistedSales', 'https://securebr.mi.com/checkout/assistedSales/logout/telemarketing')
-            })
-      </script>
 	  
       <style>
           	/*Banner Estático Miui */
@@ -323,8 +318,7 @@
     
 
       </div>
-      <div class="x-copyright">
-        <p><span>Copyright ©2015  Xiaomi. Todos os direitos reservados.<br><br>XIAOMI DO BRASIL TECNOLOGIA LTDA.  CNPJ: 20.221.812/0001-74 Endereço: Rua Pequetita, 215 - São Paulo/SP - CEP 04552-060<br>
+     
           
 <script>
 function formatar(mascara, documento){
@@ -363,8 +357,6 @@ function formatar(mascara, documento){
                 </div>
             </div>
         
-
-
     <div class="bkt01">
 
         <table class="bkt">
@@ -392,14 +384,18 @@ function formatar(mascara, documento){
         </table>
     </div>
 
-             </div>
+  </div>
 </div>
-<style type="text/css">
-    p{
-        text-align: center;
-        font-size: 10px;
-        margin-top: 10px;
-    }
-</style>
-<p>XIAOMI DO BRASIL TECNOLOGIA LTDA. CNPJ: 20.221.812/0001-74 Endereço: Rua Pequetita, 215 - São Paulo/SP - CEP 04552-060</p>
-</body></html>
+  <style type="text/css">
+      p{
+          text-align: center;
+          font-size: 10px;
+          margin-top: 10px;
+      }
+  </style>
+ <div class="x-copyright">
+      <p><span>Copyright ©2015  Xiaomi. Todos os direitos reservados.<br><br>XIAOMI DO BRASIL TECNOLOGIA LTDA.  CNPJ: 20.221.812/0001-74 Endereço: Rua Pequetita, 215 - São Paulo/SP - CEP 04552-060<br>
+  </div>
+
+</body>
+</html>
