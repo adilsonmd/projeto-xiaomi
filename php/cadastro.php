@@ -34,9 +34,9 @@ else {
     
         }else{
             $query = "INSERT INTO cliente (login,senha,nascimento) VALUES ('$login','$senha','$nascimento')";
-            $insert = mysql_query($query, $conecta);
+            $insert = mysql_query($query, $conecta) or die(mysql_error());
                     
-            if(mysql_affected_rows($insert)>=1){
+            if(mysql_affected_rows() >= 1){
                 echo"<script>alert('Usuário cadastrado com sucesso!');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_login.html'</script>";
             }else{
                 echo"<script>alert('Não foi possível cadastrar esse usuário');window.location.href='http://projetoxiaomi.azurewebsites.net/conta_mi_registrar.html'</script>";
