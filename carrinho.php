@@ -14,7 +14,12 @@
           if($_GET['acao' == 'add'])
           {
             $id = intval($_GET['id']);
-            
+            if(!isset($_SESSION['carrinho'][$id])){
+              $_SESSION['carrinho'][$id] = 1;
+            }
+            else {
+              $_SESSION['carrinho'][$id] += 1;
+            }
           }
       }
    }
@@ -229,6 +234,7 @@
           </div>
         </div>
       </div>
+      <!--
       <div class="x-navigation">
         <div class="x-center">
           <h1><a href="index.php">Xiaomi</a></h1>
@@ -260,7 +266,7 @@
         </div>
       </div>
     </div>
-
+-->
     <div class="x-header x-mobile">
       <div class="x-header-top">
         <div class="x-open-menu">Menu</div>
@@ -353,15 +359,32 @@ function formatar(mascara, documento){
             </thead>
             <tbody>
                 <!-- INICIO DA LINHA DE PRODUTO -->
-                <tr class="empty">
-                    <td colspan="6" id="basketEmptyMessage">Seu carrinho está vazio
-                        <a href="http://projetoxiaomi.azurewebsites.net/" class="btn btContBuy">
-                            Continuar Comprando
-                        </a>
-                    </td>
+                <?php 
+                    if(count($_SESSION['carrinho']) == 0){
+                        echo '<tr class="empty">';
+                            echo '<td colspan="6" id="basketEmptyMessage">Seu carrinho está vazio';
+                                echo '<a href="http://projetoxiaomi.azurewebsites.net/" class="btn btContBuy">';
+                                echo  'Continuar Comprando';
+                                echo '</a>';
+                            echo '</td>';
+                        echo '</tr>';
+                    }
+                    else{
+                        include("./php/conectar.php");
+                        foreach($_SESSION['carrinho'] as $id => $qtd){
+                          $q = "SELECT (nome, preco) FROM produto where id_produto = '$id'";
+                          $result = mysql_query($q, $conecta) or die(mysql_error());
+                          $linha = mysql_fetch_assoc($q);
 
-                </tr>
+                          $nome = $linha['nm_produto'];
+                          $preco = number_format($linha['preco'], 2, ',', '.');
+                          $sub = number_format($linha['preco'] * $qtd, 2, ',', '.');
+                        }
+
+                    }
+                ?>
                 <!-- FIM DA LINHA DE PRODUTO -->
+                
             </tbody>
         </table>
     </div>
