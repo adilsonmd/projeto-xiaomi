@@ -18,19 +18,23 @@
         $senha = $_POST['pwd'];
         
         //tabela usuario/cliente
-        $busca = mysql_query("SELECT * FROM cliente WHERE login='$login' AND senha='$senha'");
-        
-        if(mysql_num_rows($busca) >= 1) {      
+        if(($login == "" || $login == null) || ($senha == "" || $senha == null)){
+            echo "<script type='text/javascript'> alert('Preencha os campos corretamente'); window.location.href='../conta_mi_login.html'; </script>";
+        } else {
+            $busca = mysql_query("SELECT * FROM cliente WHERE login='$login' AND senha='$senha'");
+            
+            if(mysql_num_rows($busca) >= 1) {      
 
-            $_SESSION['login'] = $login;
-            $_SESSION['senha'] = $senha;
+                $_SESSION['login'] = $login;
+                $_SESSION['senha'] = $senha;
 
-            header('Location: ../index.php'); //nao pode usuar header se já deu um echo na pagina
+                header('Location: ../index.php'); //nao pode usuar header se já deu um echo na pagina
+            }
+            else {
+                echo "<script type='text/javascript'> alert('Usuário ou senha incorreto'); window.location.href='../conta_mi_login.html'; </script>";
+            }
+            ob_end_clean();
         }
-        else {
-            echo "<script type='text/javascript'> alert('Usuário ou senha incorreto'); window.location.href='../conta_mi_login.html'; </script>";
-        }
-        ob_end_clean();
     ?>
     </body>
 </html>
