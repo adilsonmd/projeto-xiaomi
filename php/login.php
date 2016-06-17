@@ -28,7 +28,7 @@
             header('Location: ../index.php'); //nao pode usuar header se já deu um echo na pagina
         }
         else {
-            echo "<script> alert('Usuário ou senha incorreto'); window.location.href('../conta_mi_login.html');</script>";
+            echo "<script type='text/javascript'> alert('Usuário ou senha incorreto'); window.location.href='../conta_mi_login.html'; </script>";
         }
         ob_end_clean();
     ?>
