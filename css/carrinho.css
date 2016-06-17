@@ -30,6 +30,9 @@
 	background-color: #fb802d;
 	margin: 10px auto;
 	padding: 8px;
+	max-width: -moz-fit-content;
+	max-width: -webkit-fit-content;
+	max-width: fit-content;
 }
 
 .quadro{

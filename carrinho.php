@@ -197,28 +197,22 @@
                 <button type="submit">Buscar</button>
               </form>
             </div>
+            
             <div class="x-acount">
-
-                              
-              <!--Quando Deslogado -->
+            <!-- Quando logado -->
               <ul class="x-login">
-                <li><a href="login.html"> Login / Criar Conta Mi</a> <a href="carrinho.html">| Meus Pedidos</a></li>
-              </ul>
-                          </div>
+                <li>Olá <span class="x-name"><?php echo $_SESSION['login']; ?></span> 
+                  <a href="php/deslogar.php"><u>(sair)</u></a>
+                </li>
+                <li><a href="#">Minha Conta</a></li>
+              </ul>                  
+            </div>
+
             <div class="x-cart">
               <ul>
                 <li><a href="carrinho.html"><span class="x-icon"></span> <span class="x-quantity"></span> Meu Carrinho </a></li>
               </ul>
-              <div class="x-dropdown x-empty">
-                <div class="x-top-cart">
-                  <div class="x-quantity">Seu carrinho está vazio!</div>
-                  <!--<div class="x-account">
-                                    <ul>
-                                        <li><a href="/checkout">Minha conta</a></li>
-                                        <li><a href="/checkout">Meus pedidos</a></li>
-                                    </ul>
-                               </div>-->
-                </div>
+
                 <div class="x-products-cart" style="display: none;"></div>
                 <div class="x-total" style="display: none;">
                   <div class="x-left">Subtotal</div>
@@ -242,7 +236,7 @@
             <div class="x-menu">
 
               <div class="x-item">
-                <h2><a href="produtos/redmi-2.html">Redmi 2 | Redmi 2 Pro</a></h2>
+                <h2><a href="./produtos/redmi-2.html">Redmi 2 | Redmi 2 Pro</a></h2>
               </div>
 
               <div class="x-item">
@@ -259,16 +253,6 @@
 
               <div class="x-item">
                 <h2><a href="#">Loja</a></h2>
-                <div class="x-dropdown">
-                  <div class="x-category">
-                    <ul>
-                      <li><a href="#">Capa</a></li>
-                      <li><a href="#">Carregador</a></li>
-                      <li><a href="#">Película</a></li>
-                      <li><a href="#">Pulseira</a></li>
-                    </ul>
-                  </div>
-                </div>
               </div>
 
             </div>
@@ -284,32 +268,30 @@
         <h1><a href="index.php">Xiaomi</a></h1>
         <div class="x-main-cart">
           <div class="x-quantity"></div>
-          <div class="x-cart"><a href="carrinho.html"></a></div>
+          <div class="x-cart"><a href="./carrinho.php"></a></div>
       </div>
       </div>
       <div class="x-menu">
         <div class="x-header-menu">
-          <span class="x-account"><a href="https://securebr.mi.com/checkout/">Conta Mi</a></span>
+          <span class="x-account"><a href="./carrinho.php">Conta Mi</a></span>
           <span class="x-close">X</span>
         </div>
         <div class="x-menu-itens a">
           <div class="x-item">
-            <h3><a href="http://br.mi.com/redmi2-pro">Redmi 2 Pro</a></h3>
+            <h3><a href="./produtos/redmi-2.html">Redmi 2 | Redmi 2 Pro</a></h3>
+          </div>
+          
+          <div class="x-item">
+            <h3><a href="#">Fones de Ouvido</a></h3>
           </div>
           <div class="x-item">
-            <h3><a href="http://br.mi.com/redmi2">Redmi 2</a></h3>
+            <h3><a href="#">Loja</a></h3>
           </div>
           <div class="x-item">
-            <h3><a href="http://br.mi.com/product/acessorios/122791453/mi-fone-de-ouvido-silver">Fones de Ouvido</a></h3>
+            <h3><a href="#">Mi Power Bank</a></h3>
           </div>
           <div class="x-item">
-            <h3><a href="http://br.mi.com/category/22054/acessorios">Loja</a></h3>
-          </div>
-          <div class="x-item">
-            <h3><a href="http://br.mi.com/Mi-Power-Bank">Mi Power Bank</a></h3>
-          </div>
-          <div class="x-item">
-            <h3><a href="http://br.mi.com/Mi-Band">Mi Band</a></h3>
+            <h3><a href="#">Mi Band</a></h3>
           </div>
 
         </div>
