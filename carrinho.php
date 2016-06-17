@@ -351,7 +351,6 @@ function formatar(mascara, documento){
             <thead class="topBox01">
                 <tr>
                     <th class="col01" scope="col" colspan="2">Produto(s) no Meu Carrinho</th>
-                    <th class="col03" scope="col">Entrega</th>
                     <th class="col02" scope="col">Qtd.</th>
                     <th class="col04" scope="col">Valor Unitário</th>
                     <th class="col05" scope="col">Valor Total</th>
@@ -379,6 +378,13 @@ function formatar(mascara, documento){
                           $nome = $linha['nm_produto'];
                           $preco = number_format($linha['preco'], 2, ',', '.');
                           $sub = number_format($linha['preco'] * $qtd, 2, ',', '.');
+
+                          echo '<tr>';
+                            echo '<td>'.$nome.'</td>';
+                            echo '<td>'.$qtd.'</td>';
+                            echo '<td>'.$preco.'</td>';
+                            echo '<td>'.$sub.'</td>';
+                          echo '</tr>';
                         }
 
                     }
