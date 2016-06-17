@@ -1,3 +1,6 @@
+<?php 
+  @session_start();
+?>
 <!DOCTYPE html>
 <html prefix="og: http://ogp.me/ns#" lang="pt-br">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
@@ -84,36 +87,32 @@
           <div class="modal-body">
               <div class="container lojas-comprar">
                 <div class="row text-center">
-                  <div class="col-md-4">
-                    <a href="http://www.americanas.com.br/produto/14218624/xiaomi-redmi-2-importado" target="_blank"><img src="../images/Redmi-2/modal/americanas.jpg" class="stores img-responsive"></a>
+                  <div class="col-md-3">
+                    <a href="http://www.americanas.com.br/produto/122599411/smartphone-xiaomi-redmi-2-dual-chip-desbloqueado-android-4.4-tela-4.7-8gb-4g-wi-fi-camera-de-8mp" target="_blank"><img src="../images/Redmi-2/modal/americanas.jpg" class="stores img-responsive"></a>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <a href="http://www.casasbahia.com.br/Lojista/16044/Xiaomi" target="_blank"><img src="../images/Redmi-2/modal/casas-bahia.jpg" class="stores img-responsive"></a>
                   </div>
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <a href="http://www.extra.com.br/Lojista/16044/Xiaomi" target="_blank"><img src="../images/Redmi-2/modal/extra.jpg" class="stores img-responsive"></a>
                   </div>
                   
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <a href="http://www.pontofrio.com.br/Lojista/16044/Xiaomi" target="_blank"><img src="../images/Redmi-2/modal/ponto-frio.jpg" class="stores img-responsive"></a>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <a href="http://www.xiaomi.ricardoeletro.com.br/" target="_blank"><img src="../images/Redmi-2/modal/ricardo-eletro2.jpg" class="stores img-responsive"></a>
                   </div>
 
-                  <div class="col-md-4">
-                    <a href="http://www.shoptime.com.br/produto/14218624/xiaomi-redmi-2-importado" target="_blank"><img src="../images/Redmi-2/modal/shoptime.jpg" class="stores img-responsive"></a>
+                  <div class="col-md-3">
+                    <a href="http://www.shoptime.com.br/produto/122599411/smartphone-xiaomi-redmi-2-dual-chip-desbloqueado-android-4.4-tela-4.7-8gb-4g-wi-fi-camera-de-8mp" target="_blank"><img src="../images/Redmi-2/modal/shoptime.jpg" class="stores img-responsive"></a>
                   </div>
-                  <div class="col-md-4">
-                    <a href="http://www.submarino.com.br/produto/14218624/xiaomi-redmi-2-importado" target="_blank"><img src="../images/Redmi-2/modal/submarino.jpg" class="stores img-responsive"></a>
-                  </div>
-
-                  <div class="col-md-4">
-                    <a href="http://lojaonline.vivo.com.br/vivostorefront/Vivo/Aparelhos/Smartphone/XIAOMI-REDMI-2-8GB-SMARTPHONE-CNZA-BSCO/p/TGXI001C3000" target="_blank"><img src="../images/Redmi-2/modal/vivo.jpg" class="stores img-responsive"></a>
+                  <div class="col-md-3">
+                    <a href="http://www.submarino.com.br/produto/122599411/smartphone-xiaomi-redmi-2-dual-chip-desbloqueado-android-4.4-tela-4.7-8gb-4g-wi-fi-camera-de-8mp" target="_blank"><img src="../images/Redmi-2/modal/submarino.jpg" class="stores img-responsive"></a>
                   </div>
 
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <a href="https://www.walmart.com.br/xiaomi/3501/sl" target="_blank"><img src="../images/Redmi-2/modal/walmart.jpg" class="stores img-responsive"></a>
                   </div>
               </div>
@@ -143,7 +142,7 @@
                 <ul class="nav navbar-nav">
                     
                     <li>
-                        <a href="redmi-2.html">Redmi 2 | Redmi 2 PRO</a>
+                        <a href="redmi-2.php">Redmi 2 | Redmi 2 PRO</a>
                     </li>
                     <li>
                         <a href="miband.html">Mi Band</a>
@@ -159,14 +158,22 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="../faq.html">Perguntas Frequentes</a>
+                        <a href="../faq.php">Perguntas Frequentes</a>
                     </li>
 
                     <li>
-                        <a href="../about.html">Sobre a Xiaomi</a>
+                        <a href="../about.php">Sobre a Xiaomi</a>
                     </li>
 
-                    <li><a href="http://account.xiaomi.com/" target="_blank">Conta Mi</a></li>
+                    <?php
+                        if(isset($_SESSION["usuario"])) {
+                            echo ('Olá, '.$_SESSION["usuario"]. ' (<a href=".php/deslogar.php">Sair</a>)');
+                        }
+                        else {
+                            echo '<li><a href="./login.html" target="_blank">Conta Mi</a></li>';    
+                        }
+                    
+                    ?>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -192,15 +199,14 @@
                   <strong>Redmi 2</strong><br />
                   1GB RAM / 8GB Flash
                 </p>
-
                 <form action="../carrinho.php?acao=add&id=1" method="get">
                   <button type="submit" class="btn btn-primary btn-lg onde-comprar-btn" >
                     Comprar Redmi 2
                   </button>
                 </form>   
               </li>
-              
-              <li>  
+              <li>
+                
                 <p class="descp">
                   <strong>Redmi 2 PRO</strong><br />
                   2GB RAM / 16GB Flash
@@ -211,15 +217,13 @@
                   </button>
                 </form>   
               </li>
-            </ul>           
+            </ul>
+                       
 </div>
-
               <div class="x-image text-center">
                 <img src="../images/Redmi-2/img-redmi2-newpag.png" class="img-responsive" id="pro-sec1">
               </div>
-                  
-            
-            
+          
             </div>
 
                   <div class="product"></div>
@@ -537,7 +541,7 @@
                 <div class="col-lg-3">
                     <ul class="list-unstyled">
                         <li class="footer-title">PRODUTOS<li>
-                        <li class="link-footer"><a href="redmi-2.html">Redmi 2 | Redmi 2 PRO</a></li>
+                        <li class="link-footer"><a href="redmi-2.php">Redmi 2 | Redmi 2 PRO</a></li>
                         <li class="link-footer"><a href="powerbank.html">Mi Power Bank</a></li>
                         <li class="link-footer"><a href="miband.html">Mi Band</a></li>
                     </ul>
@@ -546,8 +550,8 @@
                 <div class="col-lg-3">
                     <ul class="list-unstyled">
                         <li class="footer-title">SOBRE A XIAOMI<li>
-                        <li class="link-footer"><a href="../about.html">Sobre a Xiaomi</a></li>
-                        <li class="link-footer"><a href="../faq.html">Perguntas Frequentes</a></li>
+                        <li class="link-footer"><a href="../about.php">Sobre a Xiaomi</a></li>
+                        <li class="link-footer"><a href="../faq.php">Perguntas Frequentes</a></li>
                         <li class="link-footer"><a href="../termos-de-uso.html">Termos de Uso</a></li>
                         <li class="link-footer"><a href="../politica-de-privacidade.html">Política de Privacidade</a></li>
                     </ul>

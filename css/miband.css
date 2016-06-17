@@ -1,0 +1,285 @@
+.jumbotron.banner-miband{
+    background-image: url('../images/Miband/miband_xiaomi_01.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF;
+    margin-top: 200px;
+}
+
+#miband-title{
+    margin-top: -100px;
+}
+
+#features-title{
+    color: #FFF;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#features-subtitle{
+    color: #FFF;
+    text-align: center;
+}
+
+.media-heading, .media-heading-sub{
+    color: #FFF;
+}
+
+.media-heading.left{
+    text-align: right;
+}
+
+.media-heading-sub.left{
+    text-align: right;
+}
+
+.section-heading.scrollpoint.sp-effect3 {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.row.feats-band {
+    margin-bottom: 100px;
+}
+
+.lead.subtext{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 16px;
+}
+
+.featurette-heading.title{
+  margin-top: 100px;
+}
+
+.xiaomi-app{
+  margin: 0 auto;
+}
+section#features .media > .pull-right {
+  margin-left: 20px;
+}
+
+section#features .media .media-heading {
+  padding-top: 10px;
+  font-weight: 300;
+}
+section#features .media .media-body {
+  color: #999999;
+}
+section#features .media.media-left .media-body {
+  text-align: right;
+}
+section#features .media.feature {
+  margin-top: 25px;
+}
+section#features .media.feature:first-child {
+  margin-top: 0;
+}
+section#features img {
+  margin: 0 auto 20px;
+}
+
+section#features {
+  background: #4285f4;
+}
+section#features header h1:after {
+  background: #FFF;
+}
+
+
+section#features .media:hover h3 {
+  color: #FFF;
+}
+
+section#features .media.active .media-heading {
+  color: #FFF;
+}
+
+#myCarousel{
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.jumbotron.sleep1-miband{
+    background-image: url('../images/Miband/miband_xiaomi_06.jpg');
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF;
+    
+}
+
+#sleep1-title{
+  color: #FFF;
+  font-weight: 100;
+  font-size: 30px;
+  float: right;
+  padding-top: 200px;
+}
+
+.jumbotron.unblock-miband{
+    background-image: url('../images/Miband/miband_xiaomi_10.jpg');
+    height: 660px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #27282d;
+}
+
+#unblock-title{
+  color: #FFF;
+  font-size: 30px;
+}
+
+#unblock-subtitle{
+  color: #FFF;
+  font-size: 18px;
+  text-align: left;
+  width: 70%;
+  margin-top: 50px;
+  line-height: 30px;
+}
+
+#unblock-text{
+  color: #b3b3b3;
+  font-size: 14px;
+  text-align: left;
+  width: 50%;
+  margin-top: 30px;
+  line-height: 30px;
+}
+
+.jumbotron.call-miband{
+    background-image: url('../images/Miband/miband_xiaomi_11.jpg');
+    height: 680px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: #27282d;
+}
+
+#call-title{
+  color: #FFF;
+  font-size: 35px;
+  float: right;
+}
+
+#call-subtitle{
+  color: #FFF;
+  font-size: 18px;
+  text-align: right;
+  width: 70%;
+  margin-top: 50px;
+  line-height: 30px;
+  float: right;
+}
+
+.jumbotron.components-miband{
+  background-image: url('../images/Miband/spec3.jpg');
+  height: 900px;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #FFF;
+}
+
+#components-title{
+  margin-top: 500px;
+  font-size: 35px;
+}
+
+#components-subtitle {
+    font-size: 16px;
+    margin-bottom: 80px;
+}
+
+.jumbotron.spec2{
+  background-color: transparent;
+}
+
+.col-md-4.battery{
+    background-image: url('../images/Miband/miband-6.jpg');
+    height: 563px;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 100%;
+}
+
+.col-md-4.water-resistant{
+  background-image: url('../images/Miband/miband-7.jpg');
+  height: 563px;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.col-md-4.locate{
+  background-image: url('../images/Miband/miband-8.jpg');
+  height: 563px;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 100%;
+}
+
+.spec2-title{
+  color: #FFF;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 430px;
+}
+
+.spec2-text{
+  color: #FFF;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.about-item {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+.jumbotron.spec-section {
+  margin-bottom: 0px;
+  height: 250px;
+}
+
+/* ----- RESPONSIVE SETTINGS ----*/
+@media only screen and (min-width: 100px) and (max-width: 760px) {
+    
+    #myCarousel{
+      display: none;
+    }
+
+    #sleep1-title{
+      text-align: center;
+      float: none;
+      padding-top: 70px;
+    }
+
+    .jumbotron.unblock-miband{
+      background-size: 100%;
+      height: auto;
+    }
+
+    .jumbotron.call-miband{
+      background-size: 100%;
+      height: auto;
+    }
+
+    #unblock-text{
+      width: 100%;
+    }
+
+    #call-title {
+      float: none;
+      font-size: 25px;
+      text-align: center;
+    }
+
+    #call-subtitle {
+      float: none;
+      padding-bottom: 300px;
+      width: 100%;
+      text-align: center;
+}
+}
