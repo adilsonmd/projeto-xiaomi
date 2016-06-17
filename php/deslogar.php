@@ -3,5 +3,5 @@
 
     session_destroy();
     
-    header('Location: ../index.php');
+    echo "<script> alert('Deslogado com sucesso!'); window.location.href('../index.php');</script>";
 ?>

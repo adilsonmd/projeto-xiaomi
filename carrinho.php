@@ -19,7 +19,7 @@
       }
    }
    else {
-     header('Location: ./conta_mi_login.html');
+     echo "<script> alert('Você deve estar logado'); window.location.href('http://projetoxiaomi.azurewebsites.net/index.php');</script>";
    }
   ?>
 

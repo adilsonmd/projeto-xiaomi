@@ -28,7 +28,7 @@
             header('Location: ../index.php'); //nao pode usuar header se já deu um echo na pagina
         }
         else {
-            echo ('<p>Usuário não cadastrado, <a href="../conta_mi_registrar.html">clique aqui</a> para cadastrar.');
+            echo "<script> alert('Usuário ou senha incorreto'); window.location.href('../conta_mi_login.html');</script>";
         }
         ob_end_clean();
     ?>
