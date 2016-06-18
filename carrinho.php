@@ -42,7 +42,7 @@
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/carrinho.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/mi-home.css" rel="stylesheet">
     <link href="css/xiaomi-components.css" rel="stylesheet">
