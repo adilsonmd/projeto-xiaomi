@@ -79,7 +79,7 @@
                             echo ('Olá, '.$_SESSION["usuario"]. ' (<a href=".php/deslogar.php">Sair</a>)');
                         }
                         else {
-                            echo '<li><a href="./login.html" target="_blank">Conta Mi</a></li>';    
+                            echo '<li><a href="../login.html" target="_blank">Conta Mi</a></li>';    
                         }
                     ?>
                 </ul>
