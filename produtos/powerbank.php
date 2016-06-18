@@ -63,6 +63,9 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a href="../carrinho.php">Carrinho</a>
+                    </li>
+                    <li>
                         <a href="../faq.php">Perguntas Frequentes</a>
                     </li>
 

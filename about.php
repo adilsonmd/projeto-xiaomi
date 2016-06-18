@@ -69,6 +69,9 @@
 
                 <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a href="./carrinho.php">Carrinho</a>
+                    </li>
+                    <li>
                         <a href="faq.php">Perguntas Frequentes</a>
                     </li>
 
@@ -79,11 +82,11 @@
                     <?php
                          if(isset($_SESSION["login"])) {
                             echo '<li>';
-                              echo ('<a href="../php/deslogar.php">Olá, '.$_SESSION["login"]. ' (Sair)</a>');
+                              echo ('<a href="./php/deslogar.php">Olá, '.$_SESSION["login"]. ' (Sair)</a>');
                             echo '</li>';
                         }
                         else {
-                            echo '<li><a href="../login.html">Conta Mi</a></li>';    
+                            echo '<li><a href="./login.html">Conta Mi</a></li>';    
                         }
                     
                     ?>
