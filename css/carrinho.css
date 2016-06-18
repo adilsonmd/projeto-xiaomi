@@ -67,6 +67,10 @@ margin-top: -25px;
 margin-left: 55px;
 color:#FFFFFF;
 }
+
+table {
+	width: 100%;
+}
 thead {
 	color: white;
 	font-weight: 500;
@@ -75,7 +79,7 @@ thead {
 }
 tr {
 	padding: 10px;
-	width: 100%;
+	
 }
 th{
 	padding-right: 50px;
