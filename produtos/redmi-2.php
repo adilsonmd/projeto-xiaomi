@@ -135,7 +135,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo" href="../index.html"><img src="../images/Geral/logo-mi.png" width="80%"></a>
+                <a class="navbar-brand logo" href="../index.php"><img src="../images/Geral/logo-mi.png" width="80%"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -145,11 +145,11 @@
                         <a href="redmi-2.php">Redmi 2 | Redmi 2 PRO</a>
                     </li>
                     <li>
-                        <a href="miband.html">Mi Band</a>
+                        <a href="miband.php">Mi Band</a>
                     </li>
 
                     <li>
-                        <a href="powerbank.html">Mi PowerBank</a>
+                        <a href="powerbank.php">Mi PowerBank</a>
                     </li>
                     <li>
                         <a href="http://miuirom.com.br/sobre-o-miui/" target="_blank">MIUI</a>
@@ -459,7 +459,7 @@
                 <div class="row text-center">
                   <div class="col-lg-12">
                     <h1 id="title-spec">Especificações do Redmi 2</h1>
-                    <p id="text-spec">clique <a href="specs-redmi.html" class="btn btn-default btn-lg" role="button">aqui</a> e conheça as especificações do Redmi 2.</p>
+                    <p id="text-spec">clique <a href="#" class="btn btn-default btn-lg" role="button">aqui</a> e conheça as especificações do Redmi 2.</p>
                   </div>
                 </div>
               </div> 
@@ -542,8 +542,8 @@
                     <ul class="list-unstyled">
                         <li class="footer-title">PRODUTOS<li>
                         <li class="link-footer"><a href="redmi-2.php">Redmi 2 | Redmi 2 PRO</a></li>
-                        <li class="link-footer"><a href="powerbank.html">Mi Power Bank</a></li>
-                        <li class="link-footer"><a href="miband.html">Mi Band</a></li>
+                        <li class="link-footer"><a href="powerbank.php">Mi Power Bank</a></li>
+                        <li class="link-footer"><a href="miband.php">Mi Band</a></li>
                     </ul>
                 </div>
                 
@@ -552,16 +552,16 @@
                         <li class="footer-title">SOBRE A XIAOMI<li>
                         <li class="link-footer"><a href="../about.php">Sobre a Xiaomi</a></li>
                         <li class="link-footer"><a href="../faq.php">Perguntas Frequentes</a></li>
-                        <li class="link-footer"><a href="../termos-de-uso.html">Termos de Uso</a></li>
-                        <li class="link-footer"><a href="../politica-de-privacidade.html">Política de Privacidade</a></li>
+                        <li class="link-footer"><a href="#">Termos de Uso</a></li>
+                        <li class="link-footer"><a href="#">Política de Privacidade</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3">
                     <ul class="list-unstyled">
                         <li class="footer-title">SUPORTE TÉCNICO<li>
-                        <li class="link-footer"><a href="../garantia.html">Garantia</a></li>
-                        <li class="link-footer"><a href="../assistencia-tecnica.html">Assistência Técnica</a></li>
+                        <li class="link-footer"><a href="#">Garantia</a></li>
+                        <li class="link-footer"><a href="#">Assistência Técnica</a></li>
                     </ul>
                 </div>
 
@@ -572,7 +572,7 @@
                         
                     </ul>
 
-                    <a class="btn btn-lg btn-primary btn-chat" href="../atendimento.html" role="button">Atendimento</a>
+                    <a class="btn btn-lg btn-primary btn-chat" href="#" role="button">Atendimento</a>
                 </div>
 
             </div>
