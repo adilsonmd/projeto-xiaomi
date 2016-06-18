@@ -168,7 +168,7 @@
                     <?php
                          if(isset($_SESSION["login"])) {
                             echo '<li>';
-                              echo ('<a href="../php/deslogar.php">Olá, '.$_SESSION["login"]. '(Sair)</a>');
+                              echo ('<a href="../php/deslogar.php">Olá, '.$_SESSION["login"]. ' (Sair)</a>');
                             echo '</li>';
                         }
                         else {

@@ -97,8 +97,10 @@
                         <a href="./about.php">Sobre a Xiaomi</a>
                     </li>
                     <?php
-                        if(isset($_SESSION["login"])) {
-                            echo ('<li>Olá, '.$_SESSION["login"]. ' (<a href="./php/deslogar.php">Sair</a>)</li>');
+                         if(isset($_SESSION["login"])) {
+                            echo '<li>';
+                              echo ('<a href="../php/deslogar.php">Olá, '.$_SESSION["login"]. ' (Sair)</a>');
+                            echo '</li>';
                         }
                     
                     ?>
