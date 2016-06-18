@@ -26,7 +26,12 @@
 </head>
 
 	<body>
-
+  <style>
+  .no-link {
+    text-decoration: none;
+    cursor: default;
+  }
+  </style>
       <div class="x-general">
 
     <!-- Navigation -->
@@ -72,7 +77,7 @@
 
                     <?php
                         if(isset($_SESSION["login"])) {
-                            echo ('Olá, '.$_SESSION["login"]. ' (<a href="../php/deslogar.php">Sair</a>)');
+                            echo ('<a href="#" class="no-link">Olá, '.$_SESSION["login"]. ' </a>(<a href="../php/deslogar.php">Sair</a>)');
                         }
                         else {
                             echo '<li><a href="../login.html">Conta Mi</a></li>';    
