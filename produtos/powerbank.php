@@ -30,6 +30,8 @@
   .no-link {
     text-decoration: none;
     cursor: default;
+    color: rgb (157, 157, 157);
+    padding: 15px;
   }
   </style>
       <div class="x-general">
