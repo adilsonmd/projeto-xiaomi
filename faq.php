@@ -80,8 +80,8 @@
                     </li>
 
                      <?php
-                        if(isset($_SESSION["usuario"])) {
-                            echo ('Olá, '.$_SESSION["usuario"]. ' (<a href="./php/deslogar.php">Sair</a>)');
+                        if(isset($_SESSION["login"])) {
+                            echo ('Olá, '.$_SESSION["login"]. ' (<a href="./php/deslogar.php">Sair</a>)');
                         }
                         else {
                             echo '<li><a href="./login.html">Conta Mi</a></li>';    
