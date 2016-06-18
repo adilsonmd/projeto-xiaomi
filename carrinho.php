@@ -24,7 +24,7 @@
       }
    }
    else {
-     echo "<script> alert('Você deve estar logado'); window.location.href='../index.php';</script>";
+     echo "<script> alert('Você deve estar logado'); window.location.href='./login.html';</script>";
    }
   ?>
 
@@ -98,10 +98,7 @@
                     </li>
                     <?php
                         if(isset($_SESSION["usuario"])) {
-                            echo ('Olá, '.$_SESSION["usuario"]. ' (<a href=".php/deslogar.php">Sair</a>)');
-                        }
-                        else {
-                            echo '<li><a href="./login.html" target="_blank">Conta Mi</a></li>';    
+                            echo ('Olá, '.$_SESSION["usuario"]. ' (<a href="./php/deslogar.php">Sair</a>)');
                         }
                     
                     ?>

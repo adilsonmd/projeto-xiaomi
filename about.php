@@ -46,7 +46,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand logo" href="index.html"><img src="images/Geral/logo-mi.png" width="80%"></a>
+                <a class="navbar-brand logo" href="index.php"><img src="images/Geral/logo-mi.png" width="80%"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -56,11 +56,11 @@
                         <a href="produtos/redmi-2.php">Redmi 2 | Redmi 2 PRO</a>
                     </li>
                     <li>
-                        <a href="produtos/miband.html">Mi Band</a>
+                        <a href="produtos/miband.php">Mi Band</a>
                     </li>
 
                     <li>
-                        <a href="produtos/powerbank.html">Mi PowerBank</a>
+                        <a href="produtos/powerbank.php">Mi PowerBank</a>
                     </li>
                     <li>
                         <a href="http://miuirom.com.br/sobre-o-miui/" target="_blank">MIUI</a>
@@ -78,10 +78,10 @@
 
                     <?php
                         if(isset($_SESSION["usuario"])) {
-                            echo ('Olá, '.$_SESSION["usuario"]. ' (<a href=".php/deslogar.php">Sair</a>)');
+                            echo ('Olá, '.$_SESSION["usuario"]. ' (<a href="./php/deslogar.php">Sair</a>)');
                         }
                         else {
-                            echo '<li><a href="./login.html" target="_blank">Conta Mi</a></li>';    
+                            echo '<li><a href="./login.html">Conta Mi</a></li>';    
                         }
                     
                     ?>
@@ -277,8 +277,8 @@
                     <ul class="list-unstyled">
                         <li class="footer-title">PRODUTOS<li>
                         <li class="link-footer"><a href="produtos/redmi-2.php">Redmi 2 | Redmi 2 PRO</a></li>
-                        <li class="link-footer"><a href="produtos/powerbank.html">Mi Power Bank</a></li>
-                        <li class="link-footer"><a href="produtos/miband.html">Mi Band</a></li>
+                        <li class="link-footer"><a href="produtos/powerbank.php">Mi Power Bank</a></li>
+                        <li class="link-footer"><a href="produtos/miband.php">Mi Band</a></li>
                     </ul>
                 </div>
                 
@@ -287,16 +287,16 @@
                         <li class="footer-title">SOBRE A XIAOMI<li>
                         <li class="link-footer"><a href="about.php">Sobre a Xiaomi</a></li>
                         <li class="link-footer"><a href="faq.php">Perguntas Frequentes</a></li>
-                        <li class="link-footer"><a href="termos-de-uso.html">Termos de Uso</a></li>
-                        <li class="link-footer"><a href="politica-de-privacidade.html">Política de Privacidade</a></li>
+                        <li class="link-footer"><a href="#">Termos de Uso</a></li>
+                        <li class="link-footer"><a href="#">Política de Privacidade</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3">
                     <ul class="list-unstyled">
                         <li class="footer-title">SUPORTE TÉCNICO<li>
-                        <li class="link-footer"><a href="garantia.html">Garantia</a></li>
-                        <li class="link-footer"><a href="assistencia-tecnica.html">Assistência Técnica</a></li>
+                        <li class="link-footer"><a href="#">Garantia</a></li>
+                        <li class="link-footer"><a href="#">Assistência Técnica</a></li>
                     </ul>
                 </div>
 
@@ -307,7 +307,7 @@
                         
                     </ul>
 
-                    <a class="btn btn-lg btn-primary btn-chat" href="atendimento.html" role="button">Atendimento</a>
+                    <a class="btn btn-lg btn-primary btn-chat" href="#" role="button">Atendimento</a>
                 </div>
 
             </div>
