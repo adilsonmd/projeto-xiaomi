@@ -67,9 +67,15 @@ margin-top: -25px;
 margin-left: 55px;
 color:#FFFFFF;
 }
-
+thead {
+	color: white;
+	font-weight: 500;
+	background-color: #FF6700;
+	padding: 2px 6px;
+}
 td{
 	color:#000000;
+
 }
 
 .bkt01{
