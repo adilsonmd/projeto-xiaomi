@@ -32,6 +32,20 @@
 </head>
 
 	<body>
+    <style>
+        .user {
+            background-color: transparent;
+            box-sizing: border-box;
+            color: rgb (157, 157, 157);
+            display: block;
+            font-size: 14px;
+            line-height: 20px;
+            list-style-type: none;
+            padding: 15px;
+            position: relative;
+            text-decoration: none
+        }
+    </style>
 
 	<!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -76,7 +90,7 @@
 
                     <?php
                         if(isset($_SESSION["login"])) {
-                            echo ('Olá, '.$_SESSION["login"]. ' (<a href="../php/deslogar.php">Sair</a>)');
+                            echo ('<span class="user">Olá, '.$_SESSION["login"]. ' (<a href="../php/deslogar.php">Sair</a>)</span>');
                         }
                         else {
                             echo '<li><a href="../login.html">Conta Mi</a></li>';    
