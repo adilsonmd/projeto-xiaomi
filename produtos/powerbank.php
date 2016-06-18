@@ -26,14 +26,7 @@
 </head>
 
 	<body>
-  <style>
-  .no-link {
-    text-decoration: none;
-    cursor: default;
-    color: rgb (157, 157, 157);
-    padding: 15px;
-  }
-  </style>
+
       <div class="x-general">
 
     <!-- Navigation -->
@@ -80,9 +73,8 @@
                     <?php
                         if(isset($_SESSION["login"])) {
                             echo '<li>';
-                              echo '<a href="#" class="no-link"'.$_SESSION["login"].'</a>';
-                              echo '(<a href="../php/deslogar.php">Sair</a>)';
-                              echo '</li>';
+                              echo ('<a href="../php/deslogar.php">Olá, '.$_SESSION["login"]. '(Sair)</a>');
+                            echo '</li>';
                         }
                         else {
                             echo '<li><a href="../login.html">Conta Mi</a></li>';    
